@@ -240,6 +240,19 @@ const Contact = () => {
                 </Card>
                 <Card>
                   <CardContent className="p-6">
+                    <h3 className="font-semibold mb-2">How long is each session?</h3>
+                    <div className="text-muted-foreground space-y-3">
+                      <p>
+                        Sessions typically last 30–45 minutes.
+                      </p>
+                      <p>
+                        For your first appointment, please arrive 10 minutes early to allow time to complete a brief medical history form before your session.
+                      </p>
+                    </div>
+                  </CardContent>
+                </Card>
+                <Card>
+                  <CardContent className="p-6">
                     <h3 className="font-semibold mb-2">How many sessions will I need?</h3>
                     <div className="text-muted-foreground space-y-3">
                       <p>
