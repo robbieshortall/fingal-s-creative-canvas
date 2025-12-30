@@ -151,7 +151,8 @@ const Contact = () => {
                           </div>
                           <div>
                             <h3 className="font-semibold mb-1">Location</h3>
-                            <p className="text-muted-foreground">Fingal, Dublin, Ireland</p>
+                            <p className="text-muted-foreground">Blanchardstown Corporate Park 1</p>
+                            <p className="text-muted-foreground">Ballycoolen, Dublin, D15 Y0YW</p>
                             <p className="text-sm text-muted-foreground mt-1">Convenient parking available</p>
                           </div>
                         </div>
@@ -175,6 +176,23 @@ const Contact = () => {
                         </div>
                       </CardContent>
                     </Card>
+                  </div>
+                </div>
+
+                {/* Google Maps */}
+                <div className="mt-6">
+                  <h3 className="font-semibold mb-3">Find Us</h3>
+                  <div className="rounded-lg overflow-hidden border">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2379.8899!2d-6.3897!3d53.4089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48671a0c1f8b8b8b%3A0x8b8b8b8b8b8b8b8b!2sBlanchardstown%20Corporate%20Park%201%2C%20Ballycoolen%2C%20Dublin%2C%20D15%20Y0YW!5e0!3m2!1sen!2sie!4v1234567890"
+                      width="100%"
+                      height="250"
+                      style={{ border: 0 }}
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title="Fingal Amatsu Location"
+                    />
                   </div>
                 </div>
               </div>
