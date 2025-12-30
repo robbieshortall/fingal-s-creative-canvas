@@ -241,9 +241,14 @@ const Contact = () => {
                 <Card>
                   <CardContent className="p-6">
                     <h3 className="font-semibold mb-2">How many sessions will I need?</h3>
-                    <p className="text-muted-foreground">
-                      This varies depending on your individual needs. Many clients notice improvements after just one session, though a series of treatments is often recommended for lasting results.
-                    </p>
+                    <div className="text-muted-foreground space-y-3">
+                      <p>
+                        This varies depending on your individual needs. While many clients notice improvements after just one session, a series of sessions is often needed to support longer-lasting benefits, which for many people develops over approximately 4–6 sessions.
+                      </p>
+                      <p>
+                        After this initial phase, some clients choose to return periodically for ongoing support or preventative care. This varies greatly from person to person and can depend on factors such as activity levels, high-intensity exercise, work demands, or environments that contribute to habitual or dysfunctional postures.
+                      </p>
+                    </div>
                   </CardContent>
                 </Card>
               </div>
