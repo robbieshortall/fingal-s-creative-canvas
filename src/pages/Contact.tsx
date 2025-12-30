@@ -225,9 +225,17 @@ const Contact = () => {
                 <Card>
                   <CardContent className="p-6">
                     <h3 className="font-semibold mb-2">What should I wear to my appointment?</h3>
-                    <p className="text-muted-foreground">
-                      Please wear comfortable, loose-fitting clothing. You will remain clothed throughout the treatment.
-                    </p>
+                    <div className="text-muted-foreground space-y-3">
+                      <p>
+                        Please wear comfortable clothing that allows ease of movement. You will typically remain fully clothed throughout your session.
+                      </p>
+                      <p>
+                        For comfort and modesty, trousers or leggings are recommended rather than skirts or loose-fitting shorts, as Amatsu involves gentle muscle testing and a full-body assessment. If needed, a towel will be provided for comfort and modesty.
+                      </p>
+                      <p>
+                        On rare occasions, you may be asked to remove a heavier or textured jumper to allow for better assessment. This would only be suggested if you are comfortable doing so and are wearing a suitable layer underneath.
+                      </p>
+                    </div>
                   </CardContent>
                 </Card>
                 <Card>
