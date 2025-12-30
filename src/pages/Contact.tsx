@@ -184,7 +184,7 @@ const Contact = () => {
                   <h3 className="font-semibold mb-3">Find Us</h3>
                   <div className="rounded-lg overflow-hidden border">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2379.8899!2d-6.3897!3d53.4089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48671a0c1f8b8b8b%3A0x8b8b8b8b8b8b8b8b!2sBlanchardstown%20Corporate%20Park%201%2C%20Ballycoolen%2C%20Dublin%2C%20D15%20Y0YW!5e0!3m2!1sen!2sie!4v1234567890"
+                      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Fingal+Amatsu+Alignment+Clinic,Dublin,Ireland"
                       width="100%"
                       height="250"
                       style={{ border: 0 }}
