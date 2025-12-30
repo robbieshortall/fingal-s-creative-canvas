@@ -218,7 +218,7 @@ const Contact = () => {
                   <CardContent className="p-6">
                     <h3 className="font-semibold mb-2">Do you accept health insurance?</h3>
                     <p className="text-muted-foreground">
-                      Yes, many health insurance providers cover Amatsu therapy. Please check with your provider or contact us for more information.
+                      No, Amatsu therapy is not currently covered by health insurance providers.
                     </p>
                   </CardContent>
                 </Card>
