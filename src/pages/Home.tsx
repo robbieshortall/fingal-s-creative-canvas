@@ -14,7 +14,7 @@ const Home = () => {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative h-[600px] flex items-center">
+      <section className="relative h-[600px] flex items-center pt-20">
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
@@ -25,12 +25,14 @@ const Home = () => {
         </div>
 
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-2xl">
+          <div className="flex justify-center mb-6">
             <img
               src={logo}
               alt="Fingal Amatsu Alignment Clinic"
-              className="w-[27rem] md:w-[30rem] h-auto mb-6 mx-auto"
+              className="w-[27rem] md:w-[30rem] h-auto"
             />
+          </div>
+          <div className="max-w-2xl">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
               Natural Alignment,{" "}
               <span className="text-primary">Natural Healing</span>
