@@ -40,7 +40,7 @@ const Navigation = () => {
               </Link>
             ))}
             <Button asChild>
-              <Link to="/contact">Book Appointment</Link>
+              <a href="https://calendar.app.google/vvzdvmDFk5EYb5JK9" target="_blank" rel="noopener noreferrer">Book Your Appointment</a>
             </Button>
           </div>
 
@@ -70,9 +70,9 @@ const Navigation = () => {
               </Link>
             ))}
             <Button asChild className="w-full mt-2">
-              <Link to="/contact" onClick={() => setMobileMenuOpen(false)}>
-                Book Appointment
-              </Link>
+              <a href="https://calendar.app.google/vvzdvmDFk5EYb5JK9" target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>
+                Book Your Appointment
+              </a>
             </Button>
           </div>
         )}
