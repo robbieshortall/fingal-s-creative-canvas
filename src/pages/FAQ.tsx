@@ -116,6 +116,22 @@ const FAQ = () => {
       ),
     },
     {
+      question: "Client Privacy - Will my treatment be photographed or shared online?",
+      answer: (
+        <div className="space-y-3">
+          <p>
+            Client privacy is very important to us. We do not take photographs or videos of clients, and we never share client details, images, or treatment content on social media or any public platforms.
+          </p>
+          <p>
+            If a client wishes to take before- or after-treatment photos for their own personal use, this can be done using the client's own device only and entirely at their discretion. Any such images remain the client's property, and it is their choice whether to store or share them.
+          </p>
+          <p>
+            Your comfort, dignity, and privacy are always respected.
+          </p>
+        </div>
+      ),
+    },
+    {
       question: "Is there parking at the clinic?",
       answer: (
         <p>
