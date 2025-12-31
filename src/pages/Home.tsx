@@ -37,11 +37,11 @@ const Home = () => {
         <div className="container mx-auto px-4 relative z-10 flex-1 flex items-center">
           <div className="max-w-2xl">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-              Natural Alignment,{" "}
+              Postural Alignment,{" "}
               <span className="text-primary">Natural Healing</span>
             </h1>
             <p className="text-xl mb-8 text-muted-foreground">
-              Experience the transformative power of Amatsu therapy at Fingal's leading alignment clinic.
+              Experience the transformative power of Amatsu therapy at Fingal Amatsu Alignment Clinic.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild>
@@ -85,7 +85,7 @@ const Home = () => {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Users className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Personalized Care</h3>
+                <h3 className="text-xl font-semibold mb-3">Personalised Care</h3>
                 <p className="text-muted-foreground">
                   Each treatment is tailored to your unique needs and body's natural healing patterns
                 </p>
@@ -97,9 +97,9 @@ const Home = () => {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Award className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Expert Practitioners</h3>
+                <h3 className="text-xl font-semibold mb-3">Expert Practitioner</h3>
                 <p className="text-muted-foreground">
-                  Certified Amatsu therapists with years of experience in alignment and wellness
+                  Certified Seitai Amatsu Therapist specialising in postural alignment, pain relief, and wellbeing
                 </p>
               </CardContent>
             </Card>
