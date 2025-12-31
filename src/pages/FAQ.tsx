@@ -131,23 +131,14 @@ const FAQ = () => {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="py-20 bg-muted/30">
+        <section className="py-12 md:py-16 bg-muted/30">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">FAQ</h1>
-              <p className="text-xl text-muted-foreground">
+              <h1 className="text-4xl md:text-5xl font-bold mb-4">Frequently Asked Questions</h1>
+              <p className="text-xl text-muted-foreground mb-10">
                 Find answers to commonly asked questions about our services and appointments.
               </p>
-            </div>
-          </div>
-        </section>
-
-        {/* FAQ Section */}
-        <section className="py-16">
-          <div className="container mx-auto px-4">
-            <div className="max-w-3xl mx-auto">
-              <h2 className="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
-              <Accordion type="single" collapsible className="w-full space-y-4">
+              <Accordion type="single" collapsible className="w-full space-y-4 text-left">
                 {faqs.map((faq, index) => (
                   <AccordionItem
                     key={index}
