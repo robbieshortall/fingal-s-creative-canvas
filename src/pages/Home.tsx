@@ -6,6 +6,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import heroImage from "@/assets/hero-therapy.jpg";
 import serviceImage from "@/assets/service-alignment.jpg";
+import logo from "@/assets/logo.png";
 
 const Home = () => {
   return (
@@ -25,6 +26,11 @@ const Home = () => {
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-2xl">
+            <img
+              src={logo}
+              alt="Fingal Amatsu Alignment Clinic"
+              className="w-48 md:w-56 h-auto mb-6"
+            />
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
               Natural Alignment,{" "}
               <span className="text-primary">Natural Healing</span>
