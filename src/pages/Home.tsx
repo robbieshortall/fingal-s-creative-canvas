@@ -14,7 +14,7 @@ const Home = () => {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative h-[600px] flex items-center">
+      <section className="relative min-h-[700px] flex flex-col">
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
@@ -24,13 +24,18 @@ const Home = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40" />
         </div>
 
-        <div className="container mx-auto px-4 relative z-10">
+        {/* Centered Logo at Top */}
+        <div className="relative z-10 flex justify-center pt-6">
+          <img
+            src={logo}
+            alt="Fingal Amatsu Alignment Clinic"
+            className="w-[19rem] md:w-[22rem] h-auto"
+          />
+        </div>
+
+        {/* Hero Content */}
+        <div className="container mx-auto px-4 relative z-10 flex-1 flex items-center">
           <div className="max-w-2xl">
-            <img
-              src={logo}
-              alt="Fingal Amatsu Alignment Clinic"
-              className="w-48 md:w-56 h-auto mb-6"
-            />
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
               Natural Alignment,{" "}
               <span className="text-primary">Natural Healing</span>
