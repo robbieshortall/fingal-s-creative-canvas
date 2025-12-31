@@ -34,9 +34,9 @@ const Home = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild>
-                <Link to="/contact">
-                  Book Your Session <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
+                <a href="https://calendar.app.google/vvzdvmDFk5EYb5JK9" target="_blank" rel="noopener noreferrer">
+                  Book Your Appointment <ArrowRight className="ml-2 h-5 w-5" />
+                </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
                 <Link to="/about">Learn More</Link>
@@ -152,9 +152,9 @@ const Home = () => {
             Book your consultation today and discover how Amatsu therapy can help you achieve natural balance and wellness.
           </p>
           <Button size="lg" variant="secondary" asChild>
-            <Link to="/contact">
-              Schedule Appointment <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
+            <a href="https://calendar.app.google/vvzdvmDFk5EYb5JK9" target="_blank" rel="noopener noreferrer">
+              Book Your Appointment <ArrowRight className="ml-2 h-5 w-5" />
+            </a>
           </Button>
         </div>
       </section>

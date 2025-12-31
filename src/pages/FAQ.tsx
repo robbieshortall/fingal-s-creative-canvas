@@ -13,7 +13,7 @@ const FAQ = () => {
       question: "How do I book an appointment?",
       answer: (
         <p>
-          You can book by phone, email, or by filling out the contact form on our Contact page. We'll confirm your appointment within 24 hours.
+          You can <a href="https://calendar.app.google/vvzdvmDFk5EYb5JK9" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80">book online here</a>, or contact us by phone, email, or by filling out the contact form on our Contact page. We'll confirm your appointment within 24 hours.
         </p>
       ),
     },
