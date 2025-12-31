@@ -14,7 +14,7 @@ const Home = () => {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative h-[600px] flex items-start pt-20">
+      <section className="relative h-[600px] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
@@ -25,20 +25,18 @@ const Home = () => {
         </div>
 
         <div className="container mx-auto px-4 relative z-10">
-          <div className="flex justify-center mb-2">
+          <div className="max-w-2xl">
             <img
               src={logo}
               alt="Fingal Amatsu Alignment Clinic"
-              className="w-[20rem] md:w-[24rem] h-auto"
+              className="w-48 md:w-56 h-auto mb-6"
             />
-          </div>
-          <div className="max-w-2xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
-              Postural Alignment,{" "}
+            <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+              Natural Alignment,{" "}
               <span className="text-primary">Natural Healing</span>
             </h1>
-            <p className="text-lg mb-6 text-muted-foreground">
-              Experience the transformative power of Amatsu therapy at Fingal Amatsu Alignment Clinic.
+            <p className="text-xl mb-8 text-muted-foreground">
+              Experience the transformative power of Amatsu therapy at Fingal's leading alignment clinic.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild>
