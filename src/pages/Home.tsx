@@ -29,7 +29,7 @@ const Home = () => {
             <img
               src={logo}
               alt="Fingal Amatsu Alignment Clinic"
-              className="w-72 md:w-80 h-auto mb-6 mx-auto"
+              className="w-[27rem] md:w-[30rem] h-auto mb-6 mx-auto"
             />
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
               Natural Alignment,{" "}
