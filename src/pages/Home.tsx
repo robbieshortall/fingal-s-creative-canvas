@@ -14,7 +14,7 @@ const Home = () => {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative h-[700px] flex items-center pt-16">
+      <section className="relative h-[700px] flex items-start pt-20">
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
