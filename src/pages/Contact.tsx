@@ -1,7 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Instagram, Facebook } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -89,6 +89,33 @@ const Contact = () => {
                           <p>Friday - Sunday: Closed</p>
                         </div>
                       </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {/* Social Media Card */}
+                <Card className="md:col-span-2">
+                  <CardContent className="p-6">
+                    <div className="flex items-center justify-center gap-6">
+                      <span className="text-muted-foreground text-sm">Follow us:</span>
+                      <a
+                        href="https://www.instagram.com/fingalamatsu?igsh=MTBza3FybmZkMTNzOQ=="
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-muted-foreground hover:text-primary transition-colors"
+                        aria-label="Instagram"
+                      >
+                        <Instagram className="h-5 w-5" />
+                      </a>
+                      <a
+                        href="https://www.facebook.com/share/19hdTnFDkR/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-muted-foreground hover:text-primary transition-colors"
+                        aria-label="Facebook"
+                      >
+                        <Facebook className="h-5 w-5" />
+                      </a>
                     </div>
                   </CardContent>
                 </Card>
