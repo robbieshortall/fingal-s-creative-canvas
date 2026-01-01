@@ -9,6 +9,7 @@ import {
 
 const FAQ = () => {
   const faqs = [
+    // Booking & Payment
     {
       question: "How do I book an appointment?",
       answer: (
@@ -43,7 +44,16 @@ const FAQ = () => {
       ),
     },
     {
-      question: "What to Wear",
+      question: "Do you accept health insurance?",
+      answer: (
+        <p>
+          No, Amatsu therapy is not currently covered by health insurance providers.
+        </p>
+      ),
+    },
+    // Session Information
+    {
+      question: "What should I wear to an Amatsu session?",
       answer: (
         <div className="space-y-3">
           <p>
@@ -59,7 +69,7 @@ const FAQ = () => {
       ),
     },
     {
-      question: "How long is each session?",
+      question: "How long is each Amatsu session?",
       answer: (
         <div className="space-y-2">
           <p>Sessions typically last 30–45 minutes.</p>
@@ -70,7 +80,7 @@ const FAQ = () => {
       ),
     },
     {
-      question: "How many sessions will I need?",
+      question: "How many Amatsu sessions will I need?",
       answer: (
         <div className="space-y-3">
           <p>
@@ -83,13 +93,19 @@ const FAQ = () => {
       ),
     },
     {
-      question: "Do you accept health insurance?",
+      question: "Is Amatsu therapy painful?",
       answer: (
-        <p>
-          No, Amatsu therapy is not currently covered by health insurance providers.
-        </p>
+        <div className="space-y-3">
+          <p>
+            Amatsu is a gentle, light-touch therapy and is not intended to be painful. Most clients find sessions comfortable and deeply relaxing.
+          </p>
+          <p>
+            Some people may experience mild tenderness or awareness in certain areas, particularly where the body is holding tension or imbalance, but this is typically brief and well within comfort levels. Treatment is always adapted to the individual, and feedback during the session is encouraged.
+          </p>
+        </div>
       ),
     },
+    // Special Circumstances
     {
       question: "Pregnancy & Postpartum",
       answer: (
@@ -115,24 +131,9 @@ const FAQ = () => {
         </div>
       ),
     },
+    // Medical & Other Therapies
     {
-      question: "Client Privacy - Will my treatment be photographed or shared online?",
-      answer: (
-        <div className="space-y-3">
-          <p>
-            Client privacy is very important to us. We do not take photographs or videos of clients, and we never share client details, images, or treatment content on social media or any public platforms.
-          </p>
-          <p>
-            If a client wishes to take before- or after-treatment photos for their own personal use, this can be done using the client's own device only and entirely at their discretion. Any such images remain the client's property, and it is their choice whether to store or share them.
-          </p>
-          <p>
-            Your comfort, dignity, and privacy are always respected.
-          </p>
-        </div>
-      ),
-    },
-    {
-      question: "Are there any conditions that cannot be treated?",
+      question: "Are there any conditions that cannot be treated with Amatsu?",
       answer: (
         <div className="space-y-3">
           <p>
@@ -166,6 +167,23 @@ const FAQ = () => {
         </div>
       ),
     },
+    {
+      question: "Client privacy: Will my treatment be photographed or shared online?",
+      answer: (
+        <div className="space-y-3">
+          <p>
+            Client privacy is very important to us. We do not take photographs or videos of clients, and we never share client details, images, or treatment content on social media or any public platforms.
+          </p>
+          <p>
+            If a client wishes to take before- or after-treatment photos for their own personal use, this can be done using the client's own device only and entirely at their discretion. Any such images remain the client's property, and it is their choice whether to store or share them.
+          </p>
+          <p>
+            Your comfort, dignity, and privacy are always respected.
+          </p>
+        </div>
+      ),
+    },
+    // Location
     {
       question: "Is there parking at the clinic?",
       answer: (
