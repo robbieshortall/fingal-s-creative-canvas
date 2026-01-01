@@ -148,6 +148,25 @@ const FAQ = () => {
       ),
     },
     {
+      question: "Can I engage in other therapies during my Amatsu treatment programme?",
+      answer: (
+        <div className="space-y-3">
+          <p>
+            Amatsu is generally complementary to many western and holistic therapies. However, during the initial phase of treatment, which typically involves weekly sessions, it is not usually advisable to introduce additional manual therapies at the same time. Doing so can potentially overwhelm the nervous system and may impact your body's ability to respond and recover effectively.
+          </p>
+          <p>
+            After the initial phase of treatment, clients may choose to engage in other forms of care alongside their Amatsu treatment, depending on individual needs.
+          </p>
+          <p>
+            Amatsu should not be used as a replacement for ongoing medical treatment. If you are currently under the care of a GP or consultant, or receiving treatment for a diagnosed medical condition, it's important to consult with them before making any changes to your care plan.
+          </p>
+          <p>
+            Your safety and wellbeing are always the priority.
+          </p>
+        </div>
+      ),
+    },
+    {
       question: "Is there parking at the clinic?",
       answer: (
         <p>
