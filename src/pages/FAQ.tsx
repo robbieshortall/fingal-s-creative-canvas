@@ -132,6 +132,22 @@ const FAQ = () => {
       ),
     },
     {
+      question: "Are there any conditions that cannot be treated?",
+      answer: (
+        <div className="space-y-3">
+          <p>
+            Amatsu is a gentle, non-invasive therapy and may not be suitable for everyone or every condition. It does not replace medical diagnosis or treatment.
+          </p>
+          <p>
+            Certain acute, severe, or medically complex conditions may require assessment or care from a GP, consultant, or other healthcare professional before considering Amatsu therapy.
+          </p>
+          <p>
+            If you have a diagnosed medical condition, are under active medical care, or are unsure whether Amatsu is appropriate for you, please feel free to get in touch before booking. Your safety and wellbeing always come first.
+          </p>
+        </div>
+      ),
+    },
+    {
       question: "Is there parking at the clinic?",
       answer: (
         <p>
