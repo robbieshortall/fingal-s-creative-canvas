@@ -65,7 +65,7 @@ const About = () => {
               </Card>
               <Card>
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold mb-3">Personalized Care</h3>
+                  <h3 className="text-xl font-semibold mb-3">Personalised Care</h3>
                   <p className="text-muted-foreground">
                     Every treatment is tailored to your unique needs, body, and healing journey
                   </p>
@@ -91,9 +91,9 @@ const About = () => {
               <div className="space-y-6">
                 <Card>
                   <CardContent className="p-6">
-                    <h3 className="text-lg font-semibold mb-2">Certified Amatsu Practitioners</h3>
+                    <h3 className="text-lg font-semibold mb-2">Certified Amatsu Practitioner</h3>
                     <p className="text-muted-foreground">
-                      Our therapists are fully qualified and registered with the Amatsu Training School and adhere to the highest professional standards.
+                      Fully qualified Seitai-level Amatsu therapist (IOA) and registered member of Amatsu Therapy International (ATI), committed to the highest professional standards.
                     </p>
                   </CardContent>
                 </Card>
@@ -109,7 +109,7 @@ const About = () => {
                   <CardContent className="p-6">
                     <h3 className="text-lg font-semibold mb-2">Professional Insurance</h3>
                     <p className="text-muted-foreground">
-                      Fully insured and registered practitioners ensuring your safety and peace of mind during treatment.
+                      Fully insured and registered practitioner ensuring your safety and peace of mind during treatment.
                     </p>
                   </CardContent>
                 </Card>

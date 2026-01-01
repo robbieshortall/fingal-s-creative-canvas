@@ -14,7 +14,7 @@ const Services = () => {
       benefits: [
         "Detailed health history review",
         "Postural and movement assessment",
-        "Personalized treatment plan",
+        "Personalised treatment plan",
         "First Amatsu treatment session"
       ]
     },
