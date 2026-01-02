@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
@@ -6,6 +7,8 @@ import { Link } from "react-router-dom";
 import { CheckCircle2 } from "lucide-react";
 
 const Services = () => {
+  const [activeTab, setActiveTab] = useState(0);
+
   const services = [
     {
       title: "Initial Consultation & Assessment",
@@ -158,30 +161,77 @@ const Services = () => {
           </div>
         </section>
 
-        {/* Services Grid */}
+        {/* Services Tabbed Section - All content in DOM for SEO */}
         <section className="py-16 bg-muted/30">
           <div className="container mx-auto px-4">
-            <div className="grid md:grid-cols-2 gap-8">
+            <h2 className="text-3xl font-bold mb-8 text-center">Our Treatment Options</h2>
+            
+            {/* Tab Navigation */}
+            <div className="flex flex-wrap justify-center gap-2 mb-8">
               {services.map((service, index) => (
-                <Card key={index} className="border-2 hover:border-primary/50 transition-colors">
-                  <CardContent className="p-6">
-                    <div className="flex justify-between items-start mb-4">
-                      <h3 className="text-2xl font-semibold">{service.title}</h3>
-                      <span className="text-sm text-muted-foreground bg-muted px-3 py-1 rounded-full">
-                        {service.duration}
-                      </span>
-                    </div>
-                    <p className="text-muted-foreground mb-6">{service.description}</p>
-                    <div className="space-y-3">
-                      {service.benefits.map((benefit, idx) => (
-                        <div key={idx} className="flex items-start gap-3">
-                          <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                          <span className="text-sm">{benefit}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </CardContent>
-                </Card>
+                <button
+                  key={index}
+                  onClick={() => setActiveTab(index)}
+                  className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                    activeTab === index
+                      ? "bg-primary text-primary-foreground"
+                      : "bg-background hover:bg-muted border border-border"
+                  }`}
+                >
+                  {service.title}
+                </button>
+              ))}
+            </div>
+
+            {/* Tab Content - All panels remain in DOM, visibility toggled with CSS */}
+            <div className="max-w-3xl mx-auto">
+              {services.map((service, index) => (
+                <article
+                  key={index}
+                  className={`transition-opacity duration-300 ${
+                    activeTab === index
+                      ? "block opacity-100"
+                      : "hidden"
+                  }`}
+                  aria-hidden={activeTab !== index}
+                >
+                  <Card className="border-2">
+                    <CardContent className="p-8">
+                      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-4 mb-6">
+                        <h3 className="text-2xl font-semibold">{service.title}</h3>
+                        <span className="text-sm text-muted-foreground bg-muted px-4 py-2 rounded-full whitespace-nowrap">
+                          {service.duration}
+                        </span>
+                      </div>
+                      <p className="text-muted-foreground text-lg mb-8">{service.description}</p>
+                      <div className="space-y-4">
+                        <h4 className="font-medium text-lg">What's Included:</h4>
+                        {service.benefits.map((benefit, idx) => (
+                          <div key={idx} className="flex items-start gap-3">
+                            <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                            <span>{benefit}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </CardContent>
+                  </Card>
+                </article>
+              ))}
+            </div>
+
+            {/* Hidden SEO content - All service details always in DOM */}
+            <div className="sr-only">
+              {services.map((service, index) => (
+                <article key={`seo-${index}`}>
+                  <h3>{service.title}</h3>
+                  <p>Duration: {service.duration}</p>
+                  <p>{service.description}</p>
+                  <ul>
+                    {service.benefits.map((benefit, idx) => (
+                      <li key={idx}>{benefit}</li>
+                    ))}
+                  </ul>
+                </article>
               ))}
             </div>
           </div>
