@@ -11,69 +11,102 @@ const Services = () => {
 
   const services = [
     {
-      title: "Initial Consultation & Assessment",
-      duration: "60 minutes",
-      description: "Comprehensive evaluation of your health history, current concerns, and treatment goals. Includes first treatment session.",
-      benefits: [
-        "Detailed health history review",
-        "Postural and movement assessment",
-        "Personalised treatment plan",
-        "First Amatsu treatment session"
-      ]
-    },
-    {
-      title: "Amatsu Alignment Therapy",
+      title: "Foot & Ankle",
       duration: "45 minutes",
-      description: "Gentle, hands-on treatment working with your body's natural patterns to restore balance and promote healing.",
+      description: "Treatment for issues affecting the foot and ankle, including plantar fasciitis, sprains, and mobility restrictions.",
       benefits: [
-        "Soft tissue release techniques",
-        "Joint mobilization",
-        "Energy balancing",
-        "Postural realignment"
+        "Plantar fasciitis support",
+        "Ankle mobility restoration",
+        "Arch and heel pain relief",
+        "Post-injury rehabilitation"
       ]
     },
     {
-      title: "Sports Injury Treatment",
-      duration: "45-60 minutes",
-      description: "Specialized care for athletic injuries, helping you recover faster and prevent future issues.",
-      benefits: [
-        "Injury assessment and treatment",
-        "Performance optimization",
-        "Injury prevention strategies",
-        "Rehabilitation support"
-      ]
-    },
-    {
-      title: "Stress & Tension Relief",
+      title: "Knee",
       duration: "45 minutes",
-      description: "Targeted treatment to release physical and emotional tension stored in the body.",
+      description: "Gentle treatment addressing knee pain, stiffness, and alignment issues to support natural movement patterns.",
       benefits: [
-        "Deep relaxation techniques",
-        "Muscle tension release",
-        "Stress pattern identification",
-        "Mind-body balance restoration"
+        "Knee pain relief",
+        "Joint mobility improvement",
+        "Alignment correction",
+        "Support for ligament strain"
       ]
     },
     {
-      title: "Pregnancy & Postnatal Care",
+      title: "Hip & Leg",
       duration: "45 minutes",
-      description: "Gentle, safe treatment for expecting mothers and new parents to support body changes and recovery.",
+      description: "Treatment focusing on hip and leg issues, including tightness, pain, and restricted movement.",
       benefits: [
-        "Safe pregnancy support",
-        "Pelvic alignment",
-        "Postnatal recovery",
-        "Pain relief during pregnancy"
+        "Hip mobility restoration",
+        "Sciatica support",
+        "Leg pain relief",
+        "Muscle tension release"
       ]
     },
     {
-      title: "Pediatric Amatsu",
-      duration: "30-45 minutes",
-      description: "Specialized treatment for babies and children, addressing developmental and growth-related issues.",
+      title: "Back & Spine",
+      duration: "45 minutes",
+      description: "Comprehensive treatment for back pain, spinal tension, and postural imbalances throughout the spine.",
       benefits: [
-        "Gentle treatment for all ages",
-        "Developmental support",
-        "Colic and feeding issues",
-        "Growing pains relief"
+        "Lower back pain relief",
+        "Spinal alignment support",
+        "Postural correction",
+        "Tension and stiffness release"
+      ]
+    },
+    {
+      title: "Shoulder",
+      duration: "45 minutes",
+      description: "Treatment for shoulder pain, frozen shoulder, and restricted movement in the shoulder complex.",
+      benefits: [
+        "Frozen shoulder support",
+        "Rotator cuff care",
+        "Shoulder mobility restoration",
+        "Pain and tension relief"
+      ]
+    },
+    {
+      title: "Elbow & Arm",
+      duration: "45 minutes",
+      description: "Addressing issues in the elbow and arm, including repetitive strain injuries and joint restrictions.",
+      benefits: [
+        "Tennis/golfer's elbow support",
+        "Repetitive strain relief",
+        "Joint mobility improvement",
+        "Forearm tension release"
+      ]
+    },
+    {
+      title: "Pelvic & Sacral",
+      duration: "45 minutes",
+      description: "Treatment focusing on pelvic alignment and sacral balance, supporting core stability and lower body function.",
+      benefits: [
+        "Pelvic alignment restoration",
+        "Sacroiliac joint support",
+        "Core stability improvement",
+        "Pregnancy and postnatal care"
+      ]
+    },
+    {
+      title: "Head & Neck",
+      duration: "45 minutes",
+      description: "Gentle treatment for neck pain, headaches, jaw tension, and cervical spine issues.",
+      benefits: [
+        "Neck pain relief",
+        "Headache and migraine support",
+        "Jaw tension release (TMJ)",
+        "Cervical mobility restoration"
+      ]
+    },
+    {
+      title: "Other Issues",
+      duration: "45 minutes",
+      description: "Treatment for other conditions including stress-related tension, general discomfort, and whole-body balance.",
+      benefits: [
+        "Stress and tension relief",
+        "General body balancing",
+        "Fatigue and energy support",
+        "Whole-body alignment"
       ]
     }
   ];
