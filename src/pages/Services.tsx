@@ -164,7 +164,10 @@ const Services = () => {
         {/* Services Tabbed Section - All content in DOM for SEO */}
         <section className="py-16 bg-muted/30">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-8 text-center">Conditions Amatsu Therapy Can Support</h2>
+            <h2 className="text-3xl font-bold mb-4 text-center">Conditions Amatsu Therapy Can Support</h2>
+            <p className="text-center text-muted-foreground mb-8 max-w-2xl mx-auto">
+              Amatsu therapy may help support the body where pain, discomfort, or restricted movement is present.
+            </p>
             
             {/* Tab Navigation */}
             <div className="flex flex-wrap justify-center gap-2 mb-8">
