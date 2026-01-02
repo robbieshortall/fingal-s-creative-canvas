@@ -135,25 +135,51 @@ const Services = () => {
                 <Card>
                   <CardContent className="p-6">
                     <h3 className="text-lg font-semibold mb-3">Before Your Session</h3>
-                    <p className="text-muted-foreground">
-                      Please wear comfortable, loose-fitting clothing. Arrive a few minutes early to complete any necessary paperwork and discuss your health history with your therapist.
-                    </p>
+                    <div className="text-muted-foreground space-y-3">
+                      <p>
+                        Please wear comfortable clothing that allows ease of movement. You will typically remain fully clothed throughout the treatment.
+                      </p>
+                      <p>
+                        Please arrive a few minutes early for your first appointment to complete a brief health history form and discuss your goals or any concerns before treatment begins.
+                      </p>
+                    </div>
                   </CardContent>
                 </Card>
                 <Card>
                   <CardContent className="p-6">
-                    <h3 className="text-lg font-semibold mb-3">During Treatment</h3>
-                    <p className="text-muted-foreground">
-                      Amatsu is a gentle, non-invasive therapy. You'll remain clothed throughout the session. Your therapist will use light touch and gentle movements to work with your body's natural patterns.
-                    </p>
+                    <h3 className="text-lg font-semibold mb-3">During Your Session</h3>
+                    <div className="text-muted-foreground space-y-3">
+                      <p>
+                        Amatsu is a gentle, non-invasive therapy that uses light touch and subtle movements to work with the body's natural alignment and nervous system.
+                      </p>
+                      <p>
+                        Your session will involve a full-body assessment, including gentle muscle testing, to identify areas of imbalance. Treatment is tailored to you and is never forced or painful. Most clients find the experience deeply relaxing.
+                      </p>
+                    </div>
                   </CardContent>
                 </Card>
                 <Card>
                   <CardContent className="p-6">
                     <h3 className="text-lg font-semibold mb-3">After Your Session</h3>
-                    <p className="text-muted-foreground">
-                      You may feel deeply relaxed or energized. Your therapist will provide aftercare advice and recommend follow-up treatments if needed. Most people notice improvements within 24-48 hours.
-                    </p>
+                    <div className="text-muted-foreground space-y-3">
+                      <p>
+                        People respond to Amatsu in different ways. Some notice changes immediately, while others feel improvements unfold over the following 24–48 hours. It's common to feel more upright, relaxed, lighter in movement, or more aware of how your body is holding itself.
+                      </p>
+                      <p>
+                        As the body adapts to these changes, you may occasionally experience mild achiness or fatigue. This is a normal part of the adjustment process as old patterns release.
+                      </p>
+                      <p>
+                        Your practitioner will offer simple aftercare guidance and discuss whether follow-up sessions are recommended. Sharing how you feel after treatment helps guide your ongoing care.
+                      </p>
+                      <p>Aftercare recommendations typically include:</p>
+                      <ul className="list-disc list-inside space-y-1 ml-2">
+                        <li>Drinking plenty of water</li>
+                        <li>Staying gently mobile (e.g. a short walk)</li>
+                        <li>Avoiding strenuous exercise for 24 hours</li>
+                        <li>Being mindful of postures that may have contributed to discomfort</li>
+                        <li>Allowing your body time to rest and integrate the changes</li>
+                      </ul>
+                    </div>
                   </CardContent>
                 </Card>
               </div>
