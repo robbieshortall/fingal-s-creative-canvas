@@ -97,37 +97,8 @@ const Services = () => {
           </div>
         </section>
 
-        {/* Services Grid */}
-        <section className="py-16">
-          <div className="container mx-auto px-4">
-            <div className="grid md:grid-cols-2 gap-8">
-              {services.map((service, index) => (
-                <Card key={index} className="border-2 hover:border-primary/50 transition-colors">
-                  <CardContent className="p-6">
-                    <div className="flex justify-between items-start mb-4">
-                      <h3 className="text-2xl font-semibold">{service.title}</h3>
-                      <span className="text-sm text-muted-foreground bg-muted px-3 py-1 rounded-full">
-                        {service.duration}
-                      </span>
-                    </div>
-                    <p className="text-muted-foreground mb-6">{service.description}</p>
-                    <div className="space-y-3">
-                      {service.benefits.map((benefit, idx) => (
-                        <div key={idx} className="flex items-start gap-3">
-                          <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                          <span className="text-sm">{benefit}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
-        </section>
-
         {/* What to Expect Section */}
-        <section className="py-16 bg-muted/30">
+        <section className="py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto">
               <h2 className="text-3xl font-bold mb-8 text-center">What to Expect</h2>
@@ -183,6 +154,35 @@ const Services = () => {
                   </CardContent>
                 </Card>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Services Grid */}
+        <section className="py-16 bg-muted/30">
+          <div className="container mx-auto px-4">
+            <div className="grid md:grid-cols-2 gap-8">
+              {services.map((service, index) => (
+                <Card key={index} className="border-2 hover:border-primary/50 transition-colors">
+                  <CardContent className="p-6">
+                    <div className="flex justify-between items-start mb-4">
+                      <h3 className="text-2xl font-semibold">{service.title}</h3>
+                      <span className="text-sm text-muted-foreground bg-muted px-3 py-1 rounded-full">
+                        {service.duration}
+                      </span>
+                    </div>
+                    <p className="text-muted-foreground mb-6">{service.description}</p>
+                    <div className="space-y-3">
+                      {service.benefits.map((benefit, idx) => (
+                        <div key={idx} className="flex items-start gap-3">
+                          <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                          <span className="text-sm">{benefit}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
             </div>
           </div>
         </section>
