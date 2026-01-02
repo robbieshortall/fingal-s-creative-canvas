@@ -236,9 +236,11 @@ const Services = () => {
                       <h3 className="text-2xl font-semibold mb-6">
                         {service.title === "Other Issues" ? service.title : `${service.title} Issues`}
                       </h3>
-                      <p className="text-muted-foreground text-lg mb-8">{service.description}</p>
+                      <p className="text-muted-foreground text-lg mb-8">
+                        The examples below highlight some common conditions that may benefit from Amatsu therapy, but this list is not exhaustive. Amatsu does not replace medical diagnosis or treatment and can be used alongside conventional healthcare where appropriate.
+                      </p>
                       <div className="space-y-4">
-                        <h4 className="font-medium text-lg">What's Included:</h4>
+                        <h4 className="font-medium text-lg">Conditions:</h4>
                         {service.benefits.map((benefit, idx) => (
                           <div key={idx} className="flex items-start gap-3">
                             <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
