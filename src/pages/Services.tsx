@@ -199,7 +199,7 @@ const Services = () => {
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-4 text-center">Conditions Amatsu Therapy Can Support</h2>
             <p className="text-center text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Amatsu therapy may help support the body where pain, discomfort, or restricted movement is present.
+              Amatsu therapy may help support the body where pain, discomfort, or restricted movement is present, by addressing underlying alignment and movement patterns.
             </p>
             
             {/* Tab Navigation */}
