@@ -84,10 +84,15 @@ const Services = () => {
         <section className="py-20 bg-muted/30">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Services</h1>
-              <p className="text-xl text-muted-foreground">
-                Comprehensive Amatsu therapy treatments tailored to your unique needs
-              </p>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">Amatsu Alignment Therapy</h1>
+              <div className="text-xl text-muted-foreground space-y-4">
+                <p>
+                  Amatsu Alignment Therapy is a gentle, non-invasive Japanese therapy that focuses on restoring the body's natural alignment and movement patterns. Each session involves a full-body assessment and light-touch techniques designed to support balance, reduce strain, and help the body function more efficiently as a whole.
+                </p>
+                <p>
+                  Amatsu is not intended to be painful, and techniques are applied gently, with constant attention to comfort and individual tolerance.
+                </p>
+              </div>
             </div>
           </div>
         </section>
