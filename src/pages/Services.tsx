@@ -233,14 +233,9 @@ const Services = () => {
                 >
                   <Card className="border-2">
                     <CardContent className="p-8">
-                      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-4 mb-6">
-                        <h3 className="text-2xl font-semibold">
-                          {service.title === "Other Issues" ? service.title : `${service.title} Issues`}
-                        </h3>
-                        <span className="text-sm text-muted-foreground bg-muted px-4 py-2 rounded-full whitespace-nowrap">
-                          {service.duration}
-                        </span>
-                      </div>
+                      <h3 className="text-2xl font-semibold mb-6">
+                        {service.title === "Other Issues" ? service.title : `${service.title} Issues`}
+                      </h3>
                       <p className="text-muted-foreground text-lg mb-8">{service.description}</p>
                       <div className="space-y-4">
                         <h4 className="font-medium text-lg">What's Included:</h4>
