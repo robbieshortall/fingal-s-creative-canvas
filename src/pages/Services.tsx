@@ -108,7 +108,7 @@ const Services = () => {
                     <h3 className="text-lg font-semibold mb-3">Before Your Session</h3>
                     <div className="text-muted-foreground space-y-3">
                       <p>
-                        Please wear comfortable clothing that allows ease of movement. You will typically remain fully clothed throughout the treatment.
+                        Please wear comfortable clothing that allows ease of movement. You will remain fully clothed throughout the treatment.
                       </p>
                       <p>
                         Please arrive a few minutes early for your first appointment to complete a brief health history form and discuss your goals or any concerns before treatment begins.

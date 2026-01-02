@@ -57,7 +57,7 @@ const FAQ = () => {
       answer: (
         <div className="space-y-3">
           <p>
-            Please wear comfortable clothing that allows ease of movement. You will typically remain fully clothed throughout your session, and will only be required to remove shoes, belts, and any smart wearables.
+            Please wear comfortable clothing that allows ease of movement. You will remain fully clothed throughout your session, and will only be required to remove shoes, belts, and any smart wearables.
           </p>
           <p>
             For comfort and modesty, trousers or leggings are recommended rather than skirts or loose-fitting shorts, as Amatsu involves gentle muscle testing and a full-body assessment. If needed, a towel will be provided for comfort and modesty.
