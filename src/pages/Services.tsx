@@ -164,7 +164,7 @@ const Services = () => {
         {/* Services Tabbed Section - All content in DOM for SEO */}
         <section className="py-16 bg-muted/30">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-8 text-center">Our Treatment Options</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center">Conditions Amatsu Therapy Can Support</h2>
             
             {/* Tab Navigation */}
             <div className="flex flex-wrap justify-center gap-2 mb-8">
