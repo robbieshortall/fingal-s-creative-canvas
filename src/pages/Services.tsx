@@ -269,6 +269,10 @@ const Services = () => {
                 </article>
               ))}
             </div>
+
+            <p className="text-center text-muted-foreground mt-8 max-w-2xl mx-auto">
+              If you're unsure whether Amatsu is appropriate for your situation, feel free to <Link to="/contact" className="text-primary hover:underline">get in touch</Link> to discuss your individual needs.
+            </p>
           </div>
         </section>
 
