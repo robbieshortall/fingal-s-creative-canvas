@@ -70,10 +70,25 @@ const Services = () => {
       duration: "45 minutes",
       description: "Treatment focusing on hip and leg issues, including tightness, pain, and restricted movement.",
       benefits: [
-        "Hip mobility restoration",
-        "Sciatica support",
-        "Leg pain relief",
-        "Muscle tension release"
+        "Hip osteoarthritis",
+        "Referred hip pain",
+        "Sacroiliac (SI) joint discomfort",
+        "Pre- or post-hip replacement support (once medically cleared)",
+        "Hip flexor strain or tightness",
+        "Gluteal muscle strain or weakness",
+        "Greater trochanteric pain syndrome (lateral hip pain / bursitis)",
+        "Piriformis-related hip or leg pain",
+        "Anterior compartment syndrome",
+        "Lateral compartment syndrome",
+        "Posterior deep compartment syndrome",
+        "Medial tibial stress syndrome (shin splints)",
+        "Distal tibial stress syndrome",
+        "Calf strain or tightness",
+        "Peroneal tendon strain",
+        "Posterior tibial tendinopathy",
+        "Plantaris (plantar longus) muscle injury",
+        "Common peroneal nerve irritation or compression",
+        "General hip or leg stiffness, imbalance, or restricted movement"
       ]
     },
     {
