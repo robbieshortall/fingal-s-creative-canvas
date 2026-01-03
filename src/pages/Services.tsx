@@ -126,7 +126,7 @@ const Services = () => {
                   Amatsu Alignment Therapy is a gentle, non-invasive Japanese therapy that focuses on restoring the body's natural alignment and movement patterns. Each session involves a full-body assessment and light-touch techniques designed to support balance, reduce strain, and help the body function more efficiently as a whole.
                 </p>
                 <p>
-                  Amatsu is not intended to be painful, and techniques are applied gently, with constant attention to comfort and individual tolerance.
+                  Amatsu techniques are applied gently, with constant attention to comfort and individual tolerance.
                 </p>
               </div>
             </div>
