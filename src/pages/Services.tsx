@@ -277,14 +277,14 @@ const Services = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="py-16">
+        <section className="py-16 bg-primary text-primary-foreground">
           <div className="container mx-auto px-4">
             <div className="max-w-2xl mx-auto text-center">
               <h2 className="text-3xl font-bold mb-6">Ready to Book Your Appointment?</h2>
-              <p className="text-lg text-muted-foreground mb-8">
+              <p className="text-lg opacity-90 mb-8">
                 Contact us today to schedule your appointment and begin your journey to natural wellness.
               </p>
-              <Button size="lg" asChild>
+              <Button size="lg" variant="secondary" asChild>
                 <a href="https://calendar.app.google/vvzdvmDFk5EYb5JK9" target="_blank" rel="noopener noreferrer">Book Your Appointment</a>
               </Button>
             </div>
