@@ -267,7 +267,7 @@ const Services = () => {
                   <Card className="border-2">
                     <CardContent className="p-8">
                       <h3 className="text-2xl font-semibold mb-6">
-                        {service.title === "Other Issues" ? service.title : `${service.title} Issues`}
+                        {service.title.includes("Issues") ? service.title : `${service.title} Issues`}
                       </h3>
                       <p className="text-muted-foreground text-lg mb-8">
                         The examples below highlight some common conditions that may benefit from Amatsu therapy, but this list is not exhaustive. Amatsu does not replace medical diagnosis or treatment and can be used alongside conventional healthcare where appropriate.
