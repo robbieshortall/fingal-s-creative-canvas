@@ -40,10 +40,28 @@ const Services = () => {
       duration: "45 minutes",
       description: "Gentle treatment addressing knee pain, stiffness, and alignment issues to support natural movement patterns.",
       benefits: [
-        "Knee pain relief",
-        "Joint mobility improvement",
-        "Alignment correction",
-        "Support for ligament strain"
+        "General knee pain or discomfort",
+        "Patellofemoral pain syndrome",
+        "Patellar tendinopathy / patellar tendinitis",
+        "Iliotibial band syndrome (ITBS)",
+        "Meniscal (cartilage) tear",
+        "Ligament sprains",
+        "Anterior cruciate ligament (ACL) injury",
+        "Medial collateral ligament (MCL) injury",
+        "Lateral collateral ligament (LCL) injury",
+        "Posterior cruciate ligament (PCL) injury",
+        "Knee instability or weakness",
+        "Restricted knee movement or stiffness",
+        "Patellar subluxation",
+        "Quadriceps tendon injury",
+        "Pes anserine bursitis",
+        "Baker's cyst",
+        "Plica syndrome",
+        "Osgood–Schlatter disease",
+        "Post-surgical knee discomfort",
+        "Recurrent knee injuries",
+        "Knee pain related to gait or posture",
+        "Early-stage osteoarthritic knee discomfort"
       ]
     },
     {
