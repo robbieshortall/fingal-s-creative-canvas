@@ -61,6 +61,7 @@ const Services = () => {
         "Post-surgical knee discomfort",
         "Recurrent knee injuries",
         "Knee pain related to gait or posture",
+        "Pre- or post-knee replacement support (once medically cleared)",
         "Early-stage osteoarthritic knee discomfort"
       ]
     },
