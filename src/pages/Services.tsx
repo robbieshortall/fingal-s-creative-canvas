@@ -282,7 +282,7 @@ const Services = () => {
             <div className="max-w-2xl mx-auto text-center">
               <h2 className="text-3xl font-bold mb-6">Ready to Book Your Appointment?</h2>
               <p className="text-lg opacity-90 mb-8">
-                Contact us today to schedule your appointment and begin your journey to natural wellness.
+                Book online at a time that suits you, or get in touch if you have any questions before booking.
               </p>
               <Button size="lg" variant="secondary" asChild>
                 <a href="https://calendar.app.google/vvzdvmDFk5EYb5JK9" target="_blank" rel="noopener noreferrer">Book Your Appointment</a>
