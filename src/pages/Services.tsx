@@ -36,7 +36,7 @@ const Services = () => {
       ]
     },
     {
-      title: "Knee Issues",
+      title: "Knee",
       duration: "45 minutes",
       description: "Gentle treatment addressing knee pain, stiffness, and alignment issues to support natural movement patterns.",
       benefits: [
@@ -88,7 +88,7 @@ const Services = () => {
       ]
     },
     {
-      title: "Shoulder Issues",
+      title: "Shoulder",
       duration: "45 minutes",
       description: "Treatment for shoulder pain, frozen shoulder, and restricted movement in the shoulder complex.",
       benefits: [
