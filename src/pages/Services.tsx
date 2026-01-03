@@ -15,10 +15,24 @@ const Services = () => {
       duration: "45 minutes",
       description: "Treatment for issues affecting the foot and ankle, including plantar fasciitis, sprains, and mobility restrictions.",
       benefits: [
-        "Plantar fasciitis support",
-        "Ankle mobility restoration",
-        "Arch and heel pain relief",
-        "Post-injury rehabilitation"
+        "Plantar fasciitis",
+        "Achilles tendon injury",
+        "Foot & ankle sprains",
+        "Heel pain (non-specific)",
+        "Post-injury foot or ankle discomfort",
+        "Overpronation",
+        "Flat foot (fallen arches)",
+        "Restricted ankle mobility",
+        "Foot pain related to gait or posture",
+        "Metatarsalgia",
+        "Morton's neuroma",
+        "Hallux valgus (bunions)",
+        "Hallux rigidus",
+        "Tendon & ligament issues",
+        "Chronic ankle laxity (ankle instability)",
+        "Recurrent ankle injuries",
+        "Midtarsal sprain",
+        "Turf toe"
       ]
     },
     {
