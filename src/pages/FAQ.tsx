@@ -97,10 +97,13 @@ const FAQ = () => {
       answer: (
         <div className="space-y-3">
           <p>
-            Amatsu is a gentle, light-touch therapy and is not intended to be painful. Most clients find sessions comfortable and deeply relaxing.
+            Amatsu is a gentle, light-touch therapy that most clients find comfortable and deeply relaxing.
           </p>
           <p>
-            Some people may experience mild tenderness or awareness in certain areas, particularly where the body is holding tension or imbalance, but this is typically brief and well within comfort levels. Treatment is always adapted to the individual, and feedback during the session is encouraged.
+            While everyone's experience is different, treatment is not intended to be painful. Some people may notice mild tenderness or heightened awareness in certain areas, particularly where the body is holding tension or imbalance, but this is typically brief and well within comfort levels.
+          </p>
+          <p>
+            Treatment is always adapted to the individual, and feedback during the session is encouraged.
           </p>
         </div>
       ),
