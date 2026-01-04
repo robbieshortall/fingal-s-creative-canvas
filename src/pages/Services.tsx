@@ -72,6 +72,7 @@ const Services = () => {
       benefits: [
         "Hip osteoarthritis",
         "Referred hip pain",
+        "Clicking or snapping hip (including movement-related clicking or clunking sensations)",
         "Sacroiliac (SI) joint discomfort",
         "Pre- or post-hip replacement support (once medically cleared)",
         "Hip flexor strain or tightness",
