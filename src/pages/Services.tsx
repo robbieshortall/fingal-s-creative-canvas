@@ -145,10 +145,20 @@ const Services = () => {
       duration: "45 minutes",
       description: "Addressing issues in the elbow and arm, including repetitive strain injuries and joint restrictions.",
       benefits: [
-        "Tennis/golfer's elbow support",
-        "Repetitive strain relief",
-        "Joint mobility improvement",
-        "Forearm tension release"
+        "Elbow and forearm pain",
+        "Tennis elbow (lateral epicondylitis)",
+        "Golfer's elbow (medial epicondylitis)",
+        "Repetitive strain injury (RSI)",
+        "Forearm muscle strain or overuse",
+        "Wrist pain and stiffness",
+        "Wrist sprain or instability",
+        "Wrist tendinitis",
+        "Carpal tunnel syndrome",
+        "Cubital tunnel syndrome",
+        "Ulnar neuropathy",
+        "Trigger finger",
+        "Thumb or finger joint pain",
+        "Post-wrist, arm, or elbow fracture support (once medically cleared)"
       ]
     },
     {
