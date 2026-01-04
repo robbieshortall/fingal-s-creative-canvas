@@ -22,12 +22,12 @@ const Navigation = () => {
   return (
     <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto px-4">
-        <div className="flex h-20 items-center justify-between">
+        <div className="flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center">
             <img 
               src={headerLogo} 
               alt="Fingal Amatsu Alignment Clinic" 
-              className="h-16 w-auto"
+              className="h-12 w-auto"
             />
           </Link>
 
