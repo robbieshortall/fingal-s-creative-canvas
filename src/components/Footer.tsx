@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Instagram, Facebook } from "lucide-react";
+import headerLogo from "@/assets/header-logo.png";
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-bold mb-4 text-primary">Fingal Amatsu</h3>
+            <img src={headerLogo} alt="Fingal Amatsu Alignment Clinic" className="h-12 mb-2" />
             <p className="text-sm text-muted-foreground mb-4">
               Professional alignment therapy for natural healing and wellness.
             </p>
