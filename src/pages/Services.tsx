@@ -107,6 +107,8 @@ const Services = () => {
         "Spinal stenosis",
         "Sacroiliac joint dysfunction",
         "Sacral pain",
+        "Mid-back and rib pain",
+        "Rib joint dysfunction (costovertebral restriction)",
         "Coccydynia (tailbone pain)",
         "Tailbone injury",
         "Scoliosis",
