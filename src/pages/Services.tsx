@@ -125,10 +125,17 @@ const Services = () => {
       duration: "45 minutes",
       description: "Treatment for shoulder pain, frozen shoulder, and restricted movement in the shoulder complex.",
       benefits: [
-        "Frozen shoulder support",
-        "Rotator cuff care",
-        "Shoulder mobility restoration",
-        "Pain and tension relief"
+        "Shoulder pain and discomfort",
+        "Shoulder stiffness and reduced mobility",
+        "Frozen shoulder (adhesive capsulitis)",
+        "Shoulder impingement syndrome",
+        "Rotator cuff injury or strain",
+        "Shoulder instability",
+        "Biceps tendonitis",
+        "Acromioclavicular (AC) joint issues",
+        "Subacromial bursitis",
+        "Rhomboid muscle strain or spasm",
+        "Thoracic outlet syndrome (once medically cleared)"
       ]
     },
     {
