@@ -24,7 +24,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center">
-            <img src={headerLogo} alt="Fingal Amatsu Alignment Clinic" className="h-16" />
+            <img src={headerLogo} alt="Fingal Amatsu Alignment Clinic" className="h-14" />
           </Link>
 
           {/* Desktop Navigation */}
