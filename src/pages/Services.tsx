@@ -97,10 +97,27 @@ const Services = () => {
       duration: "45 minutes",
       description: "Comprehensive treatment for back pain, spinal tension, and postural imbalances throughout the spine.",
       benefits: [
-        "Lower back pain relief",
-        "Spinal alignment support",
-        "Postural correction",
-        "Tension and stiffness release"
+        "Low back pain",
+        "Mechanical back pain",
+        "Lumbago",
+        "Sciatica",
+        "Herniated disc (disc herniation / slipped disc)",
+        "Disc bulge",
+        "Facet joint syndrome",
+        "Spinal stenosis",
+        "Sacroiliac joint dysfunction",
+        "Sacral pain",
+        "Coccydynia (tailbone pain)",
+        "Tailbone injury",
+        "Scoliosis",
+        "Kyphosis",
+        "Lordosis",
+        "Spondylolysis",
+        "Spondylolisthesis",
+        "Weak or deconditioned back",
+        "Postural-related back pain",
+        "Back pain following injury or strain",
+        "Pre- or post-spinal surgery support (once medically cleared)"
       ]
     },
     {
