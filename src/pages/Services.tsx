@@ -93,6 +93,29 @@ const Services = () => {
       ]
     },
     {
+      title: "Pelvic & Sacral",
+      duration: "45 minutes",
+      description: "Treatment focusing on pelvic alignment and sacral balance, supporting core stability and lower body function.",
+      benefits: [
+        "Pelvic pain or pelvic discomfort",
+        "Sacroiliac (SI) joint pain or dysfunction",
+        "Sacral pain",
+        "Pelvic alignment imbalance",
+        "Postural-related pelvic imbalance",
+        "Piriformis syndrome",
+        "Deep gluteal pain",
+        "Gluteal muscle strain or tendinopathy",
+        "Iliopsoas tightness or overuse",
+        "Hip flexor strain or restriction",
+        "Groin pain or osteitis pubis",
+        "Clicking hip syndrome",
+        "Trochanteric bursitis",
+        "Hamstring or posterior chain strain",
+        "Core stability and load transfer support",
+        "Pelvic and sacral stability support"
+      ]
+    },
+    {
       title: "Back & Spine",
       duration: "45 minutes",
       description: "Comprehensive treatment for back pain, spinal tension, and postural imbalances throughout the spine.",
@@ -159,29 +182,6 @@ const Services = () => {
         "Trigger finger",
         "Thumb or finger joint pain",
         "Post-wrist, arm, or elbow fracture support (once medically cleared)"
-      ]
-    },
-    {
-      title: "Pelvic & Sacral",
-      duration: "45 minutes",
-      description: "Treatment focusing on pelvic alignment and sacral balance, supporting core stability and lower body function.",
-      benefits: [
-        "Pelvic pain or pelvic discomfort",
-        "Sacroiliac (SI) joint pain or dysfunction",
-        "Sacral pain",
-        "Pelvic alignment imbalance",
-        "Postural-related pelvic imbalance",
-        "Piriformis syndrome",
-        "Deep gluteal pain",
-        "Gluteal muscle strain or tendinopathy",
-        "Iliopsoas tightness or overuse",
-        "Hip flexor strain or restriction",
-        "Groin pain or osteitis pubis",
-        "Clicking hip syndrome",
-        "Trochanteric bursitis",
-        "Hamstring or posterior chain strain",
-        "Core stability and load transfer support",
-        "Pelvic and sacral stability support"
       ]
     },
     {
