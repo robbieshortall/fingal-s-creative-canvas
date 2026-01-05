@@ -357,7 +357,7 @@ const Services = () => {
                         The examples below highlight some common conditions that may benefit from Amatsu therapy, but this list is not exhaustive. Amatsu does not replace medical diagnosis or treatment and can be used alongside conventional healthcare where appropriate.
                       </p>
                       <div className="space-y-4">
-                        <h4 className="font-medium text-lg">Conditions:</h4>
+                        <h4 className="font-medium text-lg">Conditions affecting this area include:</h4>
                         {service.benefits.map((benefit, idx) => (
                           <div key={idx} className="flex items-start gap-3">
                             <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
