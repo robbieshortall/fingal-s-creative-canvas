@@ -261,11 +261,13 @@ const Services = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto">
               <h2 className="text-3xl font-bold mb-8 text-center">What to Expect</h2>
-              <Accordion type="single" collapsible className="w-full">
-                <AccordionItem value="before">
-                  <AccordionTrigger className="text-lg font-semibold">Before Your Session</AccordionTrigger>
-                  <AccordionContent>
-                    <div className="text-muted-foreground space-y-3 pt-2">
+              <Accordion type="single" collapsible className="w-full space-y-4">
+                <AccordionItem value="before" className="border rounded-lg px-6 bg-card">
+                  <AccordionTrigger className="text-left hover:no-underline">
+                    <h3 className="font-semibold text-base">Before Your Session</h3>
+                  </AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground">
+                    <div className="space-y-3">
                       <p>
                         Please wear comfortable clothing that allows ease of movement. You will remain fully clothed throughout the treatment.
                       </p>
@@ -275,10 +277,12 @@ const Services = () => {
                     </div>
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="during">
-                  <AccordionTrigger className="text-lg font-semibold">During Your Session</AccordionTrigger>
-                  <AccordionContent>
-                    <div className="text-muted-foreground space-y-3 pt-2">
+                <AccordionItem value="during" className="border rounded-lg px-6 bg-card">
+                  <AccordionTrigger className="text-left hover:no-underline">
+                    <h3 className="font-semibold text-base">During Your Session</h3>
+                  </AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground">
+                    <div className="space-y-3">
                       <p>
                         Amatsu is a gentle, non-invasive therapy that uses light touch and subtle movements to work with the body's natural alignment and nervous system.
                       </p>
@@ -288,10 +292,12 @@ const Services = () => {
                     </div>
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="after">
-                  <AccordionTrigger className="text-lg font-semibold">After Your Session</AccordionTrigger>
-                  <AccordionContent>
-                    <div className="text-muted-foreground space-y-3 pt-2">
+                <AccordionItem value="after" className="border rounded-lg px-6 bg-card">
+                  <AccordionTrigger className="text-left hover:no-underline">
+                    <h3 className="font-semibold text-base">After Your Session</h3>
+                  </AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground">
+                    <div className="space-y-3">
                       <p>
                         People respond to Amatsu in different ways. Some notice changes immediately, while others feel improvements unfold over the following 24–48 hours. It's common to feel more upright, relaxed, lighter in movement, or more aware of how your body is holding itself.
                       </p>
