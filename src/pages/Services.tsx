@@ -260,7 +260,10 @@ const Services = () => {
         <section className="py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto">
-              <h2 className="text-3xl font-bold mb-8 text-center">What to Expect</h2>
+              <h2 className="text-3xl font-bold mb-4 text-center">What to Expect From Your Amatsu Session</h2>
+              <p className="text-muted-foreground text-center mb-8">
+                Every Amatsu session is tailored to the individual. Below is an overview of what you can expect before, during, and after your treatment.
+              </p>
               <Accordion type="single" collapsible className="w-full space-y-4">
                 <AccordionItem value="before" className="border rounded-lg px-6 bg-card">
                   <AccordionTrigger className="text-left hover:no-underline">
