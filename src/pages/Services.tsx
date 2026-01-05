@@ -177,10 +177,22 @@ const Services = () => {
       duration: "45 minutes",
       description: "Gentle treatment for neck pain, headaches, jaw tension, and cervical spine issues.",
       benefits: [
-        "Neck pain relief",
-        "Headache and migraine support",
-        "Jaw tension release (TMJ)",
-        "Cervical mobility restoration"
+        "Neck pain and stiffness",
+        "Neck strain or muscle spasm",
+        "Reduced neck mobility",
+        "Postural-related neck pain",
+        "Forward head posture / tech neck",
+        "Headaches",
+        "Tension headaches",
+        "Cervicogenic headaches",
+        "Migraines",
+        "Occipital pain or occipital headaches",
+        "Whiplash-associated neck pain (once medically cleared)",
+        "Jaw pain and TMJ dysfunction",
+        "Cervical brachialgia (neck-related arm pain)",
+        "Brachial plexus-related pain or nerve irritation",
+        "Vertigo or dizziness with a musculoskeletal component",
+        "Sinus-related head or facial pain (musculoskeletal contributors)"
       ]
     },
     {
