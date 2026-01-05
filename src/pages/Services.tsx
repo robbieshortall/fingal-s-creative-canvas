@@ -166,10 +166,22 @@ const Services = () => {
       duration: "45 minutes",
       description: "Treatment focusing on pelvic alignment and sacral balance, supporting core stability and lower body function.",
       benefits: [
-        "Pelvic alignment restoration",
-        "Sacroiliac joint support",
-        "Core stability improvement",
-        "Pregnancy and postnatal care"
+        "Pelvic pain or pelvic discomfort",
+        "Sacroiliac (SI) joint pain or dysfunction",
+        "Sacral pain",
+        "Pelvic alignment imbalance",
+        "Postural-related pelvic imbalance",
+        "Piriformis syndrome",
+        "Deep gluteal pain",
+        "Gluteal muscle strain or tendinopathy",
+        "Iliopsoas tightness or overuse",
+        "Hip flexor strain or restriction",
+        "Groin pain or osteitis pubis",
+        "Clicking hip syndrome",
+        "Trochanteric bursitis",
+        "Hamstring or posterior chain strain",
+        "Core stability and load transfer support",
+        "Pelvic and sacral stability support"
       ]
     },
     {
