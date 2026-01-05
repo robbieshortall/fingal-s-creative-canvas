@@ -200,10 +200,18 @@ const Services = () => {
       duration: "45 minutes",
       description: "Treatment for other conditions including stress-related tension, general discomfort, and whole-body balance.",
       benefits: [
-        "Stress and tension relief",
-        "General body balancing",
-        "Fatigue and energy support",
-        "Whole-body alignment"
+        "Stress and tension support",
+        "Nervous system regulation and calming",
+        "Anxiety-related tension or overwhelm",
+        "Low mood or emotional stress support",
+        "Sleep-related tension or restlessness",
+        "Fatigue and low energy",
+        "Digestive-related tension or discomfort",
+        "Whole-body alignment and balance",
+        "General postural imbalance",
+        "Recovery from physical or emotional stress",
+        "Pregnancy and postpartum support (where appropriate)",
+        "Overall wellbeing and resilience support"
       ]
     }
   ];
