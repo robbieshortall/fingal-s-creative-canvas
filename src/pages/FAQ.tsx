@@ -152,6 +152,14 @@ const FAQ = () => {
       ),
     },
     {
+      question: "Can Amatsu help with anxiety or depression?",
+      answer: (
+        <p>
+          Amatsu does not treat or diagnose mental health conditions. However, it may support the body during periods of emotional stress by helping regulate physical tension and the nervous system. Many clients find this supportive alongside appropriate medical or psychological care.
+        </p>
+      ),
+    },
+    {
       question: "Can I engage in other therapies during my Amatsu treatment programme?",
       answer: (
         <div className="space-y-3">
