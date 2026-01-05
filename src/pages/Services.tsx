@@ -196,7 +196,7 @@ const Services = () => {
       ]
     },
     {
-      title: "Other Issues",
+      title: "Other Concerns",
       duration: "45 minutes",
       description: "Treatment for other conditions including stress-related tension, general discomfort, and whole-body balance.",
       benefits: [
