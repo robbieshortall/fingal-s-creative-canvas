@@ -123,7 +123,7 @@ const Testimonials = () => {
         <section className="py-16 bg-primary text-primary-foreground">
           <div className="container mx-auto px-4">
             <div className="max-w-2xl mx-auto text-center">
-              <h2 className="text-3xl font-bold mb-6">Ready to Start Your Own Amatsu Journey?</h2>
+              <h2 className="text-3xl font-bold mb-6">Ready to Experience Amatsu for Yourself?</h2>
               <p className="text-lg opacity-90 mb-8">
                 Book your appointment online at a time that suits you, or get in touch if you'd like to ask a question before booking.
               </p>
