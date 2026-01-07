@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { Star, CheckCircle } from "lucide-react";
 
 const Testimonials = () => {
@@ -118,51 +119,18 @@ const Testimonials = () => {
           </div>
         </section>
 
-        {/* Stats Section */}
+        {/* CTA Section */}
         <section className="py-16 bg-primary text-primary-foreground">
           <div className="container mx-auto px-4">
-            <div className="grid md:grid-cols-3 gap-8 text-center">
-              <div>
-                <div className="text-4xl md:text-5xl font-bold mb-2">500+</div>
-                <div className="text-lg opacity-90">Happy Clients</div>
-              </div>
-              <div>
-                <div className="text-4xl md:text-5xl font-bold mb-2">15+</div>
-                <div className="text-lg opacity-90">Years Experience</div>
-              </div>
-              <div>
-                <div className="text-4xl md:text-5xl font-bold mb-2">98%</div>
-                <div className="text-lg opacity-90">Satisfaction Rate</div>
-              </div>
+            <div className="max-w-2xl mx-auto text-center">
+              <h2 className="text-3xl font-bold mb-6">Ready to Book Your Appointment?</h2>
+              <p className="text-lg opacity-90 mb-8">
+                Book online at a time that suits you, or get in touch if you have any questions before booking.
+              </p>
+              <Button size="lg" variant="secondary" asChild>
+                <a href="https://calendar.app.google/vvzdvmDFk5EYb5JK9" target="_blank" rel="noopener noreferrer">Book Your Appointment</a>
+              </Button>
             </div>
-          </div>
-        </section>
-
-        {/* CTA Section */}
-        <section className="py-16">
-          <div className="container mx-auto px-4">
-            <Card className="max-w-2xl mx-auto border-2 border-primary/20">
-              <CardContent className="p-8 text-center">
-                <h2 className="text-3xl font-bold mb-4">Experience the Difference</h2>
-                <p className="text-lg text-muted-foreground mb-6">
-                  Join hundreds of satisfied clients who have transformed their health through Amatsu therapy
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a
-                    href="/contact"
-                    className="inline-flex items-center justify-center rounded-md bg-primary px-8 py-3 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
-                  >
-                    Book Your Appointment
-                  </a>
-                  <a
-                    href="/services"
-                    className="inline-flex items-center justify-center rounded-md border border-input bg-background px-8 py-3 text-sm font-medium hover:bg-accent hover:text-accent-foreground transition-colors"
-                  >
-                    View Services
-                  </a>
-                </div>
-              </CardContent>
-            </Card>
           </div>
         </section>
       </main>
