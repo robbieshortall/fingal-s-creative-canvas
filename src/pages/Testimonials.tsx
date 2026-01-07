@@ -6,11 +6,11 @@ import { Star } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Sarah M.",
-      location: "Dublin",
+      name: "Michael S.",
+      location: "Google Review",
       rating: 5,
-      text: "After years of chronic back pain, I finally found relief through Amatsu therapy. The practitioners at Fingal Amatsu are incredibly knowledgeable and caring. I'm now pain-free and have better posture than I've had in years!",
-      condition: "Chronic Back Pain"
+      text: "I have had a great experience with Robbie at Fingal Amatsu Clinic. Robbie helped me resolve ongoing upper back pain and improved my posture. He was professional, knowledgeable, and took the time to explain what was going on and how to address it. I noticed real improvements quickly and would highly recommend him.",
+      condition: "Upper back pain & posture"
     },
     {
       name: "Michael O.",
