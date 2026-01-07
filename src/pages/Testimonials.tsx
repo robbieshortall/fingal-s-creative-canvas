@@ -46,27 +46,6 @@ const Testimonials = () => {
       rating: 5,
       text: "I've tried many different therapies over the years, but Amatsu has been the most effective for my chronic stress and tension. The holistic approach really makes a difference in both body and mind.",
       condition: "Stress & Anxiety"
-    },
-    {
-      name: "Claire B.",
-      location: "Skerries",
-      rating: 5,
-      text: "The professionalism and warmth of the clinic exceeded my expectations. My postural issues have improved dramatically, and I feel more balanced and energized. It's been truly life-changing.",
-      condition: "Postural Issues"
-    },
-    {
-      name: "Patrick H.",
-      location: "Rush",
-      rating: 5,
-      text: "As someone who suffered from migraines for years, I was amazed at how Amatsu therapy helped reduce both the frequency and intensity. The therapists really understand the body's interconnected systems.",
-      condition: "Migraines"
-    },
-    {
-      name: "Aoife N.",
-      location: "Donabate",
-      rating: 5,
-      text: "I brought my teenage son for growing pains and sports injuries. The treatment has not only helped his physical issues but also improved his overall athletic performance. We're both impressed!",
-      condition: "Growing Pains"
     }
   ];
 
