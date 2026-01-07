@@ -157,10 +157,10 @@ const Home = () => {
       <section className="py-20 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Ready to Start Your Healing Journey?
+            Ready to Start Your Amatsu Journey?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
-            Book your consultation today and discover how Amatsu therapy can help you achieve natural balance and wellness.
+            Book your consultation today and learn how Amatsu therapy supports balance, alignment, and overall wellbeing.
           </p>
           <Button size="lg" variant="secondary" asChild>
             <a href="https://calendar.app.google/vvzdvmDFk5EYb5JK9" target="_blank" rel="noopener noreferrer">
