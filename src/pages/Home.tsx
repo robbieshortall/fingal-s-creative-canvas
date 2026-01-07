@@ -6,7 +6,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import heroImage from "@/assets/hero-therapy.jpg";
 import serviceImage from "@/assets/service-alignment.jpg";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/homepage-logo.png";
 
 const Home = () => {
   return (
