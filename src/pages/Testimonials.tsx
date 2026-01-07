@@ -61,9 +61,18 @@ const Testimonials = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">Client Testimonials</h1>
-              <p className="text-xl text-muted-foreground">
-                Real stories from real people who have experienced the benefits of Amatsu therapy
+              <p className="text-xl text-muted-foreground mb-6">
+                Genuine reviews from clients who have experienced Amatsu therapy at Fingal Amatsu Alignment Clinic
               </p>
+              <div className="flex flex-col items-center gap-1">
+                <div className="flex gap-1">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="h-6 w-6 fill-primary text-primary" />
+                  ))}
+                </div>
+                <p className="font-semibold">Rated 5.0 on Google</p>
+                <p className="text-sm text-muted-foreground">Based on verified client reviews</p>
+              </div>
             </div>
           </div>
         </section>
