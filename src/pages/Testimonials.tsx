@@ -1,16 +1,18 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
-import { Star } from "lucide-react";
+import { Star, CheckCircle } from "lucide-react";
 
 const Testimonials = () => {
   const testimonials = [
     {
       name: "Michael S.",
-      location: "Google Review",
+      location: "Upper back pain & posture",
       rating: 5,
+      heading: "Upper back pain resolved & posture improved",
       text: "I have had a great experience with Robbie at Fingal Amatsu Clinic. Robbie helped me resolve ongoing upper back pain and improved my posture. He was professional, knowledgeable, and took the time to explain what was going on and how to address it. I noticed real improvements quickly and would highly recommend him.",
-      condition: "Upper back pain & posture"
+      condition: "Google Review",
+      isGoogleReview: true
     },
     {
       name: "Michael O.",
@@ -73,16 +75,22 @@ const Testimonials = () => {
               {testimonials.map((testimonial, index) => (
                 <Card key={index} className="border-2 hover:border-primary/50 transition-colors">
                   <CardContent className="p-6">
-                    <div className="flex gap-1 mb-4">
+                    <div className="flex gap-1 mb-2">
                       {[...Array(testimonial.rating)].map((_, i) => (
                         <Star key={i} className="h-5 w-5 fill-primary text-primary" />
                       ))}
                     </div>
+                    {testimonial.heading && (
+                      <h3 className="font-semibold text-lg mb-3">{testimonial.heading}</h3>
+                    )}
                     <p className="text-muted-foreground mb-6 italic">"{testimonial.text}"</p>
                     <div className="border-t pt-4">
                       <p className="font-semibold">{testimonial.name}</p>
                       <p className="text-sm text-muted-foreground">{testimonial.location}</p>
-                      <p className="text-sm text-primary mt-1">{testimonial.condition}</p>
+                      <p className="text-sm text-primary mt-1 flex items-center gap-1">
+                        {testimonial.isGoogleReview && <CheckCircle className="h-4 w-4" />}
+                        {testimonial.condition}
+                      </p>
                     </div>
                   </CardContent>
                 </Card>
