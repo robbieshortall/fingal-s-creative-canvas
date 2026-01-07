@@ -24,39 +24,40 @@ const Testimonials = () => {
       isGoogleReview: true
     },
     {
-      name: "Michael O.",
-      location: "Swords",
+      name: "Niamh H.",
+      location: "Chronic back & neck pain, stress-related tension",
       rating: 5,
-      text: "I was skeptical at first, but the results speak for themselves. My sports injury recovery was significantly faster than expected, and I've been able to return to training with better movement patterns than before.",
-      condition: "Sports Injury"
+      heading: "Life-changing support for chronic back & neck pain",
+      text: "As someone who has struggled with severe back and neck issues, Amatsu has truly changed my life for the better. These sessions helped me become more aware of when my body is out of balance. Regular sessions improved my posture, and I haven't experienced a return of severe pain episodes since.\n\nI also sleep better after treatments because I find them deeply relaxing, and my stress-related aches have eased significantly. Overall, the therapy has greatly improved my ability to manage pain and boosted my overall health and wellbeing.",
+      condition: "Google Review",
+      isGoogleReview: true
     },
     {
-      name: "Emma L.",
-      location: "Malahide",
+      name: "Conor M.",
+      location: "Achilles injury & mobility",
       rating: 5,
-      text: "The gentle approach of Amatsu was perfect for my pregnancy. It helped with back pain, improved my sleep, and even helped with some digestive issues. I continued treatments postnatal and recovered beautifully.",
-      condition: "Pregnancy Care"
+      heading: "Achilles injury recovery & full-body improvement",
+      text: "I highly recommend Robbie. I had been struggling with a persistent Achilles injury and decided to give Amatsu a try since other treatments weren't delivering results. Robbie's approach made a massive difference — not just to my Achilles, but to my overall mobility and posture. I felt a huge improvement in how my body moved in general.",
+      condition: "Google Review",
+      isGoogleReview: true
     },
     {
-      name: "James K.",
-      location: "Howth",
+      name: "Gavin B.",
+      location: "Mobility & alignment",
       rating: 5,
-      text: "I came in with severe neck tension from desk work. Not only did they address my immediate pain, but they also taught me how to maintain better posture and prevent future issues. Highly recommend!",
-      condition: "Neck Tension"
+      heading: "Improved mobility and body awareness",
+      text: "Visited Robbie for a number of sessions over the last year. Very professional in his approach. He was able to pinpoint specific alignment issues and rectify them for me. I would highly recommend a session to anyone looking to improve their overall mobility and connection to their body.",
+      condition: "Google Review",
+      isGoogleReview: true
     },
     {
-      name: "Lisa R.",
-      location: "Portmarnock",
+      name: "Earth K.",
+      location: "Postural imbalance",
       rating: 5,
-      text: "My daughter had terrible colic as a baby. After just two sessions of pediatric Amatsu, she was like a different child - calmer, sleeping better, and feeding without issues. We're forever grateful!",
-      condition: "Pediatric Care"
-    },
-    {
-      name: "David T.",
-      location: "Balbriggan",
-      rating: 5,
-      text: "I've tried many different therapies over the years, but Amatsu has been the most effective for my chronic stress and tension. The holistic approach really makes a difference in both body and mind.",
-      condition: "Stress & Anxiety"
+      heading: "Posture awareness & long-term improvement",
+      text: "Could not recommend Robbie's work enough. I was misaligned from my day-to-day job and slouched posture. Robbie was able to identify the root cause and made me more consciously aware of my posture after treatment.",
+      condition: "Google Review",
+      isGoogleReview: true
     }
   ];
 
