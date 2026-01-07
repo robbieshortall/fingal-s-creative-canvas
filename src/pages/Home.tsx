@@ -37,7 +37,8 @@ const Home = () => {
         <div className="container mx-auto px-4 relative z-10 flex-1 flex items-center">
           <div className="max-w-2xl">
             <h1 className="text-[2.565rem] md:text-[3.21rem] font-bold mb-6 leading-tight">
-              Postural Alignment,{" "}
+              Postural Alignment,
+              <br />
               <span className="text-primary">Natural Healing</span>
             </h1>
             <p className="text-xl mb-8 text-muted-foreground">
