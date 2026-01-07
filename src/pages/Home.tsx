@@ -36,7 +36,7 @@ const Home = () => {
         {/* Hero Content */}
         <div className="container mx-auto px-4 relative z-10 flex-1 flex items-center">
           <div className="max-w-2xl">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+            <h1 className="text-[2.7rem] md:text-[3.375rem] font-bold mb-6 leading-tight">
               Postural Alignment,{" "}
               <span className="text-primary">Natural Healing</span>
             </h1>
