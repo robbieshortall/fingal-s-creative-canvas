@@ -15,6 +15,15 @@ const Testimonials = () => {
       isGoogleReview: true
     },
     {
+      name: "Ilario D.",
+      location: "Postural alignment (hips & shoulders)",
+      rating: 5,
+      heading: "Lasting posture correction from desk and driving work",
+      text: "I want to highly recommend Robbie's work. I had been misaligned from my day-to-day job driving and a slouched posture. Robbie was able to get to the bottom of the problem and made me consciously aware of my posture post-treatment. My body responded very well, and even after longer pauses between sessions, I retained the corrections.",
+      condition: "Google Review",
+      isGoogleReview: true
+    },
+    {
       name: "Michael O.",
       location: "Swords",
       rating: 5,
