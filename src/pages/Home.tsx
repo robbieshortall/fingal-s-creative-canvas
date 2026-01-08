@@ -114,27 +114,27 @@ const Home = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                What We Treat
+                Conditions Amatsu May Support
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Amatsu therapy is effective for a wide range of conditions and is suitable for all ages.
+                Amatsu therapy may help support the body across a wide range of physical concerns and imbalances and is suitable for people of all ages.
               </p>
               <ul className="space-y-4 mb-8">
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-primary mt-2" />
-                  <span>Back pain, neck pain, and joint issues</span>
+                  <span>Back, neck, and spinal-related discomfort</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-primary mt-2" />
-                  <span>Stress, tension, and muscular problems</span>
+                  <span>Joint, muscle, and postural imbalances</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-primary mt-2" />
-                  <span>Sports injuries and postural imbalances</span>
+                  <span>Sports-related injuries and mobility issues</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-primary mt-2" />
-                  <span>Digestive issues and chronic conditions</span>
+                  <span>Stress-related tension and whole-body alignment</span>
                 </li>
               </ul>
               <Button asChild>
