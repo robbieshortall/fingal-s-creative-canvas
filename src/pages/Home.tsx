@@ -19,7 +19,7 @@ const Home = () => {
           <img
             src={heroImage}
             alt="Serene therapy room"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover brightness-[0.92]"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40" />
         </div>
