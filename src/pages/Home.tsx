@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Heart, Users, Award, ArrowRight } from "lucide-react";
+import { Scale, UserRoundSearch, BadgeCheck, ArrowRight } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import heroImage from "@/assets/hero-therapy.jpg";
@@ -73,7 +73,7 @@ const Home = () => {
             <Card className="border-2 hover:border-primary/50 transition-colors">
               <CardContent className="p-6 text-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Heart className="h-8 w-8 text-primary" />
+                  <Scale className="h-8 w-8 text-primary" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Whole-Body Alignment</h3>
                 <p className="text-muted-foreground">
@@ -85,7 +85,7 @@ const Home = () => {
             <Card className="border-2 hover:border-primary/50 transition-colors">
               <CardContent className="p-6 text-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="h-8 w-8 text-primary" />
+                  <UserRoundSearch className="h-8 w-8 text-primary" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Individualised, Person-Centred Care</h3>
                 <p className="text-muted-foreground">
@@ -97,7 +97,7 @@ const Home = () => {
             <Card className="border-2 hover:border-primary/50 transition-colors">
               <CardContent className="p-6 text-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Award className="h-8 w-8 text-primary" />
+                  <BadgeCheck className="h-8 w-8 text-primary" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Experienced, Qualified Practitioner</h3>
                 <p className="text-muted-foreground">
