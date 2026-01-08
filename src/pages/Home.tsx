@@ -42,7 +42,7 @@ const Home = () => {
               <br />
               <span className="text-primary">Natural Healing</span>
             </h1>
-            <p className="text-xl mb-8 text-muted-foreground">
+            <p className="text-xl mb-8 text-foreground/80">
               Experience the transformative power of Amatsu therapy at Fingal Amatsu Alignment Clinic.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
