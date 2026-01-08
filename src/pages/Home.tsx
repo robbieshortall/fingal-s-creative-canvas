@@ -87,7 +87,7 @@ const Home = () => {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <UserRoundSearch className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Individualised, Person-Centred Care</h3>
+                <h3 className="text-xl font-semibold mb-3">Individualised, Person-Centred Approach</h3>
                 <p className="text-muted-foreground">
                   Every session is adapted to your body, your history, and how you move — with treatment guided by gentle assessment, not force.
                 </p>
