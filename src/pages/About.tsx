@@ -1,7 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
-import aboutImage from "@/assets/male-practitioner.jpg";
+import aboutImage from "@/assets/about-clinic.jpg";
 
 const About = () => {
   return (
