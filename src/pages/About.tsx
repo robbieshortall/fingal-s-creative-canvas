@@ -1,9 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
-import ourStoryImage from "@/assets/about-our-story.jpg";
-import clinicSpaceImage from "@/assets/about-clinic-space.jpg";
-import discoveryImage from "@/assets/about-discovery.jpg";
+import aboutImage from "@/assets/about-clinic.jpg";
 
 const About = () => {
   return (
@@ -43,8 +41,8 @@ const About = () => {
               </div>
               <div className="relative h-[400px] rounded-lg overflow-hidden">
                 <img
-                  src={ourStoryImage}
-                  alt="Hands-on Amatsu therapy session"
+                  src={aboutImage}
+                  alt="Clinic consultation"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -55,27 +53,18 @@ const About = () => {
         {/* Amatsu, the Clinic & Me Section */}
         <section className="py-16 bg-muted/30">
           <div className="container mx-auto px-4">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div className="relative h-[400px] rounded-lg overflow-hidden md:order-1">
-                <img
-                  src={clinicSpaceImage}
-                  alt="Professional therapy clinic treatment room"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="md:order-2">
-                <h2 className="text-3xl font-bold mb-6">Amatsu, the Clinic & Me</h2>
-                <div className="space-y-4 text-muted-foreground">
-                  <p>
-                    I am a fully qualified Seitai-level Amatsu practitioner, trained through the Institute of Amatsu (IOA), and a registered member of Amatsu Therapy International (ATI). I have been treating clients for over two years while also maintaining a career as an IT Portfolio Manager. My enjoyment of practising Amatsu, and seeing the changes it can bring for people in pain, ultimately inspired me to formally launch Fingal Amatsu Alignment Clinic.
-                  </p>
-                  <p>
-                    My own history has strongly shaped how I practise and why I place such importance on physical alignment and long-term wellbeing. My aim is to help people who have been struggling with pain or dysfunction to regain comfort, confidence, and the ability to live life more fully.
-                  </p>
-                  <p>
-                    Outside the clinic, I'm married with three children, two boys and a girl, and share our home with two adopted German Shepherds. I'm a fair-weather golfer and a fan of Formula 1 and football — there's usually something to chat about during a session.
-                  </p>
-                </div>
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl font-bold mb-6">Amatsu, the Clinic & Me</h2>
+              <div className="space-y-4 text-muted-foreground">
+                <p>
+                  I am a fully qualified Seitai-level Amatsu practitioner, trained through the Institute of Amatsu (IOA), and a registered member of Amatsu Therapy International (ATI). I have been treating clients for over two years while also maintaining a career as an IT Portfolio Manager. My enjoyment of practising Amatsu, and seeing the changes it can bring for people in pain, ultimately inspired me to formally launch Fingal Amatsu Alignment Clinic.
+                </p>
+                <p>
+                  My own history has strongly shaped how I practise and why I place such importance on physical alignment and long-term wellbeing. My aim is to help people who have been struggling with pain or dysfunction to regain comfort, confidence, and the ability to live life more fully.
+                </p>
+                <p>
+                  Outside the clinic, I'm married with three children, two boys and a girl, and share our home with two adopted German Shepherds. I'm a fair-weather golfer and a fan of Formula 1 and football — there's usually something to chat about during a session.
+                </p>
               </div>
             </div>
           </div>
@@ -84,27 +73,18 @@ const About = () => {
         {/* My History Section */}
         <section className="py-16">
           <div className="container mx-auto px-4">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="text-3xl font-bold mb-6">My History & How I Discovered Amatsu</h2>
-                <div className="space-y-4 text-muted-foreground">
-                  <p>
-                    In 2009, I was involved in a serious car accident that left me with ongoing back problems and reliant on strong painkillers as part of daily life. Several times a year, my back would go into severe spasm, often leaving me confined to the living room floor for one to two weeks at a time. Over the following six years, I tried multiple therapies and rehabilitation programmes, but any relief was short-lived. The impact on my family life, ability to stay active, and career was significant.
-                  </p>
-                  <p>
-                    In 2015, a friend who had been suffering with sciatica told me about his experience with Amatsu. While initially sceptical, I was willing to try anything. From the first sessions, I could feel that something fundamental was changing, even if I couldn't fully explain it at the time. As my body began to stabilise, I gradually spaced out sessions and increased my activity levels.
-                  </p>
-                  <p>
-                    Today, I remain active — playing golf regularly, training in the gym, and keeping busy day to day. While I still experience the occasional strain or injury like anyone else, I have not spent a single day since lying immobilised in pain. That experience is why I value Amatsu so strongly, and why I am passionate about helping others find lasting change rather than short-term relief.
-                  </p>
-                </div>
-              </div>
-              <div className="relative h-[400px] rounded-lg overflow-hidden">
-                <img
-                  src={discoveryImage}
-                  alt="Gentle therapeutic alignment work"
-                  className="w-full h-full object-cover"
-                />
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl font-bold mb-6">My History & How I Discovered Amatsu</h2>
+              <div className="space-y-4 text-muted-foreground">
+                <p>
+                  In 2009, I was involved in a serious car accident that left me with ongoing back problems and reliant on strong painkillers as part of daily life. Several times a year, my back would go into severe spasm, often leaving me confined to the living room floor for one to two weeks at a time. Over the following six years, I tried multiple therapies and rehabilitation programmes, but any relief was short-lived. The impact on my family life, ability to stay active, and career was significant.
+                </p>
+                <p>
+                  In 2015, a friend who had been suffering with sciatica told me about his experience with Amatsu. While initially sceptical, I was willing to try anything. From the first sessions, I could feel that something fundamental was changing, even if I couldn't fully explain it at the time. As my body began to stabilise, I gradually spaced out sessions and increased my activity levels.
+                </p>
+                <p>
+                  Today, I remain active — playing golf regularly, training in the gym, and keeping busy day to day. While I still experience the occasional strain or injury like anyone else, I have not spent a single day since lying immobilised in pain. That experience is why I value Amatsu so strongly, and why I am passionate about helping others find lasting change rather than short-term relief.
+                </p>
               </div>
             </div>
           </div>
