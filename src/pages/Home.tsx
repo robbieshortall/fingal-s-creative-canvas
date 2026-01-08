@@ -35,7 +35,7 @@ const Home = () => {
         </div>
 
         {/* Hero Content */}
-        <div className="container mx-auto px-4 relative z-10 flex-1 flex items-center">
+        <div className="container mx-auto px-4 relative z-10 flex-1 flex items-center mt-8 md:mt-0">
           <div className="max-w-2xl">
             <h1 className="text-[2.565rem] md:text-[3.21rem] font-bold mb-6 leading-tight">
               <span style={{ color: '#1F2A24' }}>Postural Alignment,</span>
