@@ -26,7 +26,7 @@ const Home = () => {
         </div>
 
         {/* Centered Logo at Top */}
-        <div className="relative z-10 flex justify-center pt-6">
+        <div className="relative z-10 flex justify-center pt-3">
           <img
             src={logo}
             alt="Fingal Amatsu Alignment Clinic"
