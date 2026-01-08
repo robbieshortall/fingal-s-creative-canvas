@@ -94,7 +94,7 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "whatsapp-pulse": "whatsapp-pulse 2s ease-in-out infinite",
+        "whatsapp-pulse": "whatsapp-pulse 4s ease-in-out infinite",
       },
     },
   },
