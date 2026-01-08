@@ -65,7 +65,7 @@ const Home = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose Amatsu Therapy?</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              A holistic approach to restoring balance and promoting natural healing
+              A gentle, whole-body approach focused on alignment, movement, and long-term relief
             </p>
           </div>
 
@@ -75,9 +75,9 @@ const Home = () => {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Heart className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Holistic Healing</h3>
+                <h3 className="text-xl font-semibold mb-3">Whole-Body Alignment</h3>
                 <p className="text-muted-foreground">
-                  Treating the body as a whole system, addressing root causes rather than just symptoms
+                  We work with the body as an interconnected system, helping identify and address underlying imbalances rather than focusing on isolated symptoms.
                 </p>
               </CardContent>
             </Card>
@@ -87,9 +87,9 @@ const Home = () => {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Users className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Personalised Care</h3>
+                <h3 className="text-xl font-semibold mb-3">Individualised, Person-Centred Care</h3>
                 <p className="text-muted-foreground">
-                  Each treatment is tailored to your unique needs and body's natural healing patterns
+                  Every session is adapted to your body, your history, and how you move — with treatment guided by gentle assessment, not force.
                 </p>
               </CardContent>
             </Card>
@@ -99,9 +99,9 @@ const Home = () => {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Award className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Expert Practitioner</h3>
+                <h3 className="text-xl font-semibold mb-3">Experienced, Qualified Practitioner</h3>
                 <p className="text-muted-foreground">
-                  Certified Seitai Amatsu Therapist specialising in postural alignment, pain relief, and wellbeing
+                  Treatments are delivered by a certified Seitai Amatsu practitioner with a focus on postural alignment, movement quality, and nervous system regulation.
                 </p>
               </CardContent>
             </Card>
