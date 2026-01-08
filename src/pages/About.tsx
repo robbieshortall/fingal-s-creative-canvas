@@ -1,7 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
-import aboutImage from "@/assets/about-clinic.jpg";
+import aboutStoryImage from "@/assets/about-story.jpg";
 
 const About = () => {
   return (
@@ -41,8 +41,8 @@ const About = () => {
               </div>
               <div className="relative h-[400px] rounded-lg overflow-hidden">
                 <img
-                  src={aboutImage}
-                  alt="Clinic consultation"
+                  src={aboutStoryImage}
+                  alt="Gentle therapeutic bodywork treatment"
                   className="w-full h-full object-cover"
                 />
               </div>
