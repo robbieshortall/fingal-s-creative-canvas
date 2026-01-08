@@ -106,6 +106,10 @@ const Home = () => {
               </CardContent>
             </Card>
           </div>
+          
+          <p className="text-center text-muted-foreground mt-10 max-w-2xl mx-auto">
+            These principles guide every Amatsu session at Fingal Amatsu Alignment Clinic.
+          </p>
         </div>
       </section>
 
