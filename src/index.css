@@ -103,3 +103,21 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  @keyframes whatsapp-pulse {
+    0%,
+    100% {
+      transform: scale(1);
+      box-shadow: 0 10px 15px -3px hsl(var(--foreground) / 0.10);
+    }
+    50% {
+      transform: scale(1.05);
+      box-shadow: 0 20px 25px -5px hsl(var(--foreground) / 0.14);
+    }
+  }
+
+  .whatsapp-pulse {
+    animation: whatsapp-pulse 4s ease-in-out infinite;
+  }
+}
