@@ -118,6 +118,6 @@ All colors MUST be HSL.
   }
 
   .whatsapp-pulse {
-    animation: whatsapp-pulse 4s ease-in-out infinite;
+    animation: whatsapp-pulse 2.67s ease-in-out infinite;
   }
 }
