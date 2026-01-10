@@ -2,6 +2,8 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import aboutImage from "@/assets/about-clinic.jpg";
+import clinicInterior from "@/assets/clinic-interior.jpg";
+import practitionerHeadshot from "@/assets/practitioner-headshot.png";
 
 const About = () => {
   return (
@@ -13,7 +15,14 @@ const About = () => {
         <section className="py-20 bg-muted/30">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">About Our Clinic</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-8">About Our Clinic</h1>
+              <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden mb-8">
+                <img
+                  src={clinicInterior}
+                  alt="Fingal Amatsu Alignment Clinic treatment room"
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <p className="text-xl text-muted-foreground">
                 Dedicated to helping you achieve natural balance and optimal wellness through the art of Amatsu therapy
               </p>
@@ -53,18 +62,31 @@ const About = () => {
         {/* Amatsu, the Clinic & Me Section */}
         <section className="py-16 bg-muted/30">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Amatsu, the Clinic & Me</h2>
-              <div className="space-y-4 text-muted-foreground">
-                <p>
-                  I am a fully qualified Seitai-level Amatsu practitioner, trained through the Institute of Amatsu (IOA), and a registered member of Amatsu Therapy International (ATI). I have been treating clients for over two years while also maintaining a career as an IT Portfolio Manager. My enjoyment of practising Amatsu, and seeing the changes it can bring for people in pain, ultimately inspired me to formally launch Fingal Amatsu Alignment Clinic.
-                </p>
-                <p>
-                  My own history has strongly shaped how I practise and why I place such importance on physical alignment and long-term wellbeing. My aim is to help people who have been struggling with pain or dysfunction to regain comfort, confidence, and the ability to live life more fully.
-                </p>
-                <p>
-                  Outside the clinic, I'm married with three children, two boys and a girl, and share our home with two adopted German Shepherds. I'm a fair-weather golfer and a fan of Formula 1 and football — there's usually something to chat about during a session.
-                </p>
+            <div className="max-w-5xl mx-auto">
+              <div className="grid md:grid-cols-[280px_1fr] gap-8 items-start">
+                <div className="flex justify-center md:justify-start">
+                  <div className="w-56 h-56 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary/20 shadow-lg">
+                    <img
+                      src={practitionerHeadshot}
+                      alt="Amatsu practitioner"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <h2 className="text-3xl font-bold mb-6">Amatsu, the Clinic & Me</h2>
+                  <div className="space-y-4 text-muted-foreground">
+                    <p>
+                      I am a fully qualified Seitai-level Amatsu practitioner, trained through the Institute of Amatsu (IOA), and a registered member of Amatsu Therapy International (ATI). I have been treating clients for over two years while also maintaining a career as an IT Portfolio Manager. My enjoyment of practising Amatsu, and seeing the changes it can bring for people in pain, ultimately inspired me to formally launch Fingal Amatsu Alignment Clinic.
+                    </p>
+                    <p>
+                      My own history has strongly shaped how I practise and why I place such importance on physical alignment and long-term wellbeing. My aim is to help people who have been struggling with pain or dysfunction to regain comfort, confidence, and the ability to live life more fully.
+                    </p>
+                    <p>
+                      Outside the clinic, I'm married with three children, two boys and a girl, and share our home with two adopted German Shepherds. I'm a fair-weather golfer and a fan of Formula 1 and football — there's usually something to chat about during a session.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
