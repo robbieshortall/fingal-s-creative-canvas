@@ -1,7 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
-import aboutImage from "@/assets/about-clinic.jpg";
+
 import clinicInterior from "@/assets/clinic-interior.jpg";
 import practitionerHeadshot from "@/assets/practitioner-headshot.png";
 
@@ -33,27 +33,18 @@ const About = () => {
         {/* Story Section */}
         <section className="py-16">
           <div className="container mx-auto px-4">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="text-3xl font-bold mb-6">Our Story</h2>
-                <div className="space-y-4 text-muted-foreground">
-                  <p>
-                    Fingal Amatsu Alignment Clinic was founded with a simple yet purposeful aim: to offer Amatsu therapy to clients in Fingal, Dublin, and the surrounding areas, including nearby parts of Meath, in a calm, professional, and client-focused setting.
-                  </p>
-                  <p>
-                    Amatsu is a gentle, non-invasive Japanese bodywork therapy that works with the body's natural patterns of movement and alignment to support balance, comfort, and overall wellbeing. Rather than focusing solely on isolated symptoms, Amatsu takes a whole-body approach, recognising the body's innate ability to rebalance when given the right conditions.
-                  </p>
-                  <p>
-                    At Fingal Amatsu Alignment Clinic, each client is treated as an individual. Through careful assessment and personalised sessions, the focus is on addressing underlying imbalances and supporting long-term physical resilience.
-                  </p>
-                </div>
-              </div>
-              <div className="relative h-[400px] rounded-lg overflow-hidden">
-                <img
-                  src={aboutImage}
-                  alt="Clinic consultation"
-                  className="w-full h-full object-cover"
-                />
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl font-bold mb-6">Our Story</h2>
+              <div className="space-y-4 text-muted-foreground">
+                <p>
+                  Fingal Amatsu Alignment Clinic was founded with a simple yet purposeful aim: to offer Amatsu therapy to clients in Fingal, Dublin, and the surrounding areas, including nearby parts of Meath, in a calm, professional, and client-focused setting.
+                </p>
+                <p>
+                  Amatsu is a gentle, non-invasive Japanese bodywork therapy that works with the body's natural patterns of movement and alignment to support balance, comfort, and overall wellbeing. Rather than focusing solely on isolated symptoms, Amatsu takes a whole-body approach, recognising the body's innate ability to rebalance when given the right conditions.
+                </p>
+                <p>
+                  At Fingal Amatsu Alignment Clinic, each client is treated as an individual. Through careful assessment and personalised sessions, the focus is on addressing underlying imbalances and supporting long-term physical resilience.
+                </p>
               </div>
             </div>
           </div>
