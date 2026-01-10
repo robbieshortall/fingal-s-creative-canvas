@@ -32,6 +32,16 @@ const Footer = () => {
                 <Facebook className="h-5 w-5" />
               </a>
             </div>
+            <a
+              href="https://www.google.com/search?sca_esv=4a6faef836c9314f&sxsrf=ANbL-n4gJz44mwXXEPPUVmaImQmg2vGRdQ:1768075632083&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOd_OBosd-K-owygjTakzCHsIPYG-wfZcB_TgvIwzM5b3cCUQc-h6gc8zwVKXrtVQZjXnhZZvOyJ-Jz6mS8EM54hC3uj2CPWufPgAKE4RX0e7RgpVzQ%3D%3D&q=Fingal+Amatsu+Alignment+Clinic+Reviews&sa=X&ved=2ahUKEwjr5fH_4oGSAxW0UkEAHZzTJtkQ0bkNegQIIxAE&biw=1024&bih=468&dpr=1.88&aic=0"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 text-sm text-amber-500 hover:text-amber-600 transition-colors mt-4"
+              aria-label="Google Reviews"
+            >
+              <span className="tracking-tight">★★★★★</span>
+              <span className="text-foreground hover:text-primary">Google Reviews</span>
+            </a>
           </div>
 
           <div>
