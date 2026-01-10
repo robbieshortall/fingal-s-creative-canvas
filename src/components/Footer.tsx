@@ -40,7 +40,7 @@ const Footer = () => {
               aria-label="Google Reviews"
             >
               <span className="tracking-tight">★★★★★</span>
-              <span className="text-foreground hover:text-primary">Google Reviews</span>
+              <span className="text-muted-foreground hover:text-primary">Google Reviews</span>
             </a>
           </div>
 
