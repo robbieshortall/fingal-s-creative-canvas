@@ -5,7 +5,7 @@ import { Scale, UserRoundSearch, BadgeCheck, ArrowRight } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import heroImage from "@/assets/hero-therapy.jpg";
-import serviceImage from "@/assets/service-alignment.jpg";
+import aboutImage from "@/assets/about-clinic.jpg";
 import logo from "@/assets/homepage-logo.png";
 
 const Home = () => {
@@ -150,7 +150,7 @@ const Home = () => {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden">
               <img
-                src={serviceImage}
+                src={aboutImage}
                 alt="Amatsu alignment therapy treatment"
                 className="w-full h-full object-cover"
               />
