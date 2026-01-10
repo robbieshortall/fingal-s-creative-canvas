@@ -165,8 +165,14 @@ const Home = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Start Your Amatsu Journey?
           </h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
+          <p className="text-xl mb-4 max-w-2xl mx-auto opacity-90">
             Book your consultation today and learn how Amatsu therapy supports balance, alignment, and overall wellbeing.
+          </p>
+          <p className="text-lg mb-2 font-medium">
+            Session fee: €70 · 30–45 minutes
+          </p>
+          <p className="text-base mb-8 opacity-80">
+            Booking is simple, with no referral required.
           </p>
           <Button size="lg" variant="secondary" asChild>
             <a href="https://calendar.app.google/vvzdvmDFk5EYb5JK9" target="_blank" rel="noopener noreferrer">
