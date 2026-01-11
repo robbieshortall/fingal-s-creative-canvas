@@ -65,8 +65,15 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="font-semibold mb-1">Location</h3>
-                        <p className="text-muted-foreground">Blanchardstown Corporate Park 1</p>
-                        <p className="text-muted-foreground">Ballycoolen, Dublin, D15 Y0YW</p>
+                        <a 
+                          href="https://maps.app.goo.gl/LJ6ryDMHG8knn7N27" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-muted-foreground hover:text-primary transition-colors"
+                        >
+                          <p>Blanchardstown Corporate Park 1</p>
+                          <p>Ballycoolen, Dublin, D15 Y0YW</p>
+                        </a>
                         <p className="text-sm text-muted-foreground mt-2">Free parking available directly outside the clinic or at neighbouring buildings.</p>
                       </div>
                     </div>

@@ -83,7 +83,14 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                <span>Blanchardstown Corporate Park 1, Ballycoolen, Dublin, D15 Y0YW</span>
+                <a 
+                  href="https://maps.app.goo.gl/LJ6ryDMHG8knn7N27" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors"
+                >
+                  Blanchardstown Corporate Park 1, Ballycoolen, Dublin, D15 Y0YW
+                </a>
               </li>
             </ul>
           </div>
