@@ -68,7 +68,7 @@ const About = () => {
                   <h2 className="text-3xl font-bold mb-6">Amatsu, the Clinic & Me</h2>
                   <div className="space-y-4 text-muted-foreground">
                     <p>
-                      I am a fully qualified Seitai-level Amatsu practitioner, trained through the Institute of Amatsu (IOA), and a registered member of Amatsu Therapy International (ATI). I have been treating clients for over two years while also maintaining a career as an IT Portfolio Manager. My enjoyment of practising Amatsu, and seeing the changes it can bring for people in pain, ultimately inspired me to formally launch Fingal Amatsu Alignment Clinic.
+                      Robbie is a fully qualified Seitai-level Amatsu practitioner, trained through the Institute of Amatsu (IOA), and a registered member of Amatsu Therapy International (ATI). He has been treating clients for over two years while also maintaining a career as an IT Portfolio Manager. His enjoyment of practising Amatsu, and seeing the changes it can bring for people in pain, ultimately inspired him to formally launch Fingal Amatsu Alignment Clinic.
                     </p>
                     <p>
                       My own history has strongly shaped how I practise and why I place such importance on physical alignment and long-term wellbeing. My aim is to help people who have been struggling with pain or dysfunction to regain comfort, confidence, and the ability to live life more fully.
