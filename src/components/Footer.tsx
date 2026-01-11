@@ -75,11 +75,21 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Phone className="h-4 w-4" />
-                <span>+353 83 810 5250</span>
+                <a 
+                  href="tel:+353838105250" 
+                  className="hover:text-primary transition-colors"
+                >
+                  +353 83 810 5250
+                </a>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <span>info@fingalamatsu.ie</span>
+                <a 
+                  href="mailto:info@fingalamatsu.ie" 
+                  className="hover:text-primary transition-colors"
+                >
+                  info@fingalamatsu.ie
+                </a>
               </li>
               <li className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />

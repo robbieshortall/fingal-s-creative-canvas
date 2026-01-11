@@ -35,8 +35,14 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="font-semibold mb-1">Phone / Text / WhatsApp</h3>
-                        <p className="text-muted-foreground">+353 83 810 5250</p>
-                        <p className="text-sm text-muted-foreground mt-2">For inquiries or questions, please message or call us, and we'll get back to you as soon as possible.</p>
+                        <a 
+                          href="tel:+353838105250" 
+                          className="text-muted-foreground hover:text-primary transition-colors"
+                        >
+                          +353 83 810 5250
+                        </a>
+                        <p className="text-sm text-muted-foreground mt-2">For enquiries or questions, tap to call or text. WhatsApp messages are also welcome.</p>
+                        <p className="text-sm text-muted-foreground">We'll get back to you as soon as possible.</p>
                       </div>
                     </div>
                   </CardContent>
@@ -50,8 +56,14 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="font-semibold mb-1">Email</h3>
-                        <p className="text-muted-foreground">info@fingalamatsu.ie</p>
-                        <p className="text-sm text-muted-foreground mt-2">For inquiries, please email us, and we'll respond as soon as possible.</p>
+                        <a 
+                          href="mailto:info@fingalamatsu.ie" 
+                          className="text-muted-foreground hover:text-primary transition-colors"
+                        >
+                          info@fingalamatsu.ie
+                        </a>
+                        <p className="text-sm text-muted-foreground mt-2">For enquiries or questions, tap to email us.</p>
+                        <p className="text-sm text-muted-foreground">We'll respond as soon as possible.</p>
                       </div>
                     </div>
                   </CardContent>
