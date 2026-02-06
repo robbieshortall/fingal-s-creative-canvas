@@ -99,7 +99,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="hover:text-primary transition-colors"
                 >
-                  Blanchardstown Corporate Park 1, Ballycoolen, Dublin, D15 Y0YW
+                  232 Blanchardstown Corporate Park 2, Ballycoolen, Dublin, D15 Y0YW
                 </a>
               </li>
             </ul>
