@@ -83,7 +83,7 @@ const Contact = () => {
                           rel="noopener noreferrer"
                           className="text-muted-foreground hover:text-primary transition-colors"
                         >
-                          <p>Blanchardstown Corporate Park 1</p>
+                          <p>232 Blanchardstown Corporate Park 2</p>
                           <p>Ballycoolen, Dublin, D15 Y0YW</p>
                         </a>
                         <p className="text-sm text-muted-foreground mt-2">Free parking available directly outside the clinic or at neighbouring buildings.</p>
