@@ -11,6 +11,11 @@ import logo from "@/assets/homepage-logo.png";
 
 const Home = () => {
   return (
+    <>
+      <Helmet>
+        <title>Fingal Amatsu Alignment Clinic - Natural Therapy Dublin</title>
+        <meta name="description" content="Professional Amatsu therapy in Fingal, Dublin. Natural alignment and holistic healing for pain relief, stress, injuries, and wellness. Book your session today." />
+      </Helmet>
     <div className="min-h-screen flex flex-col">
       <Navigation />
 

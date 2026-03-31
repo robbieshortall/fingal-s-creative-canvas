@@ -6,6 +6,11 @@ import { Phone, Mail, MapPin, Clock, Instagram, Facebook } from "lucide-react";
 
 const Contact = () => {
   return (
+    <>
+      <Helmet>
+        <title>Contact Us - Fingal Amatsu Alignment Clinic</title>
+        <meta name="description" content="Get in touch with Fingal Amatsu Alignment Clinic. Call, email, or visit us at Blanchardstown Corporate Park, Dublin D15 Y0YW. Book your Amatsu therapy session." />
+      </Helmet>
     <div className="min-h-screen flex flex-col">
       <Navigation />
 

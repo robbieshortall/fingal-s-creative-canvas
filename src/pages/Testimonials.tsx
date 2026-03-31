@@ -64,6 +64,11 @@ const Testimonials = () => {
   ];
 
   return (
+    <>
+      <Helmet>
+        <title>Testimonials - Fingal Amatsu Alignment Clinic</title>
+        <meta name="description" content="Read real client testimonials and reviews for Fingal Amatsu Alignment Clinic. See how Amatsu therapy has helped with pain relief, posture, and overall wellness." />
+      </Helmet>
     <div className="min-h-screen flex flex-col">
       <Navigation />
 
