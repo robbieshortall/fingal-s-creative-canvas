@@ -236,6 +236,11 @@ const Services = () => {
   ];
 
   return (
+    <>
+      <Helmet>
+        <title>Services - Fingal Amatsu Alignment Clinic</title>
+        <meta name="description" content="Explore our Amatsu therapy services including pain relief, injury recovery, stress management, and postural alignment at Fingal Amatsu Alignment Clinic, Dublin." />
+      </Helmet>
     <div className="min-h-screen flex flex-col">
       <Navigation />
 
