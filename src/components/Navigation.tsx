@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import headerLogo from "@/assets/landscape-logo.jpg";
+import headerLogo from "@/assets/landscape-logo.png";
 
 const Navigation = () => {
   const location = useLocation();
