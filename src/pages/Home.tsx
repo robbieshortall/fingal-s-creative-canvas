@@ -30,7 +30,7 @@ const Home = () => {
           <img
             src={logo}
             alt="Fingal Amatsu Alignment Clinic"
-            className="w-[23rem] md:w-[26rem] h-auto"
+            className="w-[16rem] md:w-[18.2rem] h-auto"
           />
         </div>
 
