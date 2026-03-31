@@ -180,6 +180,7 @@ const About = () => {
 
       <Footer />
     </div>
+    </>
   );
 };
 

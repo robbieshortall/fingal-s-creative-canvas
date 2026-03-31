@@ -247,6 +247,7 @@ const FAQ = () => {
 
       <Footer />
     </div>
+    </>
   );
 };
 

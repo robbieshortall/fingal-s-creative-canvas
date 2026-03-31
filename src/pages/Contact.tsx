@@ -169,6 +169,7 @@ const Contact = () => {
 
       <Footer />
     </div>
+    </>
   );
 };
 
