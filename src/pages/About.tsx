@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
@@ -7,6 +8,11 @@ import practitionerHeadshot from "@/assets/practitioner-headshot.png";
 
 const About = () => {
   return (
+    <>
+      <Helmet>
+        <title>About Us - Fingal Amatsu Alignment Clinic</title>
+        <meta name="description" content="Learn about Robbie and Fingal Amatsu Alignment Clinic. Discover our approach to Amatsu therapy, natural alignment, and holistic healing in Dublin." />
+      </Helmet>
     <div className="min-h-screen flex flex-col">
       <Navigation />
 
@@ -174,6 +180,7 @@ const About = () => {
 
       <Footer />
     </div>
+    </>
   );
 };
 

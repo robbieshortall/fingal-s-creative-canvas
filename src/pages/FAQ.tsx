@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import {
@@ -206,6 +207,11 @@ const FAQ = () => {
   ];
 
   return (
+    <>
+      <Helmet>
+        <title>FAQ - Fingal Amatsu Alignment Clinic</title>
+        <meta name="description" content="Frequently asked questions about Amatsu therapy at Fingal Amatsu Alignment Clinic. Learn about treatments, booking, pricing, and what to expect." />
+      </Helmet>
     <div className="min-h-screen flex flex-col">
       <Navigation />
 
@@ -241,6 +247,7 @@ const FAQ = () => {
 
       <Footer />
     </div>
+    </>
   );
 };
 

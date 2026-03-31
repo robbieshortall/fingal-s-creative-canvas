@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Helmet } from "react-helmet-async";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
@@ -235,6 +236,11 @@ const Services = () => {
   ];
 
   return (
+    <>
+      <Helmet>
+        <title>Services - Fingal Amatsu Alignment Clinic</title>
+        <meta name="description" content="Explore our Amatsu therapy services including pain relief, injury recovery, stress management, and postural alignment at Fingal Amatsu Alignment Clinic, Dublin." />
+      </Helmet>
     <div className="min-h-screen flex flex-col">
       <Navigation />
 
@@ -426,6 +432,7 @@ const Services = () => {
 
       <Footer />
     </div>
+    </>
   );
 };
 
