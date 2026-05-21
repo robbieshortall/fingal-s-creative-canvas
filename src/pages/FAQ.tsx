@@ -49,17 +49,17 @@ const FAQ = () => {
       question: "Do you accept health insurance?",
       answer: (
         <div className="space-y-3">
-          <div className="flex items-start gap-3 flex-wrap">
-            <p className="flex-1 min-w-[200px]">
+          <div className="flex items-center gap-4 flex-wrap">
+            <p className="flex-1 min-w-[220px]">
               Yes, treatments are covered by Laya Healthcare under Physical Therapy when receipts are submitted. Please refer to your policy for your level of coverage.
             </p>
             <img
               src={layaLogo}
               alt="Laya Healthcare logo"
-              width={96}
-              height={96}
+              width={192}
+              height={192}
               loading="lazy"
-              className="h-12 w-auto shrink-0"
+              className="h-24 w-auto shrink-0"
             />
           </div>
           <p>Amatsu Therapy is not currently covered by other Health Insurance providers.</p>
