@@ -10,35 +10,35 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <img src={headerLogo} alt="Fingal Amatsu Alignment Clinic" className="h-12 mb-2" />
+            <img src={headerLogo} alt="Fingal Amatsu Alignment Clinic" className="h-12 mb-4" />
             <p className="text-sm text-muted-foreground mb-4">
               Professional alignment therapy for natural healing and wellness.
             </p>
-            <div className="flex gap-3">
+            <div className="flex gap-4 mb-4">
               <a
                 href="https://www.instagram.com/fingalamatsu?igsh=MTBza3FybmZkMTNzOQ=="
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-primary transition-colors"
+                className="text-primary transition-all duration-200 hover:opacity-80 hover:scale-110"
                 aria-label="Instagram"
               >
-                <Instagram className="h-5 w-5" />
+                <Instagram className="h-[22px] w-[22px]" />
               </a>
               <a
                 href="https://www.facebook.com/share/19hdTnFDkR/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-primary transition-colors"
+                className="text-primary transition-all duration-200 hover:opacity-80 hover:scale-110"
                 aria-label="Facebook"
               >
-                <Facebook className="h-5 w-5" />
+                <Facebook className="h-[22px] w-[22px]" />
               </a>
             </div>
             <a
               href="https://www.google.com/search?sca_esv=4a6faef836c9314f&sxsrf=ANbL-n4gJz44mwXXEPPUVmaImQmg2vGRdQ:1768075632083&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOd_OBosd-K-owygjTakzCHsIPYG-wfZcB_TgvIwzM5b3cCUQc-h6gc8zwVKXrtVQZjXnhZZvOyJ-Jz6mS8EM54hC3uj2CPWufPgAKE4RX0e7RgpVzQ%3D%3D&q=Fingal+Amatsu+Alignment+Clinic+Reviews&sa=X&ved=2ahUKEwjr5fH_4oGSAxW0UkEAHZzTJtkQ0bkNegQIIxAE&biw=1024&bih=468&dpr=1.88&aic=0"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 text-sm text-amber-500 hover:text-amber-600 transition-colors mt-4"
+              className="inline-flex items-center gap-1 text-sm text-amber-500 hover:text-amber-600 transition-colors"
               aria-label="Google Reviews"
             >
               <span className="tracking-tight">★★★★★</span>
@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Quick Links</h4>
+            <h4 className="text-base font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link to="/" className="text-muted-foreground hover:text-primary transition-colors">
@@ -73,10 +73,10 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Contact Info</h4>
+            <h4 className="text-base font-semibold mb-4">Contact Info</h4>
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2 text-muted-foreground">
-                <Phone className="h-4 w-4" />
+                <Phone className="h-4 w-4 text-primary" />
                 <a 
                   href="tel:+353838105250" 
                   className="hover:text-primary transition-colors"
@@ -85,7 +85,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
-                <Mail className="h-4 w-4" />
+                <Mail className="h-4 w-4 text-primary" />
                 <a 
                   href="mailto:info@fingalamatsu.ie" 
                   className="hover:text-primary transition-colors"
@@ -94,7 +94,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="flex items-start gap-2 text-muted-foreground">
-                <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
+                <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0 text-primary" />
                 <a 
                   href="https://maps.app.goo.gl/LJ6ryDMHG8knn7N27" 
                   target="_blank" 
@@ -108,7 +108,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Opening Hours</h4>
+            <h4 className="text-base font-semibold mb-4">Opening Hours</h4>
             <ul className="space-y-1 text-sm text-muted-foreground">
               <li>Monday: 17:00 - 22:00</li>
               <li>Tuesday: Closed</li>
