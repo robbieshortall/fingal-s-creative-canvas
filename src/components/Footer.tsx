@@ -124,16 +124,16 @@ const Footer = () => {
             <h4 className="text-xs font-semibold tracking-widest uppercase text-muted-foreground mb-4">
               Accreditation & Insurance Reimbursement
             </h4>
-            <div className="flex flex-row items-center justify-center gap-6 sm:gap-10 mb-4">
+            <div className="flex flex-row items-center justify-center gap-10 sm:gap-16 mb-4">
               <img
                 src={anmtLogo}
                 alt="ANMT - Association of Natural Medicine Therapists"
-                className="h-10 sm:h-12 w-auto object-contain"
+                className="h-10 w-auto object-contain"
               />
               <img
                 src={layaLogo}
                 alt="Laya Healthcare"
-                className="h-10 sm:h-12 w-auto object-contain"
+                className="h-10 w-auto object-contain"
               />
             </div>
             <p className="text-xs text-muted-foreground max-w-xl mx-auto">
