@@ -12,6 +12,11 @@ const About = () => {
       <Helmet>
         <title>About Us - Fingal Amatsu Alignment Clinic</title>
         <meta name="description" content="Learn about Robbie and Fingal Amatsu Alignment Clinic. Discover our approach to Amatsu therapy, natural alignment, and holistic healing in Dublin." />
+        <meta property="og:title" content="About Us - Fingal Amatsu Alignment Clinic" />
+        <meta property="og:description" content="Learn about Robbie and Fingal Amatsu Alignment Clinic. Our approach to Amatsu therapy and holistic healing in Dublin." />
+        <meta property="og:url" content="/about" />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="/about" />
       </Helmet>
     <div className="min-h-screen flex flex-col">
       <Navigation />
