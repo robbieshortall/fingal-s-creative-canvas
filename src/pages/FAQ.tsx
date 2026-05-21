@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import layaLogo from "@/assets/laya-healthcare-logo.png";
 import {
   Accordion,
   AccordionContent,
@@ -47,9 +48,22 @@ const FAQ = () => {
     {
       question: "Do you accept health insurance?",
       answer: (
-        <p>
-          No, Amatsu therapy is not currently covered by health insurance providers.
-        </p>
+        <div className="space-y-3">
+          <div className="flex items-start gap-3 flex-wrap">
+            <p className="flex-1 min-w-[200px]">
+              Yes, treatments are covered by Laya Healthcare under Physical Therapy when receipts are submitted. Please refer to your policy for your level of coverage.
+            </p>
+            <img
+              src={layaLogo}
+              alt="Laya Healthcare logo"
+              width={96}
+              height={96}
+              loading="lazy"
+              className="h-12 w-auto shrink-0"
+            />
+          </div>
+          <p>Amatsu Therapy is not currently covered by other Health Insurance providers.</p>
+        </div>
       ),
     },
     // Session Information
@@ -222,7 +236,7 @@ const FAQ = () => {
           "mainEntity": [
             { "@type": "Question", "name": "How do I book an appointment?", "acceptedAnswer": { "@type": "Answer", "text": "You can book online, or contact us by phone, email, or contact form. We confirm appointments within 24 hours." } },
             { "@type": "Question", "name": "What are the fees and payment methods?", "acceptedAnswer": { "@type": "Answer", "text": "Treatment fee is €70 per session. Payment can be made by cash or Revolut transfer. Credit cards are not accepted." } },
-            { "@type": "Question", "name": "Do you accept health insurance?", "acceptedAnswer": { "@type": "Answer", "text": "No, Amatsu therapy is not currently covered by health insurance providers." } },
+            { "@type": "Question", "name": "Do you accept health insurance?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, treatments are covered by Laya Healthcare under Physical Therapy when receipts are submitted. Please refer to your policy for your level of coverage. Amatsu Therapy is not currently covered by other Health Insurance providers." } },
             { "@type": "Question", "name": "What should I wear to an Amatsu session?", "acceptedAnswer": { "@type": "Answer", "text": "Wear comfortable clothing that allows ease of movement. You remain fully clothed throughout, removing only shoes, belts, and smart wearables." } },
             { "@type": "Question", "name": "How long is each Amatsu session?", "acceptedAnswer": { "@type": "Answer", "text": "Sessions typically last 30–45 minutes. Arrive 10 minutes early to your first appointment to complete a brief medical history form." } },
             { "@type": "Question", "name": "Is Amatsu therapy painful?", "acceptedAnswer": { "@type": "Answer", "text": "Amatsu is a gentle, light-touch therapy that most clients find comfortable and deeply relaxing. Treatment is not intended to be painful." } },
