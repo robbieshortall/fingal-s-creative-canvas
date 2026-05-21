@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="border-t bg-muted/30">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <img src={headerLogo} alt="Fingal Amatsu Alignment Clinic" className="h-12 mb-2" />
             <p className="text-sm text-muted-foreground mb-4">
@@ -117,46 +117,41 @@ const Footer = () => {
               <li>Friday - Sunday: Closed</li>
             </ul>
           </div>
-
-          <div>
-            <h4 className="font-semibold mb-4">Accreditations</h4>
-            <div className="flex flex-col gap-4 items-start">
-              <a
-                href="https://anmt.ie/association-members/robbie-shortall/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="ANMT - Association of Naturopathic and Manual Therapists Ireland"
-                className="inline-block"
-              >
-                <img
-                  src={anmtLogo}
-                  alt="ANMT Ireland logo"
-                  loading="lazy"
-                  className="h-12 w-auto"
-                />
-              </a>
-              <a
-                href="https://www.layahealthcare.ie/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Laya Healthcare"
-                className="inline-block"
-              >
-                <img
-                  src={layaLogo}
-                  alt="Laya Healthcare logo"
-                  loading="lazy"
-                  className="h-12 w-auto"
-                />
-              </a>
-            </div>
-            <p className="text-xs text-muted-foreground mt-3">
-              Covered by Laya Healthcare under Physical Therapy.
-            </p>
-          </div>
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
+          <div className="flex items-center justify-center gap-8 mb-6">
+            <a
+              href="https://www.layahealthcare.ie/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Laya Healthcare"
+            >
+              <img
+                src={layaLogo}
+                alt="Laya Healthcare logo"
+                width={192}
+                height={192}
+                loading="lazy"
+                className="h-14 w-auto"
+              />
+            </a>
+            <a
+              href="https://anmt.ie/association-members/robbie-shortall/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="ANMT - Association of Naturopathic and Manual Therapists Ireland"
+            >
+              <img
+                src={anmtLogo}
+                alt="ANMT Ireland logo"
+                width={192}
+                height={192}
+                loading="lazy"
+                className="h-16 w-auto"
+              />
+            </a>
+          </div>
           <p>&copy; {new Date().getFullYear()} Fingal Amatsu Alignment Clinic. All rights reserved.</p>
         </div>
       </div>
