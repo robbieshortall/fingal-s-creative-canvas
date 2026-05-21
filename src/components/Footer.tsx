@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Instagram, Facebook } from "lucide-react";
 import headerLogo from "@/assets/landscape-logo.png";
+import anmtLogo from "@/assets/anmt-logo.png";
+import layaLogo from "@/assets/laya-healthcare-logo.png";
 
 const Footer = () => {
   return (
     <footer className="border-t bg-muted/30">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
           <div>
             <img src={headerLogo} alt="Fingal Amatsu Alignment Clinic" className="h-12 mb-2" />
             <p className="text-sm text-muted-foreground mb-4">
@@ -68,6 +70,25 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
+          </div>
+
+          <div className="flex flex-col items-center justify-center gap-4">
+            <a
+              href="https://anmt.ie/association-members/robbie-shortall/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="ANMT - Association of Natural Medicine Therapists"
+            >
+              <img src={anmtLogo} alt="ANMT" className="h-12 w-auto" />
+            </a>
+            <a
+              href="https://www.layahealthcare.ie/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Laya Healthcare"
+            >
+              <img src={layaLogo} alt="Laya Healthcare" className="h-12 w-auto" />
+            </a>
           </div>
 
           <div>
