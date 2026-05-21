@@ -15,6 +15,31 @@ const Home = () => {
       <Helmet>
         <title>Fingal Amatsu Alignment Clinic - Natural Therapy Dublin</title>
         <meta name="description" content="Professional Amatsu therapy in Fingal, Dublin. Natural alignment and holistic healing for pain relief, stress, injuries, and wellness. Book your session today." />
+        <meta property="og:title" content="Fingal Amatsu Alignment Clinic - Natural Therapy Dublin" />
+        <meta property="og:description" content="Professional Amatsu therapy in Fingal, Dublin. Natural alignment and holistic healing for pain relief, stress, injuries, and wellness." />
+        <meta property="og:url" content="/" />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="/" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Fingal Amatsu Alignment Clinic",
+          "description": "Professional Amatsu therapy clinic in Fingal, Dublin offering natural alignment and holistic healing.",
+          "telephone": "+353838105250",
+          "email": "info@fingalamatsu.ie",
+          "url": "/",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "232 Blanchardstown Corporate Park 2",
+            "addressLocality": "Ballycoolen, Dublin",
+            "postalCode": "D15 Y0YW",
+            "addressCountry": "IE"
+          },
+          "openingHoursSpecification": [
+            { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Wednesday","Thursday"], "opens": "17:00", "closes": "22:00" }
+          ],
+          "priceRange": "€70"
+        })}</script>
       </Helmet>
     <div className="min-h-screen flex flex-col">
       <Navigation />
@@ -58,7 +83,7 @@ const Home = () => {
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <Link to="/about">Learn More</Link>
+                <Link to="/about">About Our Clinic</Link>
               </Button>
             </div>
           </div>
