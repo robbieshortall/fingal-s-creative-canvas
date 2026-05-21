@@ -14,24 +14,24 @@ const Footer = () => {
             <p className="text-sm text-muted-foreground mb-4">
               Professional alignment therapy for natural healing and wellness.
             </p>
-            <div className="flex gap-4 mb-4">
+            <div className="flex gap-3 mb-4">
               <a
                 href="https://www.instagram.com/fingalamatsu?igsh=MTBza3FybmZkMTNzOQ=="
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-primary transition-all duration-200 hover:opacity-80 hover:scale-110"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-primary text-primary-foreground transition-all duration-200 hover:bg-primary/85"
                 aria-label="Instagram"
               >
-                <Instagram className="h-[22px] w-[22px]" />
+                <Instagram className="h-[18px] w-[18px]" />
               </a>
               <a
                 href="https://www.facebook.com/share/19hdTnFDkR/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-primary transition-all duration-200 hover:opacity-80 hover:scale-110"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-primary text-primary-foreground transition-all duration-200 hover:bg-primary/85"
                 aria-label="Facebook"
               >
-                <Facebook className="h-[22px] w-[22px]" />
+                <Facebook className="h-[18px] w-[18px]" fill="currentColor" strokeWidth={0} />
               </a>
             </div>
             <a
