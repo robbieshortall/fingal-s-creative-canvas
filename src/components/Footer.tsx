@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Instagram, Facebook } from "lucide-react";
 import headerLogo from "@/assets/landscape-logo.png";
+import anmtLogo from "@/assets/anmt-logo.png";
+import layaLogo from "@/assets/laya-healthcare-logo.png";
 
 const Footer = () => {
   return (
@@ -117,7 +119,30 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
+        <div className="border-t mt-12 pt-8">
+          <div className="text-center">
+            <h4 className="text-xs font-semibold tracking-widest uppercase text-muted-foreground mb-4">
+              Accreditation & Insurance Reimbursement
+            </h4>
+            <div className="flex flex-row items-center justify-center gap-6 sm:gap-10 mb-4">
+              <img
+                src={anmtLogo}
+                alt="ANMT - Association of Natural Medicine Therapists"
+                className="h-10 sm:h-12 w-auto object-contain"
+              />
+              <img
+                src={layaLogo}
+                alt="Laya Healthcare"
+                className="h-10 sm:h-12 w-auto object-contain"
+              />
+            </div>
+            <p className="text-xs text-muted-foreground max-w-xl mx-auto">
+              Receipts provided for health insurance claims. Please check your individual policy for cover details.
+            </p>
+          </div>
+        </div>
+
+        <div className="border-t mt-8 pt-6 text-center text-sm text-muted-foreground">
           <p>&copy; {new Date().getFullYear()} Fingal Amatsu Alignment Clinic. All rights reserved.</p>
         </div>
       </div>
