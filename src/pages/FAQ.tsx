@@ -211,6 +211,24 @@ const FAQ = () => {
       <Helmet>
         <title>FAQ - Fingal Amatsu Alignment Clinic</title>
         <meta name="description" content="Frequently asked questions about Amatsu therapy at Fingal Amatsu Alignment Clinic. Learn about treatments, booking, pricing, and what to expect." />
+        <meta property="og:title" content="FAQ - Fingal Amatsu Alignment Clinic" />
+        <meta property="og:description" content="FAQs about Amatsu therapy: booking, pricing, sessions, pregnancy, safety, and what to expect." />
+        <meta property="og:url" content="/faq" />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="/faq" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            { "@type": "Question", "name": "How do I book an appointment?", "acceptedAnswer": { "@type": "Answer", "text": "You can book online, or contact us by phone, email, or contact form. We confirm appointments within 24 hours." } },
+            { "@type": "Question", "name": "What are the fees and payment methods?", "acceptedAnswer": { "@type": "Answer", "text": "Treatment fee is €70 per session. Payment can be made by cash or Revolut transfer. Credit cards are not accepted." } },
+            { "@type": "Question", "name": "Do you accept health insurance?", "acceptedAnswer": { "@type": "Answer", "text": "No, Amatsu therapy is not currently covered by health insurance providers." } },
+            { "@type": "Question", "name": "What should I wear to an Amatsu session?", "acceptedAnswer": { "@type": "Answer", "text": "Wear comfortable clothing that allows ease of movement. You remain fully clothed throughout, removing only shoes, belts, and smart wearables." } },
+            { "@type": "Question", "name": "How long is each Amatsu session?", "acceptedAnswer": { "@type": "Answer", "text": "Sessions typically last 30–45 minutes. Arrive 10 minutes early to your first appointment to complete a brief medical history form." } },
+            { "@type": "Question", "name": "Is Amatsu therapy painful?", "acceptedAnswer": { "@type": "Answer", "text": "Amatsu is a gentle, light-touch therapy that most clients find comfortable and deeply relaxing. Treatment is not intended to be painful." } },
+            { "@type": "Question", "name": "Is there parking at the clinic?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, free parking is available directly outside the clinic or at neighbouring buildings." } }
+          ]
+        })}</script>
       </Helmet>
     <div className="min-h-screen flex flex-col">
       <Navigation />
@@ -224,6 +242,7 @@ const FAQ = () => {
               <p className="text-xl text-muted-foreground mb-10">
                 Find answers to commonly asked questions about our services and appointments.
               </p>
+              <h2 className="text-2xl font-semibold text-left mb-6">Common Questions</h2>
               <Accordion type="single" collapsible className="w-full space-y-4 text-left">
                 {faqs.map((faq, index) => (
                   <AccordionItem
