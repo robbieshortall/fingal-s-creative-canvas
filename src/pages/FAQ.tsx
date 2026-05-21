@@ -56,10 +56,10 @@ const FAQ = () => {
             <img
               src={layaLogo}
               alt="Laya Healthcare logo"
-              width={96}
-              height={96}
+              width={256}
+              height={256}
               loading="lazy"
-              className="h-12 w-auto shrink-0"
+              className="h-24 md:h-28 w-auto shrink-0"
             />
           </div>
           <p>Amatsu Therapy is not currently covered by other Health Insurance providers.</p>
