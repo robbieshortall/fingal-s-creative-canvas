@@ -125,16 +125,32 @@ const Footer = () => {
               Accreditation & Insurance Reimbursement
             </h4>
             <div className="flex flex-row items-center justify-center gap-10 sm:gap-16 mb-4">
-              <img
-                src={anmtLogo}
-                alt="ANMT - Association of Natural Medicine Therapists"
-                className="h-10 w-auto object-contain"
-              />
-              <img
-                src={layaLogo}
-                alt="Laya Healthcare"
-                className="h-10 w-auto object-contain"
-              />
+              <a
+                href="https://anmt.ie/association-members/robbie-shortall/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="ANMT member profile"
+                className="inline-block transition-opacity hover:opacity-80"
+              >
+                <img
+                  src={anmtLogo}
+                  alt="ANMT - Association of Natural Medicine Therapists"
+                  className="h-10 w-auto object-contain"
+                />
+              </a>
+              <a
+                href="https://www.layahealthcare.ie/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Laya Healthcare"
+                className="inline-block transition-opacity hover:opacity-80"
+              >
+                <img
+                  src={layaLogo}
+                  alt="Laya Healthcare"
+                  className="h-10 w-auto object-contain"
+                />
+              </a>
             </div>
             <p className="text-xs text-muted-foreground max-w-xl mx-auto">
               Receipts provided for health insurance claims. Please check your individual policy for cover details.
