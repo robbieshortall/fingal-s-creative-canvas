@@ -1,0 +1,12 @@
+# Fingal Amatsu Alignment Clinic
+
+> Professional Amatsu therapy in Fingal, Dublin. A gentle, non-invasive Japanese bodywork therapy that supports postural alignment, natural healing, pain relief, and overall wellbeing.
+
+## Pages
+
+- [Home](/): Overview of the clinic, Amatsu therapy benefits, and booking information.
+- [About](/about): About Robbie, the practitioner, the clinic, and our holistic approach to healing.
+- [Services](/services): Conditions Amatsu may support — foot & ankle, knee, hip, back, shoulder, neck, and more.
+- [Testimonials](/testimonials): Client reviews and outcomes from Amatsu therapy sessions.
+- [FAQ](/faq): Common questions about bookings, fees, sessions, pregnancy, and safety.
+- [Contact](/contact): Phone, email, opening hours, and clinic location in Blanchardstown, Dublin D15.
