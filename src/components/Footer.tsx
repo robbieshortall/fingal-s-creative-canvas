@@ -159,7 +159,13 @@ const Footer = () => {
         </div>
 
         <div className="border-t mt-8 pt-6 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Fingal Amatsu Alignment Clinic. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Fingal Amatsu Alignment Clinic. All rights reserved.
+            {" | "}
+            <Link to="/privacy-policy" className="hover:text-primary transition-colors">
+              Privacy & Cookie Policy
+            </Link>
+          </p>
         </div>
       </div>
     </footer>
