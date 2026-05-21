@@ -240,6 +240,30 @@ const Services = () => {
       <Helmet>
         <title>Services - Fingal Amatsu Alignment Clinic</title>
         <meta name="description" content="Explore our Amatsu therapy services including pain relief, injury recovery, stress management, and postural alignment at Fingal Amatsu Alignment Clinic, Dublin." />
+        <meta property="og:title" content="Services - Fingal Amatsu Alignment Clinic" />
+        <meta property="og:description" content="Amatsu therapy services: pain relief, injury recovery, stress management, postural alignment at Fingal Amatsu Alignment Clinic, Dublin." />
+        <meta property="og:url" content="/services" />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="/services" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "serviceType": "Amatsu Alignment Therapy",
+          "provider": {
+            "@type": "LocalBusiness",
+            "name": "Fingal Amatsu Alignment Clinic",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "232 Blanchardstown Corporate Park 2",
+              "addressLocality": "Ballycoolen, Dublin",
+              "postalCode": "D15 Y0YW",
+              "addressCountry": "IE"
+            }
+          },
+          "areaServed": "Dublin, Ireland",
+          "description": "Gentle, non-invasive Japanese bodywork therapy supporting postural alignment, mobility, and natural healing.",
+          "offers": { "@type": "Offer", "price": "70", "priceCurrency": "EUR" }
+        })}</script>
       </Helmet>
     <div className="min-h-screen flex flex-col">
       <Navigation />
