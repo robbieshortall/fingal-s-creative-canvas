@@ -68,6 +68,11 @@ const Testimonials = () => {
       <Helmet>
         <title>Testimonials - Fingal Amatsu Alignment Clinic</title>
         <meta name="description" content="Read real client testimonials and reviews for Fingal Amatsu Alignment Clinic. See how Amatsu therapy has helped with pain relief, posture, and overall wellness." />
+        <meta property="og:title" content="Testimonials - Fingal Amatsu Alignment Clinic" />
+        <meta property="og:description" content="Real client testimonials for Fingal Amatsu Alignment Clinic — pain relief, posture, and wellness outcomes." />
+        <meta property="og:url" content="/testimonials" />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="/testimonials" />
       </Helmet>
     <div className="min-h-screen flex flex-col">
       <Navigation />
@@ -97,6 +102,7 @@ const Testimonials = () => {
         {/* Testimonials Grid */}
         <section className="py-16">
           <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-center mb-10">What Our Clients Say</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {testimonials.map((testimonial, index) => (
                 <Card key={index} className="border-2 hover:border-primary/50 transition-colors">

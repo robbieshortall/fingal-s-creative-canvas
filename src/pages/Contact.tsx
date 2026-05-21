@@ -10,6 +10,30 @@ const Contact = () => {
       <Helmet>
         <title>Contact Us - Fingal Amatsu Alignment Clinic</title>
         <meta name="description" content="Get in touch with Fingal Amatsu Alignment Clinic. Call, email, or visit us at Blanchardstown Corporate Park, Dublin D15 Y0YW. Book your Amatsu therapy session." />
+        <meta property="og:title" content="Contact Us - Fingal Amatsu Alignment Clinic" />
+        <meta property="og:description" content="Contact Fingal Amatsu Alignment Clinic in Blanchardstown, Dublin D15 Y0YW. Phone, email, opening hours and directions." />
+        <meta property="og:url" content="/contact" />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="/contact" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Fingal Amatsu Alignment Clinic",
+          "telephone": "+353838105250",
+          "email": "info@fingalamatsu.ie",
+          "url": "/contact",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "232 Blanchardstown Corporate Park 2",
+            "addressLocality": "Ballycoolen, Dublin",
+            "postalCode": "D15 Y0YW",
+            "addressCountry": "IE"
+          },
+          "openingHoursSpecification": [
+            { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Wednesday","Thursday"], "opens": "17:00", "closes": "22:00" }
+          ],
+          "priceRange": "€70"
+        })}</script>
       </Helmet>
     <div className="min-h-screen flex flex-col">
       <Navigation />
@@ -31,7 +55,7 @@ const Contact = () => {
         <section className="py-8">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              
+              <h2 className="text-2xl font-semibold text-center mb-8">Contact Details</h2>
               <div className="grid md:grid-cols-2 gap-6 mb-12">
                 <Card>
                   <CardContent className="p-6">
