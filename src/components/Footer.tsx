@@ -22,7 +22,7 @@ const Footer = () => {
                 className="flex h-9 w-9 items-center justify-center rounded-full bg-primary text-primary-foreground transition-all duration-200 hover:bg-primary/85"
                 aria-label="Instagram"
               >
-                <Instagram className="h-[18px] w-[18px]" fill="currentColor" strokeWidth={0} />
+                <Instagram className="h-[18px] w-[18px]" />
               </a>
               <a
                 href="https://www.facebook.com/share/19hdTnFDkR/"
