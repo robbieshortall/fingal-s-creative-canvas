@@ -5,9 +5,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Scale, UserRoundSearch, BadgeCheck, ArrowRight } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import heroImage from "@/assets/hero-therapy.jpg";
+import heroImage from "@/assets/hero-clinic-room.jpg";
 import aboutImage from "@/assets/about-clinic.jpg";
-import logo from "@/assets/homepage-logo.png";
 
 const Home = () => {
   return (
@@ -49,41 +48,30 @@ const Home = () => {
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
-            alt="Serene therapy room"
-            className="w-full h-full object-cover brightness-[0.92]"
+            alt="Fingal Amatsu Alignment Clinic treatment room"
+            className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-black/20" />
-          <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40" />
-        </div>
-
-        {/* Centered Logo at Top */}
-        <div className="relative z-10 flex justify-center pt-3">
-          <img
-            src={logo}
-            alt="Fingal Amatsu Alignment Clinic"
-            className="w-[16rem] md:w-[18.2rem] h-auto"
-          />
+          <div className="absolute inset-0 bg-black/55" />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
         </div>
 
         {/* Hero Content */}
-        <div className="container mx-auto px-4 relative z-10 flex-1 flex items-center mt-8 md:mt-0">
+        <div className="container mx-auto px-4 relative z-10 flex-1 flex items-center py-20">
           <div className="max-w-2xl">
-            <h1 className="text-[2.565rem] md:text-[3.21rem] font-bold mb-6 leading-tight">
-              <span style={{ color: '#1F2A24' }}>Postural Alignment,</span>
-              <br />
-              <span className="text-primary">Natural Healing</span>
+            <h1 className="text-[2.4rem] md:text-[3.4rem] font-bold mb-6 leading-[1.05] tracking-tight text-background">
+              STOP CHASING SYMPTOMS. FIX THE POSTURAL FRAMEWORK.
             </h1>
-            <p className="text-xl mb-8 text-foreground/80">
-              Experience the transformative power of Amatsu therapy at Fingal Amatsu Alignment Clinic.
+            <p className="text-lg md:text-xl mb-8 text-background/90 leading-relaxed">
+              Specialised structural alignment in Dublin 15 for anyone trapped in a loop of chronic stiffness, recurring spasms, alignment issues, and failed short-term relief.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild>
                 <a href="https://calendar.app.google/vvzdvmDFk5EYb5JK9" target="_blank" rel="noopener noreferrer">
-                  Book Your Appointment <ArrowRight className="ml-2 h-5 w-5" />
+                  Book Structural Assessment <ArrowRight className="ml-2 h-5 w-5" />
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <Link to="/about">About Our Clinic</Link>
+                <Link to="/the-method">Explore The Method</Link>
               </Button>
             </div>
           </div>
