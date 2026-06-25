@@ -56,10 +56,10 @@ const Home = () => {
 
         {/* Hero Content */}
         <div className="container mx-auto px-4 relative z-10 flex-1 flex items-center justify-center py-20">
-          <div className="max-w-2xl text-center">
-            <h1 className="text-[2.4rem] md:text-[3.2rem] font-bold mb-6 leading-[1.05] tracking-tight text-background">
+          <div className="w-full max-w-5xl text-center">
+            <h1 className="text-[2.15rem] sm:text-[2.6rem] md:text-[2.85rem] lg:text-[3.2rem] font-bold mb-6 leading-[1.05] tracking-tight text-background">
               <span className="block">STOP CHASING SYMPTOMS.</span>
-              <span className="block">FIX THE POSTURAL FRAMEWORK.</span>
+              <span className="block md:whitespace-nowrap">FIX THE POSTURAL FRAMEWORK.</span>
             </h1>
             <p className="text-lg md:text-xl mb-8 text-background/90 leading-relaxed">
               Specialised structural alignment in Dublin 15 for anyone trapped in a loop of chronic stiffness, recurring spasms, alignment issues, and failed short-term relief.
