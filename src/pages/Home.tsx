@@ -64,7 +64,7 @@ const Home = () => {
             <p className="text-lg md:text-xl mb-8 text-background/90 leading-relaxed">
               Specialised structural alignment in Dublin 15 for anyone trapped in a loop of chronic stiffness, recurring spasms, alignment issues, and failed short-term relief.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>
                 <a href="https://calendar.app.google/vvzdvmDFk5EYb5JK9" target="_blank" rel="noopener noreferrer">
                   Book Structural Assessment <ArrowRight className="ml-2 h-5 w-5" />
