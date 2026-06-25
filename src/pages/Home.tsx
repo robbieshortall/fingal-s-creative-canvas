@@ -51,8 +51,7 @@ const Home = () => {
             alt="Fingal Amatsu Alignment Clinic treatment room"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-black/55" />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
+          <div className="absolute inset-0 bg-black/40" />
         </div>
 
         {/* Hero Content */}
