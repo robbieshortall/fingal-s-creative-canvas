@@ -57,7 +57,7 @@ const Home = () => {
         {/* Hero Content */}
         <div className="container mx-auto px-4 relative z-10 flex-1 flex items-center justify-center py-20">
           <div className="max-w-2xl text-center">
-            <h1 className="text-[2.4rem] md:text-[3.4rem] font-bold mb-6 leading-[1.05] tracking-tight text-background">
+            <h1 className="text-[2.4rem] md:text-[3.2rem] font-bold mb-6 leading-[1.05] tracking-tight text-background">
               <span className="block">STOP CHASING SYMPTOMS.</span>
               <span className="block">FIX THE POSTURAL FRAMEWORK.</span>
             </h1>
