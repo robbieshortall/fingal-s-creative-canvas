@@ -51,20 +51,20 @@ const Home = () => {
             alt="Fingal Amatsu Alignment Clinic treatment room"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-black/55" />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
+          <div className="absolute inset-0 bg-black/40" />
         </div>
 
         {/* Hero Content */}
-        <div className="container mx-auto px-4 relative z-10 flex-1 flex items-center py-20">
-          <div className="max-w-2xl">
+        <div className="container mx-auto px-4 relative z-10 flex-1 flex items-center justify-center py-20">
+          <div className="max-w-3xl text-center">
             <h1 className="text-[2.4rem] md:text-[3.4rem] font-bold mb-6 leading-[1.05] tracking-tight text-background">
-              STOP CHASING SYMPTOMS. FIX THE POSTURAL FRAMEWORK.
+              <span className="block">STOP CHASING SYMPTOMS.</span>
+              <span className="block">FIX THE POSTURAL FRAMEWORK.</span>
             </h1>
             <p className="text-lg md:text-xl mb-8 text-background/90 leading-relaxed">
               Specialised structural alignment in Dublin 15 for anyone trapped in a loop of chronic stiffness, recurring spasms, alignment issues, and failed short-term relief.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>
                 <a href="https://calendar.app.google/vvzdvmDFk5EYb5JK9" target="_blank" rel="noopener noreferrer">
                   Book Structural Assessment <ArrowRight className="ml-2 h-5 w-5" />
