@@ -134,12 +134,12 @@ const Home = () => {
       </section>
 
       {/* Services Overview */}
-      <section className="py-20 bg-secondary">
+      <section className="py-20 bg-sage-mist">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-1">
-                WHAT WE REALIGN
+                WHAT WE ADDRESS
                 <span className="block text-lg md:text-xl font-medium tracking-[0.15em] uppercase text-muted-foreground mt-1 whitespace-nowrap">
                   CLINICAL PRESENTATIONS
                 </span>
@@ -175,7 +175,7 @@ const Home = () => {
               <img
                 src={clinicTableAsset.url}
                 alt="Fingal Amatsu clinic treatment table with fresh towels"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
               />
             </div>
           </div>

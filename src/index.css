@@ -124,4 +124,8 @@ All colors MUST be HSL.
   .bg-roadmap-blend {
     background-color: hsl(44 63% 93%);
   }
+
+  .bg-sage-mist {
+    background-color: #f2f5f3;
+  }
 }
