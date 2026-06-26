@@ -6,7 +6,8 @@ import { Search, Shield, Scale, ArrowRight } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import heroImage from "@/assets/hero-clinic-room.jpg";
-import aboutImage from "@/assets/about-clinic.jpg";
+import clinicTableAsset from "@/assets/clinic-treatment-table.png.asset.json";
+import recoveryRoadmapAsset from "@/assets/recovery-roadmap.png.asset.json";
 
 const Home = () => {
   return (
@@ -138,27 +139,27 @@ const Home = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Conditions Amatsu May Support
+                WHAT WE REALIGN: CLINICAL PRESENTATIONS.
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Amatsu therapy may help support the body across a wide range of physical concerns and imbalances and is suitable for people of all ages.
+                Amatsu addresses a wide spectrum of physical restrictions, structural imbalances, and chronic compensation patterns. We regularly work with individuals suffering from:
               </p>
               <ul className="space-y-4 mb-8">
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-primary mt-2" />
-                  <span>Back, neck, and spinal-related discomfort</span>
+                  <span><strong>Spinal &amp; Postural Stress:</strong> Lower back spasms, persistent neck tension, and shoulder compression from prolonged sitting or heavy lifting.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-primary mt-2" />
-                  <span>Joint, muscle, and postural imbalances</span>
+                  <span><strong>Biomechanical Imbalances:</strong> Pelvic rotations, hip restrictions, and functional leg-length discrepancies affecting alignment.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-primary mt-2" />
-                  <span>Sports-related injuries and mobility issues</span>
+                  <span><strong>Repetitive Strain &amp; Injuries:</strong> Screen-fatigue headaches, joint mobility restrictions, and old injuries that never fully resolved.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-primary mt-2" />
-                  <span>Stress-related tension and whole-body alignment</span>
+                  <span><strong>Nervous System Fatigue:</strong> Chronic full-body stiffness, muscular bracing, and stress-induced physical guarding.</span>
                 </li>
               </ul>
               <Button asChild>
@@ -169,11 +170,30 @@ const Home = () => {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden">
               <img
-                src={aboutImage}
-                alt="Amatsu alignment therapy treatment"
+                src={clinicTableAsset.url}
+                alt="Fingal Amatsu clinic treatment table with fresh towels"
                 className="w-full h-full object-cover"
               />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Recovery Roadmap Section */}
+      <section className="py-20 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-10 max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">YOUR RECOVERY ROADMAP</h2>
+            <p className="text-lg text-muted-foreground">
+              We do not believe in open-ended treatment cycles. Your recovery follows a definitive, structured 6-session journey designed to break old compensation patterns and solidify lasting alignment.
+            </p>
+          </div>
+          <div className="max-w-5xl mx-auto">
+            <img
+              src={recoveryRoadmapAsset.url}
+              alt="Your 6-Session Amatsu Journey: Root cause assessment, neural response check, neuro-integration, pattern holding, fine-tuning, pattern solidification"
+              className="w-full h-auto rounded-lg"
+            />
           </div>
         </div>
       </section>
@@ -182,10 +202,10 @@ const Home = () => {
       <section className="py-20 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Ready to Start Your Amatsu Journey?
+            READY TO FIX YOUR FRAMEWORK?
           </h2>
           <p className="text-xl mb-4 max-w-2xl mx-auto opacity-90">
-            Book your consultation today and learn how Amatsu therapy supports balance, alignment, and overall wellbeing.
+            Book your initial structural assessment and consultation today to uncover the true root cause of your restriction.
           </p>
           <p className="text-lg mb-2 font-medium">
             Session fee: €70 · 30–45 minutes
@@ -195,7 +215,7 @@ const Home = () => {
           </p>
           <Button size="lg" variant="secondary" asChild>
             <a href="https://calendar.app.google/vvzdvmDFk5EYb5JK9" target="_blank" rel="noopener noreferrer">
-              Book Your Appointment <ArrowRight className="ml-2 h-5 w-5" />
+              Book Structural Assessment <ArrowRight className="ml-2 h-5 w-5" />
             </a>
           </Button>
         </div>
