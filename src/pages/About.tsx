@@ -3,7 +3,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 
-import clinicInterior from "@/assets/clinic-interior.jpg";
+import aboutHeroAsset from "@/assets/about-hero-clinic.jpg.asset.json";
 import practitionerHeadshot from "@/assets/practitioner-headshot.png";
 
 const About = () => {
@@ -26,42 +26,39 @@ const About = () => {
         <section className="py-20 bg-muted/30">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-8">About Our Clinic</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-8">THE FOUNDER'S JOURNEY</h1>
               <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden mb-8">
                 <img
-                  src={clinicInterior}
-                  alt="Fingal Amatsu Alignment Clinic treatment room"
+                  src={aboutHeroAsset.url}
+                  alt="Fingal Amatsu Alignment Clinic treatment room with standing desk and warm lighting"
                   className="w-full h-full object-cover"
                 />
               </div>
               <p className="text-xl text-muted-foreground">
-                Dedicated to helping you achieve natural balance and optimal wellness through the art of Amatsu therapy
+                Founded by a patient who exhausted every traditional treatment, Fingal Amatsu Alignment Clinic exists to provide a definitive, structural solution to chronic pain and physical restriction.
               </p>
             </div>
           </div>
         </section>
 
-        {/* Story Section */}
+        {/* History Section */}
         <section className="py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Our Story</h2>
+              <h2 className="text-3xl font-bold mb-6">From Chronic Pain to Lasting Alignment</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Fingal Amatsu Alignment Clinic was founded with a simple yet purposeful aim: to offer Amatsu therapy to clients in Fingal, Dublin, and the surrounding areas, including nearby parts of Meath, in a calm, professional, and client-focused setting.
+                  In 2009, a serious car accident completely disrupted my life, leaving me with severe, ongoing back issues and a heavy reliance on daily painkillers. Several times a year, my lower back would lock into blinding spasms, leaving me immobilised on the living room floor for weeks at a time. For six years, I cycled through traditional therapies and rehabilitation programmes, but any relief was short-lived. The physical stress heavily impacted my career, my family life, and my ability to stay active.
                 </p>
                 <p>
-                  Amatsu is a gentle, non-invasive Japanese bodywork therapy that works with the body's natural patterns of movement and alignment to support balance, comfort, and overall wellbeing. Rather than focusing solely on isolated symptoms, Amatsu takes a whole-body approach, recognising the body's innate ability to rebalance when given the right conditions.
-                </p>
-                <p>
-                  At Fingal Amatsu Alignment Clinic, each client is treated as an individual. Through careful assessment and personalised sessions, the focus is on addressing underlying imbalances and supporting long-term physical resilience.
+                  In 2015, a friend recommended Amatsu. Though deeply sceptical after years of failed treatments, I was willing to try anything. From my very first sessions, I felt a profound mechanical shift. My body was finally dropping its defensive guard and stabilising. Gradually, I was able to space out my appointments, stop the painkillers, and return to a highly active life in the gym and on the golf course.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Amatsu, the Clinic & Me Section */}
+        {/* The Man Behind the Method */}
         <section className="py-16 bg-muted/30">
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
@@ -76,16 +73,16 @@ const About = () => {
                   </div>
                 </div>
                 <div>
-                  <h2 className="text-3xl font-bold mb-6">Amatsu, the Clinic & Me</h2>
+                  <h2 className="text-3xl font-bold mb-6">The Man Behind the Method</h2>
                   <div className="space-y-4 text-muted-foreground">
                     <p>
-                      Robbie is a fully qualified Seitai-level Amatsu practitioner, trained through the Institute of Amatsu (IOA), and a registered member of Amatsu Therapy International (ATI). He has been treating clients for over two years while also maintaining a career as an IT Portfolio Manager. His enjoyment of practising Amatsu, and seeing the changes it can bring for people in pain, ultimately inspired him to formally launch Fingal Amatsu Alignment Clinic.
+                      Experiencing that total physical recovery transformed my path. I chose to formally retrain and qualify as a Seitai-level Amatsu practitioner through the Institute of Amatsu (IOA), becoming a registered member of Amatsu Therapy International (ATI).
                     </p>
                     <p>
-                      My own history has strongly shaped how I practise and why I place such importance on physical alignment and long-term wellbeing. My aim is to help people who have been struggling with pain or dysfunction to regain comfort, confidence, and the ability to live life more fully.
+                      Before launching the clinic, I spent years building a corporate career as an IT Portfolio Manager. This background is my secret weapon as a practitioner: I spent decades sitting at desks, managing high-stress portfolios, and experiencing the exact physical compression, postural collapse, and repetitive strain that my clients face every day. I built this clinic right here in the corporate park to deliver real-world, long-term physical resilience to anyone trapped in a loop of failed short-term relief.
                     </p>
                     <p>
-                      Outside the clinic, I'm married with three children, two boys and a girl, and share our home with two adopted German Shepherds. I'm a fair-weather golfer and a fan of Formula 1 and football — there's usually something to chat about during a session.
+                      Outside the clinic, I'm based in Dublin 15, married with three children, and share my home with two adopted German Shepherds. I am a keen golfer, a Formula 1 fan, and always open to a chat during our sessions.
                     </p>
                   </div>
                 </div>
@@ -94,36 +91,16 @@ const About = () => {
           </div>
         </section>
 
-        {/* My History Section */}
-        <section className="py-16">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold mb-6">My History & How I Discovered Amatsu</h2>
-              <div className="space-y-4 text-muted-foreground">
-                <p>
-                  In 2009, I was involved in a serious car accident that left me with ongoing back problems and reliant on strong painkillers as part of daily life. Several times a year, my back would go into severe spasm, often leaving me confined to the living room floor for one to two weeks at a time. Over the following six years, I tried multiple therapies and rehabilitation programmes, but any relief was short-lived. The impact on my family life, ability to stay active, and career was significant.
-                </p>
-                <p>
-                  In 2015, a friend who had been suffering with sciatica told me about his experience with Amatsu. While initially sceptical, I was willing to try anything. From the first sessions, I could feel that something fundamental was changing, even if I couldn't fully explain it at the time. As my body began to stabilise, I gradually spaced out sessions and increased my activity levels.
-                </p>
-                <p>
-                  Today, I remain active — playing golf regularly, training in the gym, and keeping busy day to day. While I still experience the occasional strain or injury like anyone else, I have not spent a single day since lying immobilised in pain. That experience is why I value Amatsu so strongly, and why I am passionate about helping others find lasting change rather than short-term relief.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Values Section */}
-        <section className="py-16 bg-muted/30">
+        <section className="py-16">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-12 text-center">Our Core Values</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <Card>
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold mb-3">Holistic Approach</h3>
+                  <h3 className="text-xl font-semibold mb-3">Global Framework Focus</h3>
                   <p className="text-muted-foreground">
-                    We treat the whole person, considering physical, emotional, and energetic aspects of health
+                    We treat the body as a single, interconnected mechanical system, identifying hidden imbalances rather than just managing localised symptoms.
                   </p>
                 </CardContent>
               </Card>
@@ -131,15 +108,15 @@ const About = () => {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-semibold mb-3">Personalised Care</h3>
                   <p className="text-muted-foreground">
-                    Every treatment is tailored to your unique needs, body, and healing journey
+                    Every structural assessment is tailored precisely to your history, your daily physical habits, and your unique nervous system response.
                   </p>
                 </CardContent>
               </Card>
               <Card>
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold mb-3">Natural Healing</h3>
+                  <h3 className="text-xl font-semibold mb-3">Neural Safety</h3>
                   <p className="text-muted-foreground">
-                    Supporting your body's innate wisdom and capacity for self-healing
+                    We use gentle, intentional alignment rather than violent force to signal safety to your brain, allowing deep-seated tension to unlock naturally.
                   </p>
                 </CardContent>
               </Card>
@@ -148,7 +125,7 @@ const About = () => {
         </section>
 
         {/* Qualifications Section */}
-        <section className="py-16">
+        <section className="py-16 bg-muted/30">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto">
               <h2 className="text-3xl font-bold mb-8 text-center">Qualifications & Training</h2>
