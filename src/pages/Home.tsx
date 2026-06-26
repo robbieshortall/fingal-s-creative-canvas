@@ -139,7 +139,7 @@ const Home = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-1">
-                WHAT WE REALIGN
+                WHAT WE ADDRESS
                 <span className="block text-lg md:text-xl font-medium tracking-[0.15em] uppercase text-muted-foreground mt-1 whitespace-nowrap">
                   CLINICAL PRESENTATIONS
                 </span>
