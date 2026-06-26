@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
+import { Layers, Heart, Shield, Award, BookOpen, ShieldCheck } from "lucide-react";
 
 import aboutHeroAsset from "@/assets/about-hero-clinic.jpg.asset.json";
 import practitionerHeadshot from "@/assets/practitioner-headshot.png";
@@ -92,28 +93,31 @@ const About = () => {
         </section>
 
         {/* Values Section */}
-        <section className="py-16">
+        <section className="py-16 bg-sage-mist">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-12 text-center">Our Core Values</h2>
             <div className="grid md:grid-cols-3 gap-8">
-              <Card>
+              <Card className="h-full">
                 <CardContent className="p-6">
+                  <Layers className="w-10 h-10 text-primary mb-4" strokeWidth={1.5} />
                   <h3 className="text-xl font-semibold mb-3">Global Framework Focus</h3>
                   <p className="text-muted-foreground">
                     We treat the body as a single, interconnected mechanical system, identifying hidden imbalances rather than just managing localised symptoms.
                   </p>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="h-full">
                 <CardContent className="p-6">
+                  <Heart className="w-10 h-10 text-primary mb-4" strokeWidth={1.5} />
                   <h3 className="text-xl font-semibold mb-3">Personalised Care</h3>
                   <p className="text-muted-foreground">
                     Every structural assessment is tailored precisely to your history, your daily physical habits, and your unique nervous system response.
                   </p>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="h-full">
                 <CardContent className="p-6">
+                  <Shield className="w-10 h-10 text-primary mb-4" strokeWidth={1.5} />
                   <h3 className="text-xl font-semibold mb-3">Neural Safety</h3>
                   <p className="text-muted-foreground">
                     We use gentle, intentional alignment rather than violent force to signal safety to your brain, allowing deep-seated tension to unlock naturally.
@@ -125,36 +129,37 @@ const About = () => {
         </section>
 
         {/* Qualifications Section */}
-        <section className="py-16 bg-muted/30">
+        <section className="py-16 bg-roadmap-blend">
           <div className="container mx-auto px-4">
-            <div className="max-w-3xl mx-auto">
-              <h2 className="text-3xl font-bold mb-8 text-center">Qualifications & Training</h2>
-              <div className="space-y-6">
-                <Card>
-                  <CardContent className="p-6">
-                    <h3 className="text-lg font-semibold mb-2">Certified Amatsu Practitioner</h3>
-                    <p className="text-muted-foreground">
-                      Fully qualified Seitai-level Amatsu therapist (IOA) and registered member of Amatsu Therapy International (ATI), committed to the highest professional standards.
-                    </p>
-                  </CardContent>
-                </Card>
-                <Card>
-                  <CardContent className="p-6">
-                    <h3 className="text-lg font-semibold mb-2">Continuing Professional Development</h3>
-                    <p className="text-muted-foreground">
-                      We regularly attend advanced training courses and workshops to stay current with the latest techniques and research in holistic therapy.
-                    </p>
-                  </CardContent>
-                </Card>
-                <Card>
-                  <CardContent className="p-6">
-                    <h3 className="text-lg font-semibold mb-2">Professional Insurance</h3>
-                    <p className="text-muted-foreground">
-                      Fully insured and registered practitioner ensuring your safety and peace of mind during treatment.
-                    </p>
-                  </CardContent>
-                </Card>
-              </div>
+            <h2 className="text-3xl font-bold mb-8 text-center">Qualifications & Training</h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              <Card className="h-full">
+                <CardContent className="p-6">
+                  <Award className="w-10 h-10 text-primary mb-4" strokeWidth={1.5} />
+                  <h3 className="text-lg font-semibold mb-2">Certified Amatsu Practitioner</h3>
+                  <p className="text-muted-foreground">
+                    Fully qualified Seitai-level Amatsu therapist (IOA) and registered member of Amatsu Therapy International (ATI), committed to the highest professional standards.
+                  </p>
+                </CardContent>
+              </Card>
+              <Card className="h-full">
+                <CardContent className="p-6">
+                  <BookOpen className="w-10 h-10 text-primary mb-4" strokeWidth={1.5} />
+                  <h3 className="text-lg font-semibold mb-2">Continuing Professional Development</h3>
+                  <p className="text-muted-foreground">
+                    We regularly attend advanced training courses and workshops to stay current with the latest techniques and research in holistic therapy.
+                  </p>
+                </CardContent>
+              </Card>
+              <Card className="h-full">
+                <CardContent className="p-6">
+                  <ShieldCheck className="w-10 h-10 text-primary mb-4" strokeWidth={1.5} />
+                  <h3 className="text-lg font-semibold mb-2">Professional Insurance</h3>
+                  <p className="text-muted-foreground">
+                    Fully insured and registered practitioner ensuring your safety and peace of mind during treatment.
+                  </p>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>
