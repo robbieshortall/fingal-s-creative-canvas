@@ -134,14 +134,17 @@ const Home = () => {
       </section>
 
       {/* Services Overview */}
-      <section className="py-20">
+      <section className="py-20 bg-secondary">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                WHAT WE REALIGN: CLINICAL PRESENTATIONS.
+              <h2 className="text-3xl md:text-4xl font-bold mb-1">
+                WHAT WE REALIGN
+                <span className="block text-lg md:text-xl font-medium tracking-[0.15em] uppercase text-muted-foreground mt-1 whitespace-nowrap">
+                  CLINICAL PRESENTATIONS
+                </span>
               </h2>
-              <p className="text-lg text-muted-foreground mb-6">
+              <p className="text-lg text-muted-foreground mb-6 mt-6">
                 Amatsu addresses a wide spectrum of physical restrictions, structural imbalances, and chronic compensation patterns. We regularly work with individuals suffering from:
               </p>
               <ul className="space-y-4 mb-8">
@@ -162,10 +165,10 @@ const Home = () => {
                   <span><strong>Nervous System Fatigue:</strong> Chronic full-body stiffness, muscular bracing, and stress-induced physical guarding.</span>
                 </li>
               </ul>
-              <Button asChild>
-                <Link to="/services">
-                  View All Services <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
+              <Button size="lg" asChild>
+                <a href="https://calendar.app.google/vvzdvmDFk5EYb5JK9" target="_blank" rel="noopener noreferrer">
+                  Book Structural Assessment <ArrowRight className="ml-2 h-4 w-4" />
+                </a>
               </Button>
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden">
@@ -180,15 +183,15 @@ const Home = () => {
       </section>
 
       {/* Recovery Roadmap Section */}
-      <section className="py-20 bg-muted/30">
+      <section className="py-20 bg-roadmap-blend">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-10 max-w-3xl mx-auto">
+          <div className="text-center mb-16 max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">YOUR RECOVERY ROADMAP</h2>
             <p className="text-lg text-muted-foreground">
               We do not believe in open-ended treatment cycles. Your recovery follows a definitive, structured 6-session journey designed to break old compensation patterns and solidify lasting alignment.
             </p>
           </div>
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-[850px] mx-auto">
             <img
               src={recoveryRoadmapAsset.url}
               alt="Your 6-Session Amatsu Journey: Root cause assessment, neural response check, neuro-integration, pattern holding, fine-tuning, pattern solidification"
