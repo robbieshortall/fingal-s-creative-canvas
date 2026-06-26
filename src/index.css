@@ -120,4 +120,8 @@ All colors MUST be HSL.
   .whatsapp-pulse {
     animation: whatsapp-pulse 2.67s ease-in-out infinite;
   }
+
+  .bg-roadmap-blend {
+    background-color: hsl(44 63% 93%);
+  }
 }
