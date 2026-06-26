@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Scale, UserRoundSearch, BadgeCheck, ArrowRight } from "lucide-react";
+import { Search, Shield, Scale, ArrowRight } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import heroImage from "@/assets/hero-clinic-room.jpg";
@@ -82,9 +82,9 @@ const Home = () => {
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose Amatsu Therapy?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">THE CORE DIFFERENCE: WHY AMATSU WORKS.</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              A gentle, whole-body approach focused on alignment, movement, and long-term relief
+              Instead of just managing the localised site of pain, Amatsu focuses on your global alignment. By addressing the true root cause, we help your body drop its defensive guard and return to natural, effortless movement.
             </p>
           </div>
 
@@ -92,35 +92,35 @@ const Home = () => {
             <Card className="border-2 hover:border-primary/50 transition-colors">
               <CardContent className="p-6 text-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Search className="h-8 w-8 text-primary" />
+                </div>
+                <h3 className="text-xl font-semibold mb-3">1. Catching the Culprit</h3>
+                <p className="text-muted-foreground">
+                  Pain is rarely located where the actual problem lies. We look past the localised symptoms to identify hidden structural blindspots—like a rotated pelvis or old scar tissue—that are forcing your entire framework to collapse.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:border-primary/50 transition-colors">
+              <CardContent className="p-6 text-center">
+                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Shield className="h-8 w-8 text-primary" />
+                </div>
+                <h3 className="text-xl font-semibold mb-3">2. Signalling Neural Safety</h3>
+                <p className="text-muted-foreground">
+                  Chronic tension is actually your nervous system frantically bracing in a defensive survival loop. Gentle, precise alignment tells your brain it is safe to drop its guard, allowing deep muscular restrictions to unlock naturally.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:border-primary/50 transition-colors">
+              <CardContent className="p-6 text-center">
+                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Scale className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Whole-Body Alignment</h3>
+                <h3 className="text-xl font-semibold mb-3">3. Restoring Lasting Balance</h3>
                 <p className="text-muted-foreground">
-                  We work with the body as an interconnected system, helping identify and address underlying imbalances rather than focusing on isolated symptoms.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-2 hover:border-primary/50 transition-colors">
-              <CardContent className="p-6 text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <UserRoundSearch className="h-8 w-8 text-primary" />
-                </div>
-                <h3 className="text-xl font-semibold mb-3">Individualised, Person-Centred Approach</h3>
-                <p className="text-muted-foreground">
-                  Every session is adapted to your body, your history, and how you move — with treatment guided by gentle assessment, not force.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-2 hover:border-primary/50 transition-colors">
-              <CardContent className="p-6 text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <BadgeCheck className="h-8 w-8 text-primary" />
-                </div>
-                <h3 className="text-xl font-semibold mb-3">Experienced, Qualified Practitioner</h3>
-                <p className="text-muted-foreground">
-                  Treatments are delivered by a certified Seitai Amatsu practitioner with a focus on postural alignment, movement quality, and nervous system regulation.
+                  Instead of violently forcing joints or aggressively rubbing muscles, we systematically realign your body’s global biomechanics. This resets your passive posture so your body stays balanced long after you leave the clinic.
                 </p>
               </CardContent>
             </Card>
