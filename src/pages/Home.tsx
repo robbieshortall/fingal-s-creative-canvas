@@ -175,7 +175,7 @@ const Home = () => {
               <img
                 src={clinicTableAsset.url}
                 alt="Fingal Amatsu clinic treatment table with fresh towels"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
               />
             </div>
           </div>
