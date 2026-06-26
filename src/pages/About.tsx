@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
+import { Layers, Heart, Shield, Award, BookOpen, ShieldCheck } from "lucide-react";
 
 import aboutHeroAsset from "@/assets/about-hero-clinic.jpg.asset.json";
 import practitionerHeadshot from "@/assets/practitioner-headshot.png";
