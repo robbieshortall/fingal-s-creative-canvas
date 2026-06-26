@@ -98,7 +98,7 @@ const About = () => {
             <h2 className="text-3xl font-bold mb-12 text-center">Our Core Values</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <Card className="h-full">
-                <CardContent className="p-6">
+                <CardContent className="p-6 text-center flex flex-col items-center">
                   <Layers className="w-10 h-10 text-primary mb-4" strokeWidth={1.5} />
                   <h3 className="text-xl font-semibold mb-3">Global Framework Focus</h3>
                   <p className="text-muted-foreground">
@@ -107,7 +107,7 @@ const About = () => {
                 </CardContent>
               </Card>
               <Card className="h-full">
-                <CardContent className="p-6">
+                <CardContent className="p-6 text-center flex flex-col items-center">
                   <Heart className="w-10 h-10 text-primary mb-4" strokeWidth={1.5} />
                   <h3 className="text-xl font-semibold mb-3">Personalised Care</h3>
                   <p className="text-muted-foreground">
@@ -116,7 +116,7 @@ const About = () => {
                 </CardContent>
               </Card>
               <Card className="h-full">
-                <CardContent className="p-6">
+                <CardContent className="p-6 text-center flex flex-col items-center">
                   <Shield className="w-10 h-10 text-primary mb-4" strokeWidth={1.5} />
                   <h3 className="text-xl font-semibold mb-3">Neural Safety</h3>
                   <p className="text-muted-foreground">
@@ -134,7 +134,7 @@ const About = () => {
             <h2 className="text-3xl font-bold mb-8 text-center">Qualifications & Training</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <Card className="h-full">
-                <CardContent className="p-6">
+                <CardContent className="p-6 text-center flex flex-col items-center">
                   <Award className="w-10 h-10 text-primary mb-4" strokeWidth={1.5} />
                   <h3 className="text-lg font-semibold mb-2">Certified Amatsu Practitioner</h3>
                   <p className="text-muted-foreground">
@@ -143,7 +143,7 @@ const About = () => {
                 </CardContent>
               </Card>
               <Card className="h-full">
-                <CardContent className="p-6">
+                <CardContent className="p-6 text-center flex flex-col items-center">
                   <BookOpen className="w-10 h-10 text-primary mb-4" strokeWidth={1.5} />
                   <h3 className="text-lg font-semibold mb-2">Continuing Professional Development</h3>
                   <p className="text-muted-foreground">
@@ -152,7 +152,7 @@ const About = () => {
                 </CardContent>
               </Card>
               <Card className="h-full">
-                <CardContent className="p-6">
+                <CardContent className="p-6 text-center flex flex-col items-center">
                   <ShieldCheck className="w-10 h-10 text-primary mb-4" strokeWidth={1.5} />
                   <h3 className="text-lg font-semibold mb-2">Professional Insurance</h3>
                   <p className="text-muted-foreground">
