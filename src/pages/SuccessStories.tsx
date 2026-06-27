@@ -66,13 +66,13 @@ const SuccessStories = () => {
   return (
     <>
       <Helmet>
-        <title>Testimonials - Fingal Amatsu Alignment Clinic</title>
-        <meta name="description" content="Read real client testimonials and reviews for Fingal Amatsu Alignment Clinic. See how Amatsu therapy has helped with pain relief, posture, and overall wellness." />
-        <meta property="og:title" content="Testimonials - Fingal Amatsu Alignment Clinic" />
-        <meta property="og:description" content="Real client testimonials for Fingal Amatsu Alignment Clinic — pain relief, posture, and wellness outcomes." />
-        <meta property="og:url" content="/testimonials" />
+        <title>Success Stories - Fingal Amatsu Alignment Clinic</title>
+        <meta name="description" content="Read real client success stories and reviews for Fingal Amatsu Alignment Clinic. See how Amatsu therapy has helped with pain relief, posture, and overall wellness." />
+        <meta property="og:title" content="Success Stories - Fingal Amatsu Alignment Clinic" />
+        <meta property="og:description" content="Real client success stories for Fingal Amatsu Alignment Clinic — pain relief, posture, and wellness outcomes." />
+        <meta property="og:url" content="/success-stories" />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="/testimonials" />
+        <link rel="canonical" href="/success-stories" />
       </Helmet>
     <div className="min-h-screen flex flex-col">
       <Navigation />
