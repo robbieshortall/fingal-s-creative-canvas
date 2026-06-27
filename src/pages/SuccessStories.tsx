@@ -153,4 +153,4 @@ const SuccessStories = () => {
   );
 };
 
-export default Testimonials;
+export default SuccessStories;
