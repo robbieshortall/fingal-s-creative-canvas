@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Star, CheckCircle } from "lucide-react";
 
-const Testimonials = () => {
+const SuccessStories = () => {
   const testimonials = [
     {
       name: "Michael S.",
