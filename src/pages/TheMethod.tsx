@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { CheckCircle2, Monitor, Trophy, Heart } from "lucide-react";
+import { CheckCircle2, Monitor, Trophy, Heart, Activity, Feather } from "lucide-react";
 import {
   Accordion,
   AccordionContent,
