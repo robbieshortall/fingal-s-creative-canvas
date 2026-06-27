@@ -276,7 +276,7 @@ const TheMethod = () => {
               <div className="max-w-3xl mx-auto text-center mb-14">
                 <h1 className="text-4xl md:text-5xl font-bold mb-6">THE PRINCIPLE OF MECHANICAL ALIGNMENT</h1>
                 <p className="text-xl text-muted-foreground leading-relaxed">
-                  Real physical recovery requires a structured strategy, not a series of disconnected adjustments. The Fingal Amatsu method shifts your framework from a defensive state of restriction to an adaptive state of ease.
+                  Sustained physical recovery relies on a structured, integrated approach. The Fingal Amatsu method treats your body as a complete, interconnected framework—shifting your system from a defensive state of restriction to an adaptive state of ease.
                 </p>
               </div>
 
