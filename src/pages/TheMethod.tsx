@@ -326,12 +326,10 @@ const TheMethod = () => {
           <section className="py-20 bg-roadmap-blend">
             <div className="container mx-auto px-4">
               <div className="text-center mb-12 max-w-3xl mx-auto">
+                <p className="text-sm font-medium text-primary uppercase tracking-widest mb-2">SUSTAINED MAINTENANCE</p>
                 <h2 className="text-3xl md:text-4xl font-bold mb-4">THE MODERN LIFE ALIGNMENT TAX</h2>
-                <p className="text-lg text-muted-foreground mb-4">
-                  Modern life is inherently hostile to human geometry. Phones, desk work, long commutes, and one-sided sports like golf or tennis are constantly pulling your body back toward old, dysfunctional patterns.
-                </p>
-                <p className="text-base text-muted-foreground">
-                  Maintenance isn't about fixing a new injury; it's about clearing your structural slate before those modern habits calcify into chronic pain again. Think of it as a tactical alignment reset.
+                <p className="text-lg text-muted-foreground">
+                  Maintenance isn't about fixing a new injury; it's about clearing your structural slate before those modern habits calcify into chronic pain again. Think of it as a tactical alignment reset. Because every physical system is entirely unique, your ongoing maintenance cadence is never a rigid prescription—it is a collaborative strategy determined together by both practitioner and client to perfectly match the real-world demands of your lifestyle.
                 </p>
               </div>
 
@@ -341,9 +339,9 @@ const TheMethod = () => {
                     <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
                       <Monitor className="h-7 w-7 text-primary" strokeWidth={1.75} />
                     </div>
-                    <h3 className="text-xl font-semibold mb-3">The Office Professional</h3>
+                    <h3 className="text-xl font-semibold mb-3">The Office Professional (8-Week Reset)</h3>
                     <p className="text-muted-foreground">
-                      Tactical reset every 8 weeks to combat 'Desk/Tech Neck' and postural collapse from prolonged screen use.
+                      A tactical alignment reset to combat 'Desk/Tech Neck' and postural collapse from prolonged screen use.
                     </p>
                   </CardContent>
                 </Card>
@@ -352,9 +350,9 @@ const TheMethod = () => {
                     <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
                       <Trophy className="h-7 w-7 text-primary" strokeWidth={1.75} />
                     </div>
-                    <h3 className="text-xl font-semibold mb-3">The Symmetrical Athlete</h3>
+                    <h3 className="text-xl font-semibold mb-3">The Symmetrical Athlete (4-Week Check-In)</h3>
                     <p className="text-muted-foreground">
-                      Check-in every 4 weeks to unlock explosive joint mechanics and eliminate rotational restrictions in golf or tennis.
+                      Bespoke structural check-ins to unlock explosive joint mechanics and eliminate rotational restrictions in golf or tennis.
                     </p>
                   </CardContent>
                 </Card>
@@ -363,7 +361,7 @@ const TheMethod = () => {
                     <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
                       <Heart className="h-7 w-7 text-primary" strokeWidth={1.75} />
                     </div>
-                    <h3 className="text-xl font-semibold mb-3">The Active Senior</h3>
+                    <h3 className="text-xl font-semibold mb-3">The Active Senior (Custom Maintenance)</h3>
                     <p className="text-muted-foreground">
                       Maintenance focused on mobility and ease of movement to preserve joint lubrication and independence.
                     </p>
