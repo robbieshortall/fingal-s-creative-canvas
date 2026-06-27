@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import TheMethod from "./pages/TheMethod";
-import Testimonials from "./pages/Testimonials";
+import SuccessStories from "./pages/SuccessStories";
 import Contact from "./pages/Contact";
 import FAQ from "./pages/FAQ";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -27,7 +27,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
           <Route path="/the-method" element={<TheMethod />} />
-          <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/success-stories" element={<SuccessStories />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />

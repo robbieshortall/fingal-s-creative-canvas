@@ -7,6 +7,6 @@
 - [Home](/): Overview of the clinic, Amatsu therapy benefits, and booking information.
 - [About](/about): About Robbie, the practitioner, the clinic, and our holistic approach to healing.
 - [The Method](/the-method): The principle of mechanical alignment, the 6-session journey, and the conditions Amatsu addresses.
-- [Testimonials](/testimonials): Client reviews and outcomes from Amatsu therapy sessions.
+- [Success Stories](/success-stories): Client reviews and outcomes from Amatsu therapy sessions.
 - [FAQ](/faq): Common questions about bookings, fees, sessions, pregnancy, and safety.
 - [Contact](/contact): Phone, email, opening hours, and clinic location in Blanchardstown, Dublin D15.

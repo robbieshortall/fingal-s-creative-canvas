@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Star, CheckCircle } from "lucide-react";
 
-const Testimonials = () => {
+const SuccessStories = () => {
   const testimonials = [
     {
       name: "Michael S.",
@@ -66,13 +66,13 @@ const Testimonials = () => {
   return (
     <>
       <Helmet>
-        <title>Testimonials - Fingal Amatsu Alignment Clinic</title>
-        <meta name="description" content="Read real client testimonials and reviews for Fingal Amatsu Alignment Clinic. See how Amatsu therapy has helped with pain relief, posture, and overall wellness." />
-        <meta property="og:title" content="Testimonials - Fingal Amatsu Alignment Clinic" />
-        <meta property="og:description" content="Real client testimonials for Fingal Amatsu Alignment Clinic — pain relief, posture, and wellness outcomes." />
-        <meta property="og:url" content="/testimonials" />
+        <title>Success Stories - Fingal Amatsu Alignment Clinic</title>
+        <meta name="description" content="Read real client success stories and reviews for Fingal Amatsu Alignment Clinic. See how Amatsu therapy has helped with pain relief, posture, and overall wellness." />
+        <meta property="og:title" content="Success Stories - Fingal Amatsu Alignment Clinic" />
+        <meta property="og:description" content="Real client success stories for Fingal Amatsu Alignment Clinic — pain relief, posture, and wellness outcomes." />
+        <meta property="og:url" content="/success-stories" />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="/testimonials" />
+        <link rel="canonical" href="/success-stories" />
       </Helmet>
     <div className="min-h-screen flex flex-col">
       <Navigation />
@@ -82,7 +82,7 @@ const Testimonials = () => {
         <section className="py-20 bg-muted/30">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">Client Testimonials</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">Client Success Stories</h1>
               <p className="text-xl text-muted-foreground mb-6">
                 Genuine reviews from clients who have experienced Amatsu therapy at Fingal Amatsu Alignment Clinic
               </p>
@@ -153,4 +153,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default SuccessStories;
