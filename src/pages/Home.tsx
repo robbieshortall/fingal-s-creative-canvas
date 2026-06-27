@@ -186,9 +186,9 @@ const Home = () => {
       <section className="py-20 bg-roadmap-blend">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">YOUR RECOVERY ROADMAP</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">THE RECOVERY BLUEPRINT</h2>
             <p className="text-lg text-muted-foreground">
-              We do not believe in open-ended treatment cycles. Your recovery follows a definitive, structured 6-session journey designed to break old compensation patterns and solidify lasting alignment.
+              We do not believe in open-ended treatment cycles. While every body responds at its own bespoke pace, real structural correction typically unfolds across a structured 6-session baseline framework designed to break old compensation patterns and solidify lasting alignment.
             </p>
           </div>
           <div className="max-w-[850px] mx-auto">

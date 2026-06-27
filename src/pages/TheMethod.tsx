@@ -307,9 +307,9 @@ const TheMethod = () => {
           <section className="py-20 bg-sage-mist">
             <div className="container mx-auto px-4">
               <div className="text-center mb-12 max-w-3xl mx-auto">
-                <h2 className="text-3xl md:text-4xl font-bold mb-4">THE INITIAL BASICS: THE 6-SESSION JOURNEY</h2>
+                <h2 className="text-3xl md:text-4xl font-bold mb-4">THE CORRECTIVE BLUEPRINT: THE TYPICAL BASELINE</h2>
                 <p className="text-lg text-muted-foreground">
-                  We do not believe in open-ended or arbitrary treatment cycles. Your structural recovery follows a definitive, 6-stage corrective timeline designed to systematically break down long-held compensation patterns.
+                  We do not believe in open-ended or arbitrary treatment cycles. While every individual system responds at its own unique pace, structural recovery typically follows this 6-stage corrective framework. Some acute issues resolve in just one or two sessions, while deeply entrenched patterns take longer—but the underlying biological process of stabilising your framework follows these exact progressive phases.
                 </p>
               </div>
               <div className="max-w-[850px] mx-auto">
