@@ -282,7 +282,8 @@ const TheMethod = () => {
 
               <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
                 <Card className="border-2">
-                  <CardContent className="p-8">
+                  <CardContent className="p-10 flex flex-col items-center text-center">
+                    <Activity className="text-primary mb-6" size={40} strokeWidth={1.5} />
                     <h2 className="text-2xl font-semibold mb-4">THERAPEUTIC INVITATION</h2>
                     <p className="text-muted-foreground leading-relaxed">
                       Amatsu works by inviting structural change rather than demanding it. By cooperating precisely with the body’s natural geometry and soft-tissue vectors, we signal neural safety to the brain. Your framework willingly accepts the correction and begins adapting immediately.
@@ -290,7 +291,8 @@ const TheMethod = () => {
                   </CardContent>
                 </Card>
                 <Card className="border-2">
-                  <CardContent className="p-8">
+                  <CardContent className="p-10 flex flex-col items-center text-center">
+                    <Feather className="text-primary mb-6" size={40} strokeWidth={1.5} />
                     <h2 className="text-2xl font-semibold mb-4">A NON-FORCE APPROACH</h2>
                     <p className="text-muted-foreground leading-relaxed">
                       Amatsu will never violently force a structural change through high-velocity cracking or aggressive manipulation. When a change is forced upon the body, the nervous system instinctively braces for impact and quickly retreats back into its old, defensive guarding patterns. True, lasting correction requires cooperation with your biology, not combat.
