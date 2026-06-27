@@ -82,7 +82,7 @@ const SuccessStories = () => {
         <section className="py-20 bg-muted/30">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">Client Testimonials</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">Client Success Stories</h1>
               <p className="text-xl text-muted-foreground mb-6">
                 Genuine reviews from clients who have experienced Amatsu therapy at Fingal Amatsu Alignment Clinic
               </p>
