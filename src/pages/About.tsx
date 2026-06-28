@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Layers, Heart, Shield, Award, BookOpen, ShieldCheck, Instagram } from "lucide-react";
 
-import aboutHeroAsset from "@/assets/about-hero-clinic.jpg.asset.json";
+import aboutHeroImage from "@/assets/about-hero-clinic.jpg";
 import practitionerHeadshot from "@/assets/practitioner-headshot.png";
 
 const About = () => {
@@ -30,7 +30,7 @@ const About = () => {
               <h1 className="text-4xl md:text-5xl font-bold mb-8">THE FOUNDER'S JOURNEY</h1>
               <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden mb-8">
                 <img
-                  src={aboutHeroAsset.url}
+                  src={aboutHeroImage}
                   alt="Fingal Amatsu Alignment Clinic treatment room with standing desk and warm lighting"
                   className="w-full h-full object-cover"
                 />
