@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { Phone, Mail, MapPin, Clock, Instagram, Facebook, CheckCircle2 } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, CheckCircle2 } from "lucide-react";
 
 // Replace this with your real Formspree form ID once provisioned at https://formspree.io/
 // Submissions will be forwarded to info@fingalamatsu.ie
@@ -177,35 +177,9 @@ const Contact = () => {
                             <p>Ballycoolen, Dublin, D15 Y0YW</p>
                           </a>
                           <p className="text-sm text-muted-foreground">
-                            <strong className="text-foreground">Complimentary, dedicated parking is available directly outside the clinic building framework.</strong>
+                            <strong className="text-foreground">Complimentary, dedicated parking is available directly outside the clinic.</strong>
                           </p>
                         </div>
-                      </div>
-                    </CardContent>
-                  </Card>
-
-                  <Card className="shadow-sm">
-                    <CardContent className="p-6">
-                      <div className="flex items-center justify-center gap-6">
-                        <span className="text-muted-foreground text-sm">Follow us:</span>
-                        <a
-                          href="https://www.instagram.com/fingalamatsu?igsh=MTBza3FybmZkMTNzOQ=="
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-muted-foreground hover:text-primary transition-colors"
-                          aria-label="Instagram"
-                        >
-                          <Instagram className="h-5 w-5" />
-                        </a>
-                        <a
-                          href="https://www.facebook.com/share/19hdTnFDkR/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-muted-foreground hover:text-primary transition-colors"
-                          aria-label="Facebook"
-                        >
-                          <Facebook className="h-5 w-5" />
-                        </a>
                       </div>
                     </CardContent>
                   </Card>

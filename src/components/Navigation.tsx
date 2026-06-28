@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Instagram, Facebook } from "lucide-react";
 import { useState } from "react";
 import headerLogo from "@/assets/landscape-logo.png";
 
@@ -40,6 +40,26 @@ const Navigation = () => {
                 {link.name}
               </Link>
             ))}
+            <div className="flex items-center gap-2 pl-1">
+              <a
+                href="https://www.instagram.com/fingalamatsu?igsh=MTBza3FybmZkMTNzOQ=="
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="text-foreground/70 hover:text-primary transition-colors"
+              >
+                <Instagram className="h-[18px] w-[18px]" strokeWidth={1.75} />
+              </a>
+              <a
+                href="https://www.facebook.com/share/19hdTnFDkR/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="text-foreground/70 hover:text-primary transition-colors"
+              >
+                <Facebook className="h-[18px] w-[18px]" strokeWidth={1.75} />
+              </a>
+            </div>
             <Button asChild>
               <a href="https://calendar.app.google/vvzdvmDFk5EYb5JK9" target="_blank" rel="noopener noreferrer">Book Your Appointment</a>
             </Button>
@@ -70,6 +90,26 @@ const Navigation = () => {
                 {link.name}
               </Link>
             ))}
+            <div className="flex items-center gap-4 py-2">
+              <a
+                href="https://www.instagram.com/fingalamatsu?igsh=MTBza3FybmZkMTNzOQ=="
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="text-foreground/70 hover:text-primary transition-colors"
+              >
+                <Instagram className="h-5 w-5" strokeWidth={1.75} />
+              </a>
+              <a
+                href="https://www.facebook.com/share/19hdTnFDkR/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="text-foreground/70 hover:text-primary transition-colors"
+              >
+                <Facebook className="h-5 w-5" strokeWidth={1.75} />
+              </a>
+            </div>
             <Button asChild className="w-full mt-2">
               <a href="https://calendar.app.google/vvzdvmDFk5EYb5JK9" target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>
                 Book Your Appointment
