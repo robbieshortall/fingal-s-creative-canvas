@@ -11,7 +11,7 @@ import { Phone, Mail, MapPin, Clock, CheckCircle2 } from "lucide-react";
 
 // Replace this with your real Formspree form ID once provisioned at https://formspree.io/
 // Submissions will be forwarded to info@fingalamatsu.ie
-const FORMSPREE_ENDPOINT = "https://formspree.io/f/your-form-id";
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/xbdvyneq";
 
 const Contact = () => {
   const [submitting, setSubmitting] = useState(false);
@@ -206,7 +206,7 @@ const Contact = () => {
                         <div className="flex flex-col items-center text-center py-12">
                           <CheckCircle2 className="h-14 w-14 text-primary mb-4" />
                           <p className="text-lg font-medium">
-                            Thank you. Your message has been sent to our clinical team, and we will get back to you shortly.
+                            Thank you. Your message has been sent, and I will get back to you shortly.
                           </p>
                         </div>
                       ) : (
