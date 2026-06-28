@@ -163,14 +163,14 @@ const Footer = () => {
               </a>
             </div>
             <p className="text-xs text-muted-foreground max-w-xl mx-auto">
-              Receipts provided for health insurance claims. Please check your individual policy for cover details.
+              Official receipts provided for Laya Healthcare insurance claims. Please check your individual policy for specific cover details.
             </p>
           </div>
         </div>
 
         <div className="border-t mt-8 pt-6 text-center text-sm text-muted-foreground">
           <p>
-            &copy; {new Date().getFullYear()} Fingal Amatsu Alignment Clinic. All rights reserved.
+            &copy; 2026 Fingal Amatsu Alignment Clinic. All rights reserved.
             {" | "}
             <Link to="/privacy-policy" className="hover:text-primary transition-colors">
               Privacy & Cookie Policy
