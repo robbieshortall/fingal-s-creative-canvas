@@ -12,7 +12,7 @@ const Footer = () => {
           <div>
             <img src={headerLogo} alt="Fingal Amatsu Alignment Clinic" className="h-12 mb-4" />
             <p className="text-sm text-muted-foreground mb-4">
-              Professional alignment therapy for natural healing and wellness.
+              Specialised structural alignment for biomechanical balance and physical resilience.
             </p>
             <div className="flex gap-3 mb-4">
               <a
