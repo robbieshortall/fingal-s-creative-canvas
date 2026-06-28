@@ -14,7 +14,8 @@ const SuccessStories = () => {
       heading: "Upper back pain resolved & posture improved",
       text: "I have had a great experience with Robbie at Fingal Amatsu Clinic. Robbie helped me resolve ongoing upper back pain and improved my posture. He was professional, knowledgeable, and took the time to explain what was going on and how to address it. I noticed real improvements quickly and would highly recommend him.",
       condition: "Google Review",
-      isGoogleReview: true
+      isGoogleReview: true,
+      tag: "[ POSTURAL CORRECTION ]"
     },
     {
       name: "Ilario D.",
@@ -23,7 +24,8 @@ const SuccessStories = () => {
       heading: "Lasting posture correction from desk & driving",
       text: "I want to highly recommend Robbie's work. I had been misaligned from my day-to-day job, driving and a slouched posture. Robbie was able to get to the bottom of the problem and made me consciously aware of my posture post-treatment. My body responded very well, and even after longer pauses between sessions, I retained the corrections.",
       condition: "Google Review",
-      isGoogleReview: true
+      isGoogleReview: true,
+      tag: "[ DESK-BOUND RESILIENCE ]"
     },
     {
       name: "Niamh H.",
@@ -32,7 +34,8 @@ const SuccessStories = () => {
       heading: "Life-changing support for chronic back & neck pain",
       text: "As someone who has struggled with severe back and neck issues, Amatsu has truly changed my life for the better. These sessions helped me become more aware of when my body is out of balance. Regular sessions improved my posture, and I haven't experienced a return of severe pain episodes since.\n\nI also sleep better after treatments because I find them deeply relaxing, and my stress-related aches have eased significantly. Overall, the therapy has greatly improved my ability to manage pain and boosted my overall health and wellbeing.",
       condition: "Google Review",
-      isGoogleReview: true
+      isGoogleReview: true,
+      tag: "[ CHRONIC PAIN RESOLUTION ]"
     },
     {
       name: "Conor M.",
@@ -41,7 +44,8 @@ const SuccessStories = () => {
       heading: "Achilles injury recovery & full-body improvement",
       text: "I highly recommend Robbie. I had been struggling with a persistent Achilles injury and decided to give Amatsu a try since other treatments weren't delivering results. Robbie's approach made a massive difference — not just to my Achilles, but to my overall mobility and posture. I felt a huge improvement in how my body moved in general.",
       condition: "Google Review",
-      isGoogleReview: true
+      isGoogleReview: true,
+      tag: "[ SPORTS INJURY RECOVERY ]"
     },
     {
       name: "Gavin B.",
@@ -50,7 +54,8 @@ const SuccessStories = () => {
       heading: "Improved mobility and body awareness",
       text: "Visited Robbie for a number of sessions over the last year. Very professional in his approach. He was able to pinpoint specific alignment issues and rectify them for me. I would highly recommend a session to anyone looking to improve their overall mobility and connection to their body.",
       condition: "Google Review",
-      isGoogleReview: true
+      isGoogleReview: true,
+      tag: "[ FUNCTIONAL MOBILITY ]"
     },
     {
       name: "Earth K.",
@@ -59,7 +64,8 @@ const SuccessStories = () => {
       heading: "Posture awareness & long-term improvement",
       text: "Could not recommend Robbie's work enough. I was misaligned from my day-to-day job and slouched posture. Robbie was able to identify the root cause and made me more consciously aware of my posture after treatment.",
       condition: "Google Review",
-      isGoogleReview: true
+      isGoogleReview: true,
+      tag: "[ STRUCTURAL IMBALANCE ]"
     }
   ];
 
@@ -84,7 +90,7 @@ const SuccessStories = () => {
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">Client Success Stories</h1>
               <p className="text-xl text-muted-foreground mb-6">
-                Genuine reviews from clients who have experienced Amatsu therapy at Fingal Amatsu Alignment Clinic
+                Real results from real frameworks. Explore documented accounts from clients who have successfully shifted their bodies from chronic restriction to long-term structural alignment.
               </p>
               <div className="flex flex-col items-center gap-1">
                 <div className="flex gap-1">
@@ -105,8 +111,11 @@ const SuccessStories = () => {
             <h2 className="text-3xl font-bold text-center mb-10">What Our Clients Say</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {testimonials.map((testimonial, index) => (
-                <Card key={index} className="border-2 hover:border-primary/50 transition-colors">
-                  <CardContent className="p-6">
+                <Card key={index} className="relative border-2 hover:border-primary/50 transition-colors">
+                  <span className="absolute top-3 left-3 text-[10px] font-semibold tracking-widest uppercase px-2.5 py-1 rounded-sm bg-primary/10 text-primary">
+                    {testimonial.tag}
+                  </span>
+                  <CardContent className="p-6 pt-10">
                     <div className="flex gap-1 mb-2">
                       {[...Array(testimonial.rating)].map((_, i) => (
                         <Star key={i} className="h-5 w-5 fill-primary text-primary" />
@@ -135,7 +144,7 @@ const SuccessStories = () => {
         <section className="py-16 bg-primary text-primary-foreground">
           <div className="container mx-auto px-4">
             <div className="max-w-2xl mx-auto text-center">
-              <h2 className="text-3xl font-bold mb-6">Ready to Experience Amatsu for Yourself?</h2>
+              <h2 className="text-3xl font-bold mb-6">Ready to Experience True Alignment for Yourself?</h2>
               <p className="text-lg opacity-90 mb-8">
                 Book your appointment online at a time that suits you, or get in touch if you'd like to ask a question before booking.
               </p>
