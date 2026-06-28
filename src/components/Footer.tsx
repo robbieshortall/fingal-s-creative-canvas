@@ -12,26 +12,26 @@ const Footer = () => {
           <div>
             <img src={headerLogo} alt="Fingal Amatsu Alignment Clinic" className="h-12 mb-4" />
             <p className="text-sm text-muted-foreground mb-4">
-              Professional alignment therapy for natural healing and wellness.
+              Specialised structural alignment for biomechanical balance and physical resilience.
             </p>
             <div className="flex gap-3 mb-4">
               <a
                 href="https://www.instagram.com/fingalamatsu?igsh=MTBza3FybmZkMTNzOQ=="
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex h-9 w-9 items-center justify-center rounded-full bg-primary text-primary-foreground transition-all duration-200 hover:bg-primary/85"
+                className="text-foreground/70 hover:text-primary transition-colors"
                 aria-label="Instagram"
               >
-                <Instagram className="h-[18px] w-[18px]" />
+                <Instagram className="h-[18px] w-[18px]" strokeWidth={1.75} />
               </a>
               <a
                 href="https://www.facebook.com/share/19hdTnFDkR/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex h-9 w-9 items-center justify-center rounded-full bg-primary text-primary-foreground transition-all duration-200 hover:bg-primary/85"
+                className="text-foreground/70 hover:text-primary transition-colors"
                 aria-label="Facebook"
               >
-                <Facebook className="h-[18px] w-[18px]" fill="currentColor" strokeWidth={0} />
+                <Facebook className="h-[18px] w-[18px]" strokeWidth={1.75} />
               </a>
             </div>
             <a
@@ -67,6 +67,16 @@ const Footer = () => {
               <li>
                 <Link to="/success-stories" className="text-muted-foreground hover:text-primary transition-colors">
                   Success Stories
+                </Link>
+              </li>
+              <li>
+                <Link to="/faq" className="text-muted-foreground hover:text-primary transition-colors">
+                  FAQs
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="text-muted-foreground hover:text-primary transition-colors">
+                  Contact
                 </Link>
               </li>
             </ul>
@@ -153,14 +163,14 @@ const Footer = () => {
               </a>
             </div>
             <p className="text-xs text-muted-foreground max-w-xl mx-auto">
-              Receipts provided for health insurance claims. Please check your individual policy for cover details.
+              Official receipts provided for Laya Healthcare insurance claims. Please check your individual policy for specific cover details.
             </p>
           </div>
         </div>
 
         <div className="border-t mt-8 pt-6 text-center text-sm text-muted-foreground">
           <p>
-            &copy; {new Date().getFullYear()} Fingal Amatsu Alignment Clinic. All rights reserved.
+            &copy; 2026 Fingal Amatsu Alignment Clinic. All rights reserved.
             {" | "}
             <Link to="/privacy-policy" className="hover:text-primary transition-colors">
               Privacy & Cookie Policy
