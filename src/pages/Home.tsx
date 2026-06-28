@@ -6,8 +6,8 @@ import { Search, Shield, Scale, ArrowRight } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import heroImage from "@/assets/hero-clinic-room.jpg";
-import clinicTableAsset from "@/assets/clinic-treatment-table.png.asset.json";
-import recoveryRoadmapAsset from "@/assets/recovery-roadmap.png.asset.json";
+import clinicTableImage from "@/assets/clinic-treatment-table.png";
+import recoveryRoadmapImage from "@/assets/recovery-roadmap.png";
 
 const Home = () => {
   return (
@@ -173,7 +173,7 @@ const Home = () => {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden">
               <img
-                src={clinicTableAsset.url}
+                src={clinicTableImage}
                 alt="Fingal Amatsu clinic treatment table with fresh towels"
                 className="w-full h-full object-cover object-top"
               />
@@ -193,7 +193,7 @@ const Home = () => {
           </div>
           <div className="max-w-[850px] mx-auto">
             <img
-              src={recoveryRoadmapAsset.url}
+              src={recoveryRoadmapImage}
               alt="Your 6-Session Amatsu Journey: Root cause assessment, neural response check, neuro-integration, pattern holding, fine-tuning, pattern solidification"
               className="w-full h-auto rounded-lg"
             />
