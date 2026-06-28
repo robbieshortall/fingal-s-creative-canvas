@@ -11,7 +11,7 @@ import { Phone, Mail, MapPin, Clock, CheckCircle2 } from "lucide-react";
 
 // Replace this with your real Formspree form ID once provisioned at https://formspree.io/
 // Submissions will be forwarded to info@fingalamatsu.ie
-const FORMSPREE_ENDPOINT = "https://formspree.io/f/your-form-id";
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/xbdvyneq";
 
 const Contact = () => {
   const [submitting, setSubmitting] = useState(false);
