@@ -19,19 +19,19 @@ const Footer = () => {
                 href="https://www.instagram.com/fingalamatsu?igsh=MTBza3FybmZkMTNzOQ=="
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex h-9 w-9 items-center justify-center rounded-full bg-primary text-primary-foreground transition-all duration-200 hover:bg-primary/85"
+                className="text-foreground/70 hover:text-primary transition-colors"
                 aria-label="Instagram"
               >
-                <Instagram className="h-[18px] w-[18px]" />
+                <Instagram className="h-[18px] w-[18px]" strokeWidth={1.75} />
               </a>
               <a
                 href="https://www.facebook.com/share/19hdTnFDkR/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex h-9 w-9 items-center justify-center rounded-full bg-primary text-primary-foreground transition-all duration-200 hover:bg-primary/85"
+                className="text-foreground/70 hover:text-primary transition-colors"
                 aria-label="Facebook"
               >
-                <Facebook className="h-[18px] w-[18px]" fill="currentColor" strokeWidth={0} />
+                <Facebook className="h-[18px] w-[18px]" strokeWidth={1.75} />
               </a>
             </div>
             <a
