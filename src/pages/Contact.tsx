@@ -154,6 +154,9 @@ const Contact = () => {
                               <span>Closed</span>
                             </div>
                           </div>
+                          <p className="text-xs text-muted-foreground/80 italic mt-4 leading-relaxed">
+                            Bespoke Scheduling: While our standard clinical hours focus on specialised evening sessions, exceptional early morning or lunchtime appointments can occasionally be accommodated by direct request for complex cases or specific scheduling conflicts. Please contact me directly to discuss framework availability.
+                          </p>
                         </div>
                       </div>
                     </CardContent>
