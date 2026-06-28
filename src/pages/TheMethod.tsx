@@ -12,7 +12,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import recoveryRoadmapAsset from "@/assets/recovery-roadmap.png.asset.json";
+import recoveryRoadmapImage from "@/assets/recovery-roadmap.png";
 
 const TheMethod = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -314,7 +314,7 @@ const TheMethod = () => {
               </div>
               <div className="max-w-[850px] mx-auto">
                 <img
-                  src={recoveryRoadmapAsset.url}
+                  src={recoveryRoadmapImage}
                   alt="The 6-stage Amatsu recovery journey: root cause assessment, neural response check, neuro-integration, pattern holding, fine-tuning, and pattern solidification"
                   className="w-full h-auto rounded-lg"
                 />
