@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet-async";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
-import { Layers, Heart, Shield, Award, BookOpen, ShieldCheck } from "lucide-react";
+import { Layers, Heart, Shield, Award, BookOpen, ShieldCheck, Instagram } from "lucide-react";
 
 import aboutHeroAsset from "@/assets/about-hero-clinic.jpg.asset.json";
 import practitionerHeadshot from "@/assets/practitioner-headshot.png";
@@ -86,6 +86,21 @@ const About = () => {
                       Outside the clinic, I'm based in Dublin 15, married with three children, and share my home with two adopted German Shepherds. I am a keen golfer, a Formula 1 fan, and always open to a chat during our sessions.
                     </p>
                   </div>
+                  <p className="mt-6 text-sm text-muted-foreground flex items-center gap-2">
+                    <Instagram className="h-4 w-4 text-primary" strokeWidth={1.75} />
+                    <span>
+                      Connect with me on{" "}
+                      <a
+                        href="https://www.instagram.com/fingalamatsu?igsh=MTBza3FybmZkMTNzOQ=="
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary font-medium hover:underline"
+                      >
+                        Instagram
+                      </a>{" "}
+                      for weekly clinical insights and structural movement tips.
+                    </span>
+                  </p>
                 </div>
               </div>
             </div>
